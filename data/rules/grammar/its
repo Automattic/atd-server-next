@@ -1,0 +1,25 @@
+# yes, I know some parts of this rule are redundant with others--why mess with a working formula
+Its .*/JJ|JJS .*/NN .*/TO|PRP|NNP::word=It's \1 \2 \3::filter=none
+Its .*/JJ|JJS .*/TO|PRP|NNP::word=It's \1 \2::filter=none
+Its .*/JJ|JJS .*/NN a|an|that|because|as::word=It's \1 \2 \3::filter=none
+Its .*/JJ|JJS a|an|that|because|as::word=It's \1 \2::filter=none
+Its .*/JJ for::word=It's \1 \2::filter=none
+
+Its .*/RB|DT::word=It's \1::filter=none
+
+its .*/DT|IN|MD|POS|PP|WDT|WP|WRB::name=its rule::word=it's \1::filter=none
+its .*/CC|RB::name=its rule::word=it's \1::pivots=its,it's
+Its .*/DT|IN|MD|POS|PP|WDT|WP|WRB::name=its rule::word=It's \1::filter=none
+Its .*/CC|RB::name=its rule::word=It's \1::pivots=Its,It's
+its .*ed/VBN|VBD .*/NN|NNS::word=it's \1 \2::filter=kill
+its .*ed/VBN|VBD::word=it's \1::pivots=its,it's
+Its .*ed/VBN|VBD .*/NN|NNS::word=it's \1 \2::filter=kill
+Its .*ed/VBN|VBD::word=it's \1::pivots=its,it's
+
+its not::word=it's not::pivots=its,it's
+
+
+its .*/VBG .*/NN|NNS::filter=kill
+its .*/VBG::word=it's \1::pivots=\0,it's
+
+

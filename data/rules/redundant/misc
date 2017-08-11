@@ -1,0 +1,142 @@
+returned|returning|returns back::word=\0, \1
+agree|disagree with the fact that::word=\0 that
+first be start(ed|ing) by|in|with::word=\2 \3
+first start(ed|ing) by|in|with::word=\1 \2
+repeated|repeating|repeats it again::word=\0, \2
+repeated|repeating|repeats again::word=\0, \1
+is such that it is::word=is
+already has been::word=has been
+#joined|joining together::word=\0
+might perhaps|possibly::word=\0, \1
+previous|prior experiences::word=\1
+will in the future::word=will
+work colleague::word=colleague
+
+#
+# redundant expressions
+#
+current flowing::word=current
+current passing::word=current
+originally born in::word=born in
+
+electrical current::word=electric current::pivots=electrical,electric::options=electrical,electric
+
+close proximity::word=close, closeness, proximity
+current flow::word=current, flow
+
+price point::word=price
+
+my own .*/NN::word=my \2::filter=none
+
+modern .* of today::word=\0 \1
+&selfwords yourself::word=\0
+number-one leader in::word=leader in
+
+
+green|blue|red|yellow|grey|gray|orange|white|black in color::word=\0
+
+one-year anniversary::word=first anniversary::filter=none
+two-year anniversary::word=second anniversary::filter=none
+three-year anniversary::word=third anniversary::filter=none
+four-year anniversary::word=fourth anniversary::filter=none
+five-year anniversary::word=fifth anniversary::filter=none
+six-year anniversary::word=sixth anniversary::filter=none
+seven-year anniversary::word=seventh anniversary::filter=none
+eight-year anniversary::word=eighth anniversary::filter=none
+nine-year anniversary::word=ninth anniversary::filter=none
+ten-year anniversary::word=tenth anniversary::filter=none
+twenty-year anniversary::word=twentieth anniversary::filter=none
+fifty-year anniversary::word=fiftieth anniversary::filter=none
+hundred-year anniversary::word=hundredth anniversary::filter=none
+
+approximately more|less|fewer than::word=\0, \1 \2::filter=none
+
+State of \p{Upper}\p{Lower}+::word=\2::filter=none
+a distance of .* km|in|inches|feet|\w+meter|\w+meters|yards|yard::word=\3 \4::filter=none
+advance warning|planning|reservations::word=\1::filter=none
+added bonus|addition::word=\1::filter=none
+baby boy|girl was born::word=\1 \2 \3::filter=none
+biography|autobiography of his or her own life::word=\0::filter=none
+absolute beginning|end::word=\1::filter=none
+confer|congregate together::word=\0::filter=none
+distance of .* km|in|inches|feet|\w+meter|\w+meters|yards|yard::word=\2 \3::filter=none
+exactly right|correct|identical::word=\1::filter=none
+famous celebrity|celebrities::word=\1::filter=none
+fellow classmates|co-workers|comrades|colleagues::word=\1::filter=none
+final product|demise|destination|outcome::word=\1::filter=none
+general conclusion|custom|pattern::word=\1::filter=none
+genetic clone|mutant::word=\1::filter=none
+going (north|south|east|west)bound::word=\1::filter=none
+interweave::word=weave
+interwoven::word=woven
+join|assemble|meet together::word=\1
+just exactly|precisely|barely::word=\1::filter=none
+kneel|knelt down::word=\0::filter=none
+know for sure|certain::word=\0::filter=none
+little bit|smidgin|pinch::word=\1::filter=none
+look|looking back in hindsight|retrospect::word=\2 \3, \0 \1
+look|looking back in retrospect::word=\2 \3, \0 \1
+numerous different|separate::word=\0, \1
+no \w+ allowed|permitted::word=\0 \1::filter=none
+old adage|cliche|proverb::word=\1::filter=none
+p.m.|P.M. at night::word=\0::filter=none
+p.m.|P.M. in the evening|afternoon::word=\0::filter=none
+A.M.|a.m in the morning::word=\0::filter=none
+located in|on|at::word=\1
+past record|records|history::word=\1::filter=none
+period of \w+ days|hours|minutes|seconds|years::word=\2 \3
+.*/DT period of \w+ days|hours|minutes|seconds|years::word=\3 \4
+permeate|permeate all through|throughout::word=\0::filter=none
+permeated|permeate through|throughout::word=\0::filter=none
+precisely the same|identical::word=\1 \2::filter=none
+prior record|history::word=\1::filter=none
+rough estimate|approximation|guess::word=\1::filter=none
+tiny little|bit|smidge|pinch::word=\1::filter=none
+variety of different|separate::word=\0 \1::filter=none
+various different|separate::word=\0::filter=none
+very beginning|end::word=\1::filter=none
+whole lot|bunch::word=\1
+way way way way::word=way::filter=none
+way way way::word=way::filter=none
+way way::word=way::filter=none
+years of \d\d\d\d \w+ \d\d\d\d::word=\2 \3 \4::filter=none
+you yourself|yourselves::word=\1::filter=none
+young boy|girl|lad|lass|foal|colt|fawn::word=\1::filter=none
+comfortable with .*/VBG::word=\0 \2::pivots=\1 \2,\2
+currently .*/VBG::word=\1
+much \w+er::word=\1
+separate \w+ out::word=\0 \1::filter=none
+separate entities::word=\0
+separate the \w+ out::word=\0 \1 \2::filter=none
+hours of .* .* to .* .*::word=\2 \3 \4 \5\ 6
+hours of .* to .*::word=\2 \3 \4
+preheat::word=heat
+preplan::word=plan
+prerecord::word=record
+prerecorded::word=recorded
+twelve noon|midnight::word=\1::filter=none
+continue on::word=\0
+off of::word=\0
+my personal opinion::word=my opinion::filter=none
+ATM machine::word=\0::filter=none
+ATM Machine::word=\0::filter=none
+
+oscillate|oscillates back and forth::word=\0::filter=none
+
+doctorate degree::word=\0::filter=none
+Doctorate [dD]egree::word=\0::filter=none
+
+# more redundant expressions...
+koala|Koala bear::word=\0::filter=none
+panda|Panda bear::word=\0::filter=none
+salsa sauce::word=salsa::filter=none
+over-exaggerated::word=exaggerated::filter=none
+over exaggerated::word=exaggerated::filter=none
+fellow .*mate::word=\1::filter=none
+fellow colleague|comrade|coworker|co-worker::word=\1::filter=none
+equally as::word=equally, as::pivots=\0,equally,as
+irregardless::word=regardless::filter=none
+and also::word=and
+as best as::word=as best::filter=none
+point being is that::word=point is that::filter=none
+RPMs::word=RPM::filter=none

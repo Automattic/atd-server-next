@@ -1,0 +1,7 @@
+if were|where .*/VBN|RB|VBG::word=\0 we're \2::pivots=\1,we're
+what were|where .*/VBN::word=\0 we're \2::filter=none
+what were|where .*/RB|VBG::word=\0 we're \2::pivots=\1,we're
+since were|where .*/RB|VBN|VBG::word=\0 we're \2::pivots=\1,we're
+that were|where .*/VBG::word=\0 we're \2::pivots=\1,we're
+where were::word=where we're::pivots=were,we're
+we're are::word=we are, where are::pivots=we're,we,where

@@ -1,0 +1,8 @@
+# infinitive phrases
+# http://www.chompchomp.com/terms/infinitivephrase.htm
+
+to is::filter=kill
+to .*/VBZ .*/DT|NN::word=\0 \1:base \2::pivots=\1,\1:base
+To .*/VBZ .*/DT|NN::word=\0 \1:base \2::pivots=\1,\1:base
+
+need|going|have|ought to .*/VBG::word=\0 \1 \2:base::pivots=\2,\2:base

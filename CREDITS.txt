@@ -1,0 +1,24 @@
+After the Deadline uses the following libraries:
+
+lib/cngramj.jar 
+http://ngramj.sourceforge.net/
+
+  ngramj is a language guessing library for Java. It's licensed under the LGPL.
+  I modified it by packaging a language profile for Indonesian:
+  http://blog.afterthedeadline.com/2010/02/08/n-gram-language-guessing-with-ngramj/
+
+lang/lib/languagetool
+http://www.languagetool.org
+
+  Language Tool is a rule-based language checking program. It's licensed under the LGPL.
+  No modifications to Language Tool were made.
+
+lang/*/wordlists/*.utf8.txt
+
+  Several dictionaries were extracted from the Open Office dictionaries page and converted 
+  to their normal form using unmunch and then converted to UTF8 by me.
+
+  The licenses for the original source files range from GPL, LGPL, MPL (Mozilla Public 
+  License) and Creative Commons ShareAlike licenses.
+
+  http://wiki.services.openoffice.org/wiki/Dictionaries

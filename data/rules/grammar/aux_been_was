@@ -1,0 +1,45 @@
+been .*/VB|VBP .*/IN::word=\0 \1:participle \2::pivots=\1,\1:participle
+been .*/RB .*/VB|VBP .*/IN::word=\0 \1 \2:participle \3::pivots=\2,\2:participle
+been .*/VB|VBP|VBD .*/VBN|VB::word=\0 \1:present \2::pivots=\1,\1:present
+been .*/RB .*/VB|VBP|VBD .*/VBN|VB::word=\0 \1 \2:present \3::pivots=\2,\2:present
+was .*/VB 0END.0::word=\0 \1:participle::pivots=\1,\1:participle
+was .*/VB|VBP .*/IN::word=\0 \1:participle \2::pivots=\1,\1:participle
+was .*/RB .*/VB|VBP .*/IN::word=\0 \1 \2:participle \3::pivots=\2,\2:participle
+was .*/VB|VBP|VBD .*/VBN|VB::word=\0 \1:present \2::pivots=\1,\1:present
+was .*/RB .*/VB|VBP|VBD .*/VBN|VB::word=\0 \1 \2:present \3::pivots=\2,\2:present
+were .*/VB|VBP .*/IN::word=\0 \1:participle \2::pivots=\1,\1:participle
+were .*/RB .*/VB|VBP .*/IN::word=\0 \1 \2:participle \3::pivots=\2,\2:participle
+were .*/VB|VBP|VBD .*/VBN|VB::word=\0 \1:present \2::pivots=\1,\1:present
+were .*/RB .*/VB|VBP|VBD .*/VBN|VB::word=\0 \1 \2:present \3::pivots=\2,\2:present
+are .*/VB|VBP .*/IN::word=\0 \1:participle \2::pivots=\1,\1:participle
+are .*/RB .*/VB|VBP .*/IN::word=\0 \1 \2:participle \3::pivots=\2,\2:participle
+are .*/VB|VBP|VBD .*/VBN|VB::word=\0 \1:present \2::pivots=\1,\1:present
+are .*/RB .*/VB|VBP|VBD .*/VBN|VB::word=\0 \1 \2:present \3::pivots=\2,\2:present
+am .*/VB|VBP .*/IN::word=\0 \1:participle \2::pivots=\1,\1:participle
+am .*/RB .*/VB|VBP .*/IN::word=\0 \1 \2:participle \3::pivots=\2,\2:participle
+am .*/VB|VBP|VBD .*/VBN|VB::word=\0 \1:present \2::pivots=\1,\1:present
+am .*/RB .*/VB|VBP|VBD .*/VBN|VB::word=\0 \1 \2:present \3::pivots=\2,\2:present
+is .*/VB|VBP for|by|as::word=\0 \1:participle \2::pivots=\1,\1:participle
+is .*/RB .*/VB|VBP for|by|as::word=\0 \1 \2:participle \3::pivots=\2,\2:participle
+is .*/VB|VBP|VBD .*/VBN|VB::word=\0 \1:present \2::pivots=\1,\1:present
+is .*/RB .*/VB|VBP|VBD .*/VBN|VB::word=\0 \1 \2:present \3::pivots=\2,\2:present
+do is .*/VB::filter=kill
+been .*/VB|VBP|VBD .*/TO|DT::word=\0 \1:participle \2, \0 \1:present \2::pivots=\1,\1:participle,\1:present
+been .*/RB .*/VB|VBP|VBD .*/TO|DT::word=\0 \1 \2:participle \3, \0 \1 \2:present \3::pivots=\2,\2:participle,\2:present
+was .*/VB|VBP|VBD .*/TO::word=\0 \1:participle \2, \0 \1:present \2::pivots=\1,\1:participle,\1:present
+was .*/RB .*/VB|VBP|VBD .*/TO::word=\0 \1 \2:participle \3, \0 \1 \2:present \3::pivots=\2,\2:participle,\2:present
+were .*/VB|VBP|VBD .*/TO|DT::word=\0 \1:participle \2, \0 \1:present \2::pivots=\1,\1:participle,\1:present
+were .*/RB .*/VB|VBP|VBD .*/TO|DT::word=\0 \1 \2:participle \3, \0 \1 \2:present \3::pivots=\2,\2:participle,\2:present
+are .*/VB|VBP|VBD .*/TO::word=\0 \1:participle \2, \0 \1:present \2::pivots=\1,\1:participle,\1:present
+are .*/RB .*/VB|VBP|VBD .*/TO::word=\0 \1 \2:participle \3, \0 \1 \2:present \3::pivots=\2,\2:participle,\2:present
+am .*/VB|VBP|VBD .*/TO|DT::word=\0 \1:participle \2, \0 \1:present \2::pivots=\1,\1:participle,\1:present
+am .*/RB .*/VB|VBP|VBD .*/TO|DT::word=\0 \1 \2:participle \3, \0 \1 \2:present \3::pivots=\2,\2:participle,\2:present
+is .*/VB|VBP|VBD .*/TO::word=\0 \1:participle \2, \0 \1:present \2::pivots=\1,\1:participle,\1:present
+is .*/RB .*/VB|VBP|VBD .*/TO::word=\0 \1 \2:participle \3, \0 \1 \2:present \3::pivots=\2,\2:participle,\2:present
+it is .*/VBP|VB|VBD::word=\0 \1 \2:participle::pivots=\2,\2:participle
+It is .*/VBP|VB|VBD::word=\0 \1 \2:participle::pivots=\2,\2:participle
+is .*/VBP|VBD|VB as|for|to::word=\0 \1:participle \2::pivots=\1,\1:participle
+
+# are [base verb mistagged as a noun] to -> are [past tense] to
+are .*(?<!ing|kin)/NN to::word=\0 \1:past \2::pivots=\1,\1:past
+are .*(?<!ing|kin|part)/NN .*/IN::word=\0 \1:past \2::pivots=\1,\1:past

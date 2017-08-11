@@ -1,0 +1,84 @@
+#
+# some repeated words, makes no sense.
+#
+
+you'll will::word=you will::filter=none
+You'll will::word=You will::filter=none
+I'll will::word=I will::filter=none
+we'll will::word=we will::filter=none
+We'll will::word=We will::filter=none
+they'll will::word=they will::filter=none
+They'll will::word=They will::filter=none
+She'll will::word=She will::filter=none
+she'll will::word=she will::filter=none
+He'll will::word=He will::filter=none
+he'll will::word=he will::filter=none
+
+aren't not::word=are not::filter=none
+didn't not::word=did not::filter=none
+don't not::word=do not::filter=none
+isn't not::word=is not::filter=none
+can't not::word=can not::filter=none
+weren't not::word=were not::filter=none
+wouldn't not::word=would not::filter=none
+doesn't not::word=does not::filter=none
+hasn't not::word=has not::filter=none
+couldn't not::word=could not::filter=none
+
+Aren't not::word=Are not::filter=none
+Didn't not::word=Did not::filter=none
+Don't not::word=Do not::filter=none
+Isn't not::word=Is not::filter=none
+Can't not::word=Can not::filter=none
+Weren't not::word=Were not::filter=none
+Wouldn't not::word=Would not::filter=none
+Doesn't not::word=Does not::filter=none
+Hasn't not::word=Has not::filter=none
+Couldn't not::word=Could not::filter=none
+
+it's is::word=it is::filter=none
+It's is::word=It is::filter=none
+That's is::word=That is::filter=none
+that's is::word=that is::filter=none
+there's is::word=there's is::filter=none
+There's is::word=There's is::filter=none
+he's is::word=he is::filter=none
+He's is::word=He is::filter=none
+she's is::word=she is::filter=none
+She's is::word=She is::filter=none
+who's is::word=who is::filter=none
+Who's is::word=Who is::filter=none
+
+we're are::word=We are::filter=none
+you're are::word=You are::filter=none
+they're are::word=They are::filter=none
+We're are::word=We are::filter=none
+You're are::word=You are::filter=none
+They're are::word=They are::filter=none
+Who're are::word=Who are::filter=none
+who're are::word=who are::filter=none
+
+I'm am::word=I am::filter=none
+I've have::word=I have::filter=none
+
+you've have::word=you have::filter=none
+we've have::word=we have::filter=none
+they've have::word=they have::filter=none
+
+You've have::word=You have::filter=none
+We've have::word=We have::filter=none
+They've have::word=They have::filter=none
+
+I'd would::word=I would::filter=none
+
+he'd would::word=he would::filter=none
+she'd would::word=she would::filter=none
+you'd would::word=you would::filter=none
+we'd would::word=we would::filter=none
+they'd would::word=they would::filter=none
+
+He'd would::word=He would::filter=none
+She'd would::word=She would::filter=none
+You'd would::word=You would::filter=none
+We'd would::word=We would::filter=none
+They'd would::word=They would::filter=none

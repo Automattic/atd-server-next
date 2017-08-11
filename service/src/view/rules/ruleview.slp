@@ -1,0 +1,9 @@
+<div class="complex" name="<% unpack("H*", digest($1["path"]))[0] %>">
+   <div style="float: right">
+      <a class="button" href="javascript:display('<% unpack("H*", digest($1["path"]))[0] %>')" onclick="this.blur();">Display Rule</a>
+      <a class="button" href="javascript:unignore('<% unpack("H*", digest($1["path"]))[0] %>')" onclick="this.blur();">Add Rule</a>
+   </div>
+   <h4><% $1["rule"] %>: <% $1["text"] %></h4>
+
+   <p><% $1["description"] %> <small>(<a href="<% $1["sourceurl"] %>"><% $1["source"] %></a>)</small></p>
+</div>

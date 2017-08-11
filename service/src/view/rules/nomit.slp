@@ -1,0 +1,37 @@
+<?sleep
+    local('$option $word $words $examples $o');
+    $word   = split('\s+', $2)[$1["index"]];
+    $option = denom($word);   
+
+    if ($option ne "")
+    {
+       print("Try to revise <b> $+ $2 $+ </b> with ");
+
+       $o = map({ return "<b> $+ $1 $+ </b>"; }, split(', ', $option));
+       $o = filter(lambda({ if ($1 !in %nodupes) { %nodupes[$1] = 1; return $1; } }, %nodupes => %()), $o);
+
+       if (size($o) == 1)
+       {
+          print($o[0]);
+       }
+       else
+       {
+          print([(join(",", sublist($o, 0, -1)) . " or " . $o[-1]) trim]);
+       }
+
+       println(".");
+    }
+    else
+    {
+       println("You should revise <b> $+ $2 $+ </b> to bring out the verb.");
+    }
+?>
+
+<br>
+<br><b>Revision Examples</b> 
+<br>
+<br>Before: Bonuses are based on the <u>performance</u> of the company.
+<br>After: Bonuses are based on how the company <u>performs</u>.
+<br>
+<br>Before: An <u>Explanation</u> of Hidden Verbs.
+<br>After: Hidden Verbs <u>Explained</u>.

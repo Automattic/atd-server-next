@@ -1,0 +1,13 @@
+#
+# Style Double Negatives
+#
+
+not a|an unifable|unified|uniformed|unifying|united|undulated|undulating|universalized|universalised|unrest|(.*?der)|university|understood|understanding::filter=kill
+not unifable|unified|uniformed|unifying|united|undulated|undulating|universalized|universalised|unrest|(.*?der)|university|understood|understanding::filter=kill
+
+not a|an un[aeiouy].*::word=an \2:positive
+not a|an un[^aeiouy].*::word=a \2:positive
+not un.*::word=\1:positive
+
+# another double negative rule.  Changes the meaning of the sentence but is easier to understand
+dont have|need no::word=\0 \1 any::pivots=no,any

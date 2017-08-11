@@ -1,0 +1,37 @@
+# seeded from http://en.wikipedia.org/wiki/Wikipedia:Lists_of_common_misspellings/Grammar_and_Misc
+
+day to day::word=day-to-day
+out and out::word=out-and-out
+out of door::word=out-of-door
+out of doors::word=out-of-doors
+out of the way::word=out-of-the-way
+out of band::word=out-of-band
+out of bounds::word=out-of-bounds
+out of town::word=out-of-town
+out of state::word=out-of-state
+out of wedlock::word=out-of-wedlock
+out of pocket::word=out-of-pocket
+out of order::word=out-of-order
+out of place::word=out-of-place
+part time::word=part-time
+full time::word=full-time
+1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|56|57|58|59|60|61|62|63|64|65|66|67|68|69|70|71|72|73|74|75|76|77|78|79|80|81|82|83|84|85|86|87|88|89|90|91|92|93|94|95|96|97|98|99 year old::word=\0-year-old
+100|200|250|500|100 year old::word=\0-year-old
+right|left handed::word=\0-handed
+case sensitive::word=case-sensitive
+case insensitive::word=case-insensitive
+award winning::word=award-winning
+out of body::word=out-of-body
+runner up::word=runner-up
+commander in chief::word=commander-in-chief
+win win::word=win-win
+win lose::word=win-lose
+lose lose::word=lose-lose
+built in::word=built-in
+ebook::word=e-book
+ereader::word=e-reader
+click throughs::word=click-throughs
+click through::word=click-through
+high five::word=high-five
+high fived::word=high-fived
+flu like::word=flu-like

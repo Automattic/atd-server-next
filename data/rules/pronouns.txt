@@ -1,0 +1,13 @@
+# Personal Pronouns: 
+# subjective, objective, reflective, possessive pronoun, possessive determiner
+#
+# http://wapedia.mobi/en/English_personal_pronouns
+
+I, me, myself, mine, mine, my
+we, us, ourselves, ours, our
+you, you, yourselves, yours, your
+he, him, himself, his, his
+she, her, herself, hers, her
+it, it, itself, its, its
+they, them, themselves, theirs, their
+who, whom, whose, whose

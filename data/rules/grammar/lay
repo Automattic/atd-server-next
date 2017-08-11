@@ -1,0 +1,38 @@
+# http://grammar.quickanddirtytips.com/lay-versus-lie.aspx
+
+#
+# Confused word: laid
+#
+
+laid ahead::word=lay ahead::pivots=laid,lay::options=laid,lay
+
+#
+# Confused word: lay
+#
+
+lay around::word=lie around::pivots=lay,lie::options=lay,lie
+lay low::word=lie low::pivots=lay,lie::options=lay,lie
+
+#
+# Confused word: laying
+#
+
+laying around::word=lying around::pivots=laying,lying::options=laying,lying
+laying low::word=lying low::pivots=laying,lying::options=laying,lying
+
+#
+# Confused word: lays
+#
+
+lays atop::word=lies atop::pivots=lays,lies::options=lays,lies
+lays beside::word=lies beside::pivots=lays,lies::options=lays,lies
+lays low::word=lies low::pivots=lays,lies::options=lays,lies
+lays near::word=lies near::pivots=lays,lies::options=lays,lies
+lays on::word=lies on::pivots=lays,lies::options=lays,lies
+
+#
+# Confused word: lain
+#
+
+was lain::word=was laid::pivots=lain,laid::options=lain,laid    
+were lain::word=were laid::pivots=lain,laid::options=lain,laid

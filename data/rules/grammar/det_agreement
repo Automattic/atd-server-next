@@ -1,0 +1,73 @@
+These|Those is::word=This \1::filter=none    
+These|Those was::word=This \1::filter=none   
+These|Those is .*/NNS::word=\0 are \2::filter=none
+These|Those was .*/NNS::word=\0 were \2::filter=none
+These|Those is .*/JJ .*/NNS::word=\0 are \2 \3::filter=none
+These|Those was .*/JJ .*/NNS::word=\0 were \2 \3::filter=none
+
+This are .*/NNS::word=These \1 \2::filter=none     
+This were .*/NNS::word=Those \1 \2::filter=none    
+This are .*/JJ .*/NNS::word=These \1 \2 \3::filter=none     
+This were .*/JJ .*/NNS::word=Those \1 \2 \3::filter=none    
+This are::word=This is::filter=none      
+This were::word=This was::filter=none  
+
+# rules for there
+
+there|There is none::filter=kill
+there|There are none|but|today|plenty|way::filter=kill
+
+there|There is .*/NNS of .*/NN|VBG::filter=kill
+there|There are .*/NN of .*/NNS|VBG|JJ::filter=kill
+there|There are .*/NN of .*/NN .*/NNS|VBG::filter=kill
+there|There are .*/NN .*/NNS::filter=kill
+there|There are .*/NN .*/NN .*/NNS::filter=kill
+there|There are .*/NN too many::filter=kill
+
+#there/EX are/VBP plenty/NN of/IN advantages/NNS to/TO
+
+# according to http://ask.metafilter.com/84536/There-is-or-There-are
+# I should use the closest noun to determine is/are.  So these rules are not
+# needed.  Just the same I'm commenting them out for future reference.
+#there|there is .*/NN and .*/NN::word=\0 are \2 \3 \4::filter=none
+#there|There are .*/NN and .*/NN::filter=kill
+
+there|There are .*/NN::word=\0 is \2::pivots=\1,is
+there|There is .*/NNS::word=\0 are \2::pivots=\1,are
+there|There is .*/NN .*/NNS::word=\0 are \2 \3::pivots=\1,are
+
+
+
+
+
+
+
+
+
+
+there's|There's none::filter=kill
+there's|There's none|but|today|plenty::filter=kill
+
+there's|There's .*/NNS of .*/NN|VBG::filter=kill
+there're|There're .*/NN of .*/NNS|VBG|JJ::filter=kill
+there're|There're .*/NN of .*/NN .*/NNS|VBG::filter=kill
+there're|There're .*/NN .*/NNS::filter=kill
+there're|There're .*/NN .*/NN .*/NNS::filter=kill
+there're|There're .*/NN too many::filter=kill
+
+#there/EX are/VBP plenty/NN of/IN advantages/NNS to/TO
+
+# according to http://ask.metafilter.com/84536/There-is-or-There-are
+# I should use the closest noun to determine is/are.  So these rules are not
+# needed.  Just the same I'm commenting them out for future reference.
+#there|there is .*/NN and .*/NN::word=\0 are \2 \3 \4::filter=none
+#there|There are .*/NN and .*/NN::filter=kill
+
+There're .*/NN::word=There's \1::pivots=\0,There's
+there're .*/NN::word=there's \1::pivots=\0,there's
+
+There's .*/NNS::word=There are \1::pivots=\0,There are
+there's .*/NNS::word=there are \1::pivots=\0,there are
+
+There's .*/NN .*/NNS::word=There are \1 \2::pivots=\0,There are
+there's .*/NN .*/NNS::word=there are \1 \2::pivots=\0,there are

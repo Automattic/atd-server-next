@@ -1,0 +1,117 @@
+#
+# Several phrases heard wrong. This is what d-------s----.com would consider
+# "sophisticated" error checking that leaves the rest of this system in the
+# dust. Umm... yeah.
+#
+
+Jimmy Buffet::word=Jimmy Buffett::pivots=Buffet,Buffett
+Jimmy Hendrix::word=Jimi Hendrix::pivots=Jimmy,Jimi
+Phillips Arena::word=Philips Arena::pivots=Phillips,Philips::options=Phillips,Philips
+jive with::word=jibe with::pivots=jive,jibe
+mash potatoes::word=mashed potatoes::pivots=mash,mashed::options=mash,mashed
+is renown for::word=is renowned for::pivots=renown,renowned::options=renown,renowned
+another words::word=in other words, other words
+chalk full::word=chock-full
+brew haha::word=brouhaha
+for all intensive purposes::word=for all intents and purposes
+working progress::word=work in progress
+historic record::word=historical record::pivots=historic,historical
+guest stared::word=guest-starred
+in titled::word=entitled
+law suite::word=lawsuit
+is contained of::word=contains
+Straight of [A-Z].*::word=Strait of \2
+after been::word=after being::pivots=been,being
+all for not::word=all for naught::pivots=not,naught
+back in forth::word=back and forth::pivots=in,and
+one in the same::word=one and the same::pivots=in,and
+barb wire::word=barbed wire::pivots=barb,barbed
+imminent domain::word=eminent domain::pivots=imminent,eminent
+chomping at the bit::word=champing at the bit::pivots=chomping,champing
+constellation prize::word=consolation prize::pivots=constellation,consolation
+constitutes of::word=consists of::pivots=constitutes,consists
+could care less::word=couldn't care less::pivots=could,couldn't
+could give a damn::word=couldn't give a damn::filter=none
+daily regiment::word=daily regimen::pivots=regiment,regimen
+de factor::word=de facto::pivots=factor,facto
+worse-case scenario::word=worst-case scenario::pivots=worse-case,worst-case
+worst comes to worst::word=worse comes to worst::pivots=worse-case,worst-case
+to bath::word=to bathe::pivots=bath,bathe
+treasure trough::word=treasure trove::pivots=trough,trove
+ad nauseum::word=ad nauseam::filter=none
+all and all::word=all in all::filter=none
+all of the sudden::word=all of a sudden::filter=none
+zero-sum gain::word=\0 game::filter=none
+working progress::word=work in progress::filter=none
+Noble Prize::word=Nobel Prize::filter=none
+land lover::word=landlubber::filter=none
+strike a cord::word=strike a chord::filter=none
+safety deposit box::word=safe deposit box::filter=none
+early adapter::word=early adopter::filter=none
+statue of limitations::word=statute of limitations::filter=none
+along the same vein::word=in the same vein, along the same line::filter=none
+all the farther::word=as far as::filter=none
+discussions around::word=\0 about::pivots=around, about
+as less as possible::word=as little as possible::filter=none
+as time progressed::word=as time passed::filter=none
+as follow::word=as follows::filter=none
+baited breath::word=bated breath::filter=none
+beyond the pail::word=beyond the pale::filter=none
+beckon call::word=beck and call::filter=none
+begs belief::word=beggars belief::filter=none
+buttload::word=boatload::filter=none
+brussell sprout::word=brussells sprout::filter=none
+Brussell sprout::word=Brussells sprout::filter=none
+bored of::word=bored with::filter=none
+build off of::word=build on::filter=none
+trite and true::word=tried and true::filter=none
+between you and I::word=between you and me::filter=none
+every since::word=ever since::filter=none
+fowl swoop::word=fell swoop::filter=none
+gardener|garden snake::word=garter snake::filter=none
+hay day::word=heyday::filter=none
+hardly never::word=hardly ever::pivots=never,ever
+hew and cry::word=hue and cry::filter=none
+money is no option::word=money is no object::filter=none
+minus well::word=might as well::filter=none
+most always|every|all::word=almost \1::filter=none
+oft chance::word=off chance::filter=none
+on the same token::word=by the same token::filter=none
+one of the only::word=one of the few::pivots=only,few
+pedal to the medal::word=pedal to the metal::filter=none
+pawn off::word=palm off::pivots=pawn,palm
+plays a factor::word=plays a role::filter=none
+realms of possibility::word=realm of possibility::filter=none
+shoulder on::word=soldier on::pivots=shoulder,soldier
+sense of false hope|privacy|security|confidence::word=false sense of \3::filter=none
+ring its neck::word=wring its neck::filter=none
+right of passage::word=rite of passage::pivots=right,rite
+rod|rot iron::word=wrought iron::filter=none
+souse chef::word=sous chef::filter=none
+stock and trade::word=stock in trade::filter=none
+sound byte::word=sound bite::filter=none
+take a different tact::word=take a different tack::filter=none
+to the manor born::word=to the manner born::filter=none
+vintage point::word=vantage point::filter=none
+whim and a prayer::word=wing and a prayer::filter=none
+year end and year out::word=year in and year out::filter=none
+hand and hand::word=hand in hand::filter=none
+grasping for straws::word=grasping at straws::filter=none
+grill cheese::word=grilled cheese::filter=none
+might has well::word=might as well::filter=none
+on the contraire::word=au contraire, on the contrary::filter=none
+once and a while::word=once in a while::filter=none
+damp squid::word=damp squib::filter=none
+cursing through veins::word=coursing through veins::filter=none
+daring-do::word=derring-do::filter=none
+death nail::word=death knell::filter=none
+doesn't supposed to::word=isn't supposed to::filter=none
+reap what you sew::word=reap what you sow::filter=none
+spare of the moment::word=spur of the moment::filter=none
+tongue and cheek::word=tongue in cheek::filter=none
+urine analysis::word=urinalysis::filter=none
+wet your appetite::word=whet your appetite::filter=none
+tattle-tail::word=tattle-tale::filter=none
+old wise tail|tale::word=old wives' tale::filter=none
+on the lamb::word=on the lam::filter=none
+far be it for me::word=far be it from me::filter=none

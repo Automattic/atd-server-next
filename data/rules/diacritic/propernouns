@@ -1,0 +1,336 @@
+Action democratique::word=Action démocratique::filter=none
+Action democratique du Quebec::word=Action démocratique du Québec::filter=none
+Adelie penguin::word=Adélie penguin::filter=none
+Aed Ruad::word=Áed Ruad::filter=none
+Aife::word=Aífe::filter=none
+Ailill mac Mata::word=Ailill mac Máta::filter=none
+Ajie::word=Ajië::filter=none
+Aland::word=Åland::filter=none
+Alfheimr::word=Álfheimr::filter=none
+Alfven wave::word=Alfvén wave::filter=none
+Alvissmal::word=Alvíssmál::filter=none
+Amapa::word=Amapá::filter=none
+Ancien Regime::word=Ancien Régime::filter=none
+Andre::word=André::filter=none
+Apalai::word=Apalaí::filter=none
+Asatru::word=Ásatrú::filter=none
+Asuncion::word=Asunción::filter=none
+Baden-Wurttemberg::word=Baden-Württemberg::filter=none
+Badiu::word=Bádiu::filter=none
+Baha'i::word=Bahá'í::filter=none
+Bahram::word=Bahrām::filter=none
+Bajina Basta::word=Bajina Bašta::filter=none
+Barca::word=Barça::filter=none
+Baume scale::word=Baumé scale::filter=none
+Beche-de-Mer::word=Bêche-de-Mer::filter=none
+Bedzin::word=Będzin::filter=none
+Behcet's disease::word=Behçet's disease::filter=none
+Behcet's syndrome::word=Behçet's syndrome::filter=none
+Belem::word=Belém::filter=none
+Belle Epoque::word=Belle Époque::filter=none
+Besancon::word=Besançon::filter=none
+Bezier curve::word=Bézier curve::filter=none
+Beziers::word=Béziers::filter=none
+Bhagavad-gita::word=Bhagavad-gītā::filter=none
+Bhumi::word=Bhūmi::filter=none
+Biere::word=Bière::filter=none
+Black Forest gateau::word=Black Forest gâteau::filter=none
+Black Forest gateaux::word=Black Forest gâteaux::filter=none
+Blai Briugu::word=Blaí Briugu::filter=none
+Bloc Quebecois::word=Bloc Québécois::filter=none
+Bogota::word=Bogotá::filter=none
+Bokmal::word=Bokmål::filter=none
+Bootes::word=Boötes::filter=none
+Bouake::word=Bouaké::filter=none
+Brahmana::word=Brāhmaṇa::filter=none
+Brasilia::word=Brasília::filter=none
+Brennschlusse::word=Brennschlüsse::filter=none
+Bronsted-Lowry acid::word=Brønsted-Lowry acid::filter=none
+Bronsted-Lowry base::word=Brønsted-Lowry base::filter=none
+Brule::word=Brulé::filter=none
+Buchner flask::word=Büchner flask::filter=none
+Buchner funnel::word=Büchner funnel::filter=none
+Cai::word=Cài::filter=none
+Cakavian::word=Čakavian::filter=none
+Candomble::word=Candomblé::filter=none
+Ceara::word=Ceará::filter=none
+Cefalu::word=Cefalù::filter=none
+Cet mac Magach::word=Cet mac Mágach::filter=none
+Chambery::word=Chambéry::filter=none
+Cheadle-Moller-Barlow syndrome::word=Cheadle-Möller-Barlow syndrome::filter=none
+Cheticamp::word=Chéticamp::filter=none
+Chloe::word=Chloë::filter=none
+Cimbaeth::word=Cimbáeth::filter=none
+Coatlan Mixe::word=Coatlán Mixe::filter=none
+Comcaac::word=Comcáac::filter=none
+Conde Nast::word=Condé Nast::filter=none
+Cote d'Azur::word=Côte d'Azur::filter=none
+Cote d'Ivoire::word=Côte d'Ivoire::filter=none
+Cote d'Or::word=Côte d'Or::filter=none
+crepe de Chine::word=crêpe de Chine::filter=none
+Cu Roi::word=Cú Roí::filter=none
+Cuauhtemoc::word=Cuauhtémoc::filter=none
+Cuchulainn::word=Cúchulainn::filter=none
+Cuiaba::word=Cuiabá::filter=none
+Curacao::word=Curaçao::filter=none
+crepe de Chine::word=crêpe de Chine::filter=none
+Cu Roi::word=Cú Roí::filter=none
+Cuauhtemoc::word=Cuauhtémoc::filter=none
+Cuchulainn::word=Cúchulainn::filter=none
+Cuiaba::word=Cuiabá::filter=none
+Curacao::word=Curaçao::filter=none
+Dail Eireann::word=Dáil Éireann::filter=none
+Desiree::word=Desirée::filter=none
+Desiree::word=Désirée::filter=none
+Diegueno::word=Diegueño::filter=none
+Dithorba::word=Díthorba::filter=none
+Durres::word=Durrës::filter=none
+Dusseldorf::word=Düsseldorf::filter=none
+El Nino::word=El Niño::filter=none
+Eloise::word=Eloïse::filter=none
+Elysee::word=Élysée::filter=none
+Eochaid Salbuide::word=Eochaid Sálbuide::filter=none
+Eotvos::word=Eötvös::filter=none
+Esme::word=Esmé::filter=none
+Espirito Santo::word=Espírito Santo::filter=none
+Etain::word=Étaín::filter=none
+Eyjafjallajokull::word=Eyjafjallajökull::filter=none
+Fachtna Fathach::word=Fachtna Fáthach::filter=none
+Fahrvergnugen::word=Fahrvergnügen::filter=none
+Fedelm Noichrothach::word=Fedelm Noíchrothach::filter=none
+Fergus mac Roich::word=Fergus mac Róich::filter=none
+Fianna Eireann::word=Fianna Éireann::filter=none
+Fianna Fail::word=Fianna Fáil::filter=none
+Gumbo File::word=Gumbo Filé::filter=none
+File Powder::word=Filé Powder::filter=none
+.*/CD filler::word=\0 fillér::filter=none
+Finistere::word=Finistère::filter=none
+Fjolsvinnsmal::word=Fjölsvinnsmál::filter=none
+Floreal::word=Floréal::filter=none
+Florianopolis::word=Florianópolis::filter=none
+Forli-Cesena::word=Forlì-Cesena::filter=none
+Fraech::word=Fráech::filter=none
+Franche-Comte::word=Franche-Comté::filter=none
+Fraulein::word=Fräulein::filter=none
+Fuhrer::word=Führer::filter=none
+Furth::word=Fürth::filter=none
+Gae Bolg::word=Gáe Bolg::filter=none
+Gae Bolga::word=Gáe Bolga::filter=none
+Gae Bulg::word=Gáe Bulg::filter=none
+Gae Bulga::word=Gáe Bulga::filter=none
+Galapagos::word=Galápagos::filter=none
+Galapagos Islands::word=Galápagos Islands::filter=none
+Galapagos penguin::word=Galápagos penguin::filter=none
+Galapagos sea lion::word=Galápagos sea lion::filter=none
+Garifuna::word=Garífuna::filter=none
+Gdansk::word=Gdańsk::filter=none
+Gemutlichkeit::word=Gemütlichkeit::filter=none
+Gewurztraminer::word=Gewürztraminer::filter=none
+Gjirokaster::word=Gjirokastër::filter=none
+Godel's incompleteness theorem::word=Gödel's incompleteness theorem::filter=none
+Goiania::word=Goiânia::filter=none
+Goias::word=Goiás::filter=none
+Gotterdammerung::word=Götterdämmerung::filter=none
+Gottingen::word=Göttingen::filter=none
+Graubunden::word=Graubünden::filter=none
+Grimnismal::word=Grímnismál::filter=none
+Grogaldr::word=Grógaldr::filter=none
+Gruyere::word=Gruyère::filter=none
+Guarani::word=Guaraní::filter=none
+Guernesiais::word=Guernésiais::filter=none
+Guillain-Barre syndrome::word=Guillain-Barré syndrome::filter=none
+Haagen-Dazs::word=Häagen-Dazs::filter=none
+Hassaniya::word=Hassānīya::filter=none
+Hameenlinna::word=Hämeenlinna::filter=none
+Harbarosljoo::word=Hárbarðsljóð::filter=none
+Havamal::word=Hávamál::filter=none
+Himare::word=Himarë::filter=none
+Hoa::word=ǂHõã::filter=none
+Honne::word=Hönne::filter=none
+Hyndluljoo::word=Hyndluljóð::filter=none
+Ile-de-France::word=Île-de-France::filter=none
+Internet cafe::word=Internet café::filter=none
+Islamic::word=Islāmic::filter=none
+Jager::word=Jäger::filter=none
+Jerriais::word=Jèrriais::filter=none
+Joao Pessoa::word=João Pessoa::filter=none
+Juchitan::word=Juchitán::filter=none
+Jyvaskyla::word=Jyväskylä::filter=none
+Kadiweu::word=Kadiwéu::filter=none
+Karman vortex street::word=Kármán vortex street::filter=none
+Kazanlak::word=Kazanlăk::filter=none
+Kesaranta::word=Kesäranta::filter=none
+Krklareli::word=Kırklareli::filter=none
+Klymene::word=Klymenê::filter=none
+Kohtla-Jarve::word=Kohtla-Järve::filter=none
+Kolsch::word=Kölsch::filter=none
+Konigsberg::word=Königsberg::filter=none
+Krakow::word=Kraków::filter=none
+Krsna::word=Kṛṣṇa::filter=none
+Kulturtrager::word=Kulturträger::filter=none
+KUrdzhali::word=Kŭrdzhali::filter=none
+Kxauein::word=ǂKxʼauǁʼein::filter=none
+La Nina::word=La Niña::filter=none
+Laadan::word=Láadan::filter=none
+Lebor Gabala Erenn::word=Lebor Gabála Érenn::filter=none
+Levy flight::word=Lévy flight::filter=none
+Levy glass::word=Lévy glass::filter=none
+Levi-Strauss::word=Lévi-Strauss::filter=none
+Liege::word=Liège::filter=none
+limacon of Pascal::word=limaçon of Pascal::filter=none
+Linkoping::word=Linköping::filter=none
+Loegaire the Victorious::word=Lóegaire the Victorious::filter=none
+Lomafanu::word=Lōmāfānu::filter=none
+Lome::word=Lomé::filter=none
+Lubeck::word=Lübeck::filter=none
+Lugaid mac Con Roi::word=Lugaid mac Con Roí::filter=none
+Luir Cheltchair::word=Luír Cheltchair::filter=none
+Lulea::word=Luleå::filter=none
+Macapa::word=Macapá::filter=none
+Maceio::word=Maceió::filter=none
+Mahe::word=Mahé::filter=none
+Maleku Jaika::word=Maléku Jaíka::filter=none
+Malko TUrnovo::word=Malko Tŭrnovo::filter=none
+Malmo::word=Malmö::filter=none
+Maori::word=Māori::filter=none
+Maranhao::word=Maranhão::filter=none
+yerba|Yerba mate::word=\0 maté::filter=none
+Meankieli::word=Meänkieli::filter=none
+Merida::word=Mérida::filter=none
+Midi-Pyrenees::word=Midi-Pyrénées::filter=none
+Minie ball::word=Minié ball::filter=none
+Mjollnir::word=Mjöllnir::filter=none
+Mjolner::word=Mjölner::filter=none
+Mjolnir::word=Mjölnir::filter=none
+Mobius band::word=Möbius band::filter=none
+Mobius group::word=Möbius group::filter=none
+Mobius strip::word=Möbius strip::filter=none
+Mohorovicic discontinuity::word=Mohorovičić discontinuity::filter=none
+Moller-Barlow disease::word=Möller-Barlow disease::filter=none
+Monegasque::word=Monégasque::filter=none
+Morrigan::word=Mórrígan::filter=none
+Mossbauer effect::word=Mössbauer effect::filter=none
+Mudejar::word=Mudéjar::filter=none
+Mudejares::word=Mudéjares::filter=none
+Mulleran mimicry::word=Mülleran mimicry::filter=none
+Mullerian duct::word=Müllerian duct::filter=none
+Munchausen syndrome::word=Münchausen syndrome::filter=none
+Munster::word=Münster::filter=none
+Myrdalsjokull::word=Mýrdalsjökull::filter=none
+Naga::word=Nāga::filter=none
+Neuchatel::word=Neuchâtel::filter=none
+Nicoise salad::word=Niçoise salad::filter=none
+Nivose::word=Nivôse::filter=none
+Noumea::word=Nouméa::filter=none
+Nuevo Leon::word=Nuevo León::filter=none
+Oland::word=Öland::filter=none
+Orebro::word=Örebro::filter=none
+
+# New Orleans doesn't get accented...
+Orleans::word=Orléans::filter=none
+New Orleans::filter=kill
+
+Pais Vasco::word=País Vasco::filter=none
+Para::word=Pará::filter=none
+Paraiba::word=Paraíba::filter=none
+Parana::word=Paraná::filter=none
+Parnu::word=Pärnu::filter=none
+Parti Quebecois::word=Parti Québécois::filter=none
+Pere David's deer::word=Père David's deer::filter=none
+Piaui::word=Piauí::filter=none
+Pieta::word=Pietà::filter=none
+Pimenton de La Vera::word=Pimentón de La Vera::filter=none
+Pluviose::word=Pluviôse::filter=none
+Poincare conjecture::word=Poincaré conjecture::filter=none
+Pokemon::word=Pokémon::filter=none
+Popayan::word=Popayán::filter=none
+Popocatepetl::word=Popocatépetl::filter=none
+Pristina::word=Priština::filter=none
+Provencal::word=Provençal::filter=none
+Provence-Alpes-Cote d'Azur::word=Provence-Alpes-Côte d'Azur::filter=none
+Provence-Alpes-Cote d'Azur-Corse::word=Provence-Alpes-Côte d'Azur-Corse::filter=none
+Qhoa::word=ǂQhôã::filter=none
+Qualitatswein::word=Qualitätswein::filter=none
+Quebecois::word=Québécois::filter=none
+Quebecois::word=Québecois::filter=none
+Quiche::word=Quiché::filter=none
+Ragnarok::word=Ragnarök::filter=none
+Rahu::word=Rāhu::filter=none
+Reaumur::word=Réaumur::filter=none
+Renee::word=Renée::filter=none
+Reykjavik::word=Reykjavík::filter=none
+Rg Veda::word=Ṛg Veda::filter=none
+Rgveda::word=Ṛgveda::filter=none
+Rgvedic::word=Ṛgvedic::filter=none
+Rhone-Alpes::word=Rhône-Alpes::filter=none
+Rigspula::word=Rígsþula::filter=none
+Romanico::word=Románico::filter=none
+Rondonia::word=Rondônia::filter=none
+Rose wine::word=Rosé wine::filter=none
+RTE::word=RTÉ::filter=none
+Salon des Refuses::word=Salon des Refusés::filter=none
+San Jose::word=San José::filter=none
+San Luis Potosi::word=San Luis Potosí::filter=none
+San Sebastian::word=San Sebastián::filter=none
+Sanchez::word=Sánchez::filter=none
+Santa Fe::word=Santa Fé::filter=none
+Sao Luis::word=São Luis::filter=none
+Sao Paulo::word=São Paulo::filter=none
+Sao Tome::word=São Tomé::filter=none
+Sao Tome and Principe::word=São Tomé and Príncipe::filter=none
+Sarande::word=Sarandë::filter=none
+Savitr::word=Savitṛ::filter=none
+Scathach::word=Scáthach::filter=none
+Schrodinger wave function::word=Schrödinger wave function::filter=none
+Schrodinger's cat::word=Schrödinger's cat::filter=none
+Schrodinger's kitten::word=Schrödinger's kitten::filter=none
+Schrodinger's wave equation::word=Schrödinger's wave equation::filter=none
+Semillon::word=Sémillon::filter=none
+Sessrumnir::word=Sessrúmnir::filter=none
+Siddhartha Gautama::word=Siddhārtha Gautama::filter=none
+Sinn Fein::word=Sinn Féin::filter=none
+Skirnismal::word=Skírnismál::filter=none
+Spatlese::word=Spätlese::filter=none
+Sprachgefuhl::word=Sprachgefühl::filter=none
+Stokavian::word=Štokavian::filter=none
+Sutra::word=Sūtra::filter=none
+Svipdagsmal::word=Svipdagsmál::filter=none
+Tain Bo Cuailnge::word=Táin Bó Cúailnge::filter=none
+Tanaiste::word=Tánaiste::filter=none
+Tepelene::word=Tepelenë::filter=none
+Thira::word=Thíra::filter=none
+Timisoara::word=Timişoara::filter=none
+tio de Nadal::word=tió de Nadal::filter=none
+Tres Lagoas::word=Três Lagoas::filter=none
+Tuatha De Danann::word=Tuatha Dé Danann::filter=none
+Tubingen::word=Tübingen::filter=none
+Tupi-Guarani::word=Tupi-Guaraní::filter=none
+Tupinamba::word=Tupinambá::filter=none
+Ubermensch::word=Übermensch::filter=none
+Umea::word=Umeå::filter=none
+Vafpruonismal::word=Vafþrúðnismál::filter=none
+Vanern::word=Vänern::filter=none
+Vayu::word=Vāyu::filter=none
+Ve::word=Vé::filter=none
+Veliko Tarnovo::word=Veliko Tărnovo::filter=none
+Vendee::word=Vendée::filter=none
+Vendemiaire::word=Vendémiaire::filter=none
+Ventose::word=Ventôse::filter=none
+Vitoria::word=Vitória::filter=none
+Vitre::word=Vitré::filter=none
+Volapuk::word=Volapük::filter=none
+Volundarkvioa::word=Völundarkviða::filter=none
+Voluspa::word=Völuspá::filter=none
+Voluspa in skamma::word=Völuspá in skamma::filter=none
+Von Karman vortex street::word=Von Kármán vortex street::filter=none
+Voro::word=Võro::filter=none
+Wurzburg::word=Würzburg::filter=none
+Yanomamo::word=Yanomamö::filter=none
+Yaounde::word=Yaoundé::filter=none
+Yucatan::word=Yucatán::filter=none
+Zaparo::word=Záparo::filter=none
+Zinacantan::word=Zinacantán::filter=none
+Zoophyta::word=Zoöphyta::filter=none
+Zuni::word=Zuñi::filter=none
+Zurich::word=Zürich::filter=none
+Zweihander::word=Zweihänder::filter=none

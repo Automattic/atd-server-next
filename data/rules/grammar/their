@@ -1,0 +1,40 @@
+their is|are|a|an::word=there \1::pivots=their,there
+there to::filter=kill
+there .*/JJ.* .*/NN::word=their \1 \2::pivots=there,their
+there .*ing/NN::word=their \1, they're \1::pivots=there,their,they're
+there .*/NN::word=their \1::pivots=there,their
+Their is|are|a|an::word=There \1::pivots=their,there
+There .*/JJ.* .*/NN::word=Their \1 \2::pivots=there,their
+There .*ing/NN::word=Their \1, They're \1::pivots=there,their,they're
+There .*/NN::word=Their \1::pivots=there,their
+is there .*/NN::word=\0 \1 \2
+is there .*/JJ .*/NN::word=\0 \1 \2 \3
+isn't there .*/NN::word=\0 \1 \2
+isn't there .*/JJ .*/NN::word=\0 \1 \2 \3
+was there .*/NN::word=\0 \1 \2
+was there .*/JJ .*/NN::word=\0 \1 \2 \3
+are there .*/NN::word=\0 \1 \2
+are there .*/JJ .*/NN::word=\0 \1 \2 \3
+if their .*ing::word=\0 they're \2::pivots=\1,they're
+to .*/VB there .*/NN::word=\0 \1 their \3::pivots=\2,their
+in there|they're .*/NN|JJ .*/NN::word=\0 their \2 \3::pivots=\1,their
+in there|they're .*/NN::word=\0 their \2::pivots=\1,their
+they're are::word=there are, they are::pivots=they're,there,they
+They're are::word=There are, They are::pivots=They're,There,They
+.*/VB there .*/NNS::word=\0 their \2::pivots=\1,their
+.*/VB there .*/JJ .*/NNS::word=\0 their \2 \3::pivots=\1,their
+.*/IN there .*/NNS::word=\0 their \2::pivots=\1,their
+.*/IN there .*/JJ .*/NNS::word=\0 their \2 3::pivots=\1,their
+
+has|is they're::word=\0 their::pivots=they're,their::options=they're,their
+their so|as|gonna::word=they're \1::pivots=their,they're::options=their,They're
+Their so|as|gonna::word=They're \1::pivots=Their,They're::options=Their,They're
+
+#
+# some rules to map their|there -> they're
+#
+their doing so::filter=kill
+there being .*/IN|DT::filter=kill
+there|their .*/VBG .*/IN::word=they're \1 \2::pivots=\0,they're
+there|their .*/VBG .*/DT::word=they're \1 \2::pivots=\0,they're
+there|their .*/VBG 0END.0::word=they're \1 \2::pivots=\0,they're

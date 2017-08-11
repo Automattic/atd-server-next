@@ -1,0 +1,5 @@
+   <p>Replace <em><% $2 %></em> with</p>
+
+   <ul>
+   <?sleep map({ println('<li>'.$1.'</li>'); }, suggestions2(split(", ", $1["word"]), $2)); ?>
+   </ul>

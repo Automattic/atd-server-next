@@ -1,0 +1,20 @@
+<?sleep
+   global('%homodict');
+   if (size(%homodict) == 0)
+   {
+      local('$handle $text $word $def');
+      $handle = openf("data/rules/definitions.txt");
+      while $text (readln($handle))
+      {
+         ($word, $def) = split('\t+', $text);
+         %homodict[$word] = $def;
+      }
+   }
+?>
+
+   <p>Review definitions:</p>
+
+   <ul>
+   <?sleep map({ println('<li><b>'.$1.'</b><br>' . %homodict[$1] . '</li>'); }, map({ return iff($1 in %homodict, $1, baseVerb($1)); }, split(', ', $1["word"]))); ?>
+   </ul>
+

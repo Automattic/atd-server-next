@@ -1,0 +1,43 @@
+<project name="Moconti" default="all" basedir=".">
+  <property name="project.src"   location="src" />
+  <property name="project.build" location="bin" />
+  <property name="project.compiler" value="" />
+
+  <property name="project.path"  value="rero" />
+
+  <target name="all" depends="init, compile, jar" />
+
+  <target name="init">
+    <tstamp />
+    <mkdir dir="${project.build}" />
+  </target>
+
+  <target name="compile" description="compile the source " >
+    <javac srcdir="${project.src}/" 
+           destdir="${project.build}"
+           nowarn="yes"
+           depend="yes"
+           source="1.4"
+           target="1.4"
+           debug="yes"
+           optimize="yes"
+    >
+       <classpath path="./lib/sleep.jar" />
+       <classpath path="./lib/cngram.jar" />
+    </javac>
+  </target>
+
+  <target name="clean" description="clean up" >
+    <delete dir="${project.build}"/>
+  </target>
+
+  <target name="jar" depends="compile">
+     <jar destfile="spellutils.jar"
+         basedir="bin"
+         includes="**/*">
+       <manifest>
+         <attribute name="Built-By" value="${user.name}"/>
+      </manifest>
+     </jar>
+   </target>
+</project>

@@ -1,0 +1,293 @@
+Buildfile: build.xml
+
+clean:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: build.xml
+
+init:
+    [mkdir] Created dir: /home/atd/atd/service/code/bin
+
+compile:
+    [javac] Compiling 5 source files to /home/atd/atd/service/code/bin
+    [javac] depend attribute is not supported by the modern compiler
+
+jar:
+      [jar] Building jar: /home/atd/atd/service/code/spellutils.jar
+
+all:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Buildfile: build.xml
+
+clean:
+   [delete] Deleting directory /home/atd/atd/service/code/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Warning: Dictionary loaded: 717330 words at buildcorpus.sl:66
+ready!
+ready!
+ready!
+ready!
+ready!
+ready!
+ready!
+ready!
+Warning: Agent 0 complete at buildcorpus.sl:221
+Warning: Agent 1 complete at buildcorpus.sl:221
+Warning: Agent 2 complete at buildcorpus.sl:221
+Warning: Agent 3 complete at buildcorpus.sl:221
+Warning: Agent 4 complete at buildcorpus.sl:221
+Warning: Agent 5 complete at buildcorpus.sl:221
+Warning: Agent 6 complete at buildcorpus.sl:221
+Warning: Agent 7 complete at buildcorpus.sl:221
+Done!
+Warning: Dictionary loaded: 717330 words at buildcorpus.sl:66
+ready!
+ready!
+ready!
+ready!
+ready!
+ready!
+ready!
+ready!
+Warning: Agent 0 complete at buildcorpus.sl:221
+Warning: Agent 1 complete at buildcorpus.sl:221
+Warning: Agent 2 complete at buildcorpus.sl:221
+Warning: Agent 3 complete at buildcorpus.sl:221
+Warning: Agent 4 complete at buildcorpus.sl:221
+Warning: Agent 5 complete at buildcorpus.sl:221
+Warning: Agent 6 complete at buildcorpus.sl:221
+Warning: Agent 7 complete at buildcorpus.sl:221
+Done!
+Warning: Dictionary loaded: 717330 words at buildcorpus.sl:66
+ready!
+ready!
+ready!
+ready!
+ready!
+ready!
+ready!
+ready!
+Warning: Agent 0 complete at buildcorpus.sl:221
+Warning: Agent 1 complete at buildcorpus.sl:221
+Warning: Agent 2 complete at buildcorpus.sl:221
+Warning: Agent 3 complete at buildcorpus.sl:221
+Warning: Agent 4 complete at buildcorpus.sl:221
+Warning: Agent 5 complete at buildcorpus.sl:221
+Warning: Agent 6 complete at buildcorpus.sl:221
+Warning: Agent 7 complete at buildcorpus.sl:221
+Done!
+Warning: Dictionary loaded: 126459 words at dictionary.sl:67
+--- Normal rules:    66909
+--- Homophone rules: 1864
+--- Agreement rules: 1496
+--- Voice  rules:    4989
+Loaded 75,258 rules... wheee
+Warning: Dictionary loaded: 126459 words at dictionary.sl:67
+Warning: Rules loaded: 75,258 rules at engine.sl:41
+Report for Suggestion score for data/tests/grammar_wikipedia.txt
+Correct:        95.17241379310344
+Suggestion Acc: 96.55172413793103
+--------------------
+Report for Grammar score for data/tests/grammar_wikipedia.txt
+Correct:        54.761904761904766
+Suggestion Acc: 55.55555555555556
+--------------------
+False Negative: 42.55952380952381
+Warning: Dictionary loaded: 126459 words at dictionary.sl:67
+Warning: Rules loaded: 75,258 rules at engine.sl:41
+Report for Suggestion score for data/tests/grammar_gutenberg.txt
+Correct:        93.46811819595645
+Suggestion Acc: 95.80093312597201
+--------------------
+Report for Grammar score for data/tests/grammar_gutenberg.txt
+Correct:        52.170138888888886
+Suggestion Acc: 53.47222222222222
+--------------------
+False Negative: 44.27083333333333
+Warning: Dictionary loaded: 126459 words at dictionary.sl:67
+Report for Word pool accuracy: sp_test_aspell_nocontext.txt
+Correct:        82.97455968688845
+Report for Word pool accuracy: sp_test_wpcm_nocontext.txt
+Correct:        98.19159335288367
+Edits flushed!
+Warning: Rules loaded: 75,258 rules at engine.sl:41
+Warning: Dictionary loaded: 126459 words at dictionary.sl:67
+Warning: Iteration 0 complete at trainspell.sl:88
+Warning: Iteration 1 complete at trainspell.sl:88
+Warning: Iteration 2 complete at trainspell.sl:88
+Done? cnetwork.bin
+=== CONTEXTUAL DATA ===========================================================================
+Warning: Rules loaded: 75,258 rules at engine.sl:41
+Warning: Dictionary loaded: 126459 words at dictionary.sl:67
+********** sp_test_wp_context1.txt **********
+Report for Dist/Pre/Post/FL
+Correct:        95.24904214559386
+Report for Random Guess
+Correct:        31.494252873563216
+Report for Combined Freq/Edit
+Correct:        87.43295019157088
+Warning: Rules loaded: 75,258 rules at engine.sl:41
+Warning: Dictionary loaded: 126459 words at dictionary.sl:67
+********** sp_test_wp_context2.txt **********
+Report for Dist/Pre/Post/FL
+Correct:        78.77697841726618
+Report for Random Guess
+Correct:        20.863309352517987
+Report for Combined Freq/Edit
+Correct:        64.74820143884892
+Warning: Rules loaded: 75,258 rules at engine.sl:41
+Warning: Dictionary loaded: 126459 words at dictionary.sl:67
+********** sp_test_gutenberg_context1.txt **********
+Report for Dist/Pre/Post/FL
+Correct:        94.55882352941177
+Report for Random Guess
+Correct:        31.985294117647058
+Report for Combined Freq/Edit
+Correct:        87.57352941176471
+Warning: Rules loaded: 75,258 rules at engine.sl:41
+Warning: Dictionary loaded: 126459 words at dictionary.sl:67
+********** sp_test_gutenberg_context2.txt **********
+Report for Dist/Pre/Post/FL
+Correct:        79.93630573248409
+Report for Random Guess
+Correct:        22.929936305732486
+Report for Combined Freq/Edit
+Correct:        65.92356687898089
+Warning: Rules loaded: 75,258 rules at engine.sl:41
+Warning: Dictionary loaded: 126459 words at dictionary.sl:67
+Iteration 0 complete!
+Iteration 1 complete!
+Iteration 2 complete!
+Networked trained!
+Iteration 0 complete!
+Iteration 1 complete!
+Iteration 2 complete!
+Networked trained!
+=== NON-CONTEXTUAL DATA =======================================================================
+Warning: Rules loaded: 75,258 rules at engine.sl:41
+Warning: Dictionary loaded: 126459 words at dictionary.sl:67
+========== sp_test_aspell_nocontext.txt ==========
+Present words: 19
+Report for Test of Corrections w/o Context
+Correct:        80.45738045738045
+False Negative: 3.9501039501039505
+False Positive: 2.2869022869022873
+Report for 3-factor
+Correct:        70.54263565891473
+Report for 3-factor w/ p
+Correct:        70.54263565891473
+Warning: Rules loaded: 75,258 rules at engine.sl:41
+Warning: Dictionary loaded: 126459 words at dictionary.sl:67
+========== sp_test_wpcm_nocontext.txt ==========
+Present words: 31
+Report for Test of Corrections w/o Context
+Correct:        98.16011934361015
+False Negative: 1.5415216310293387
+False Positive: 0.19890601690701143
+Report for 3-factor
+Correct:        90.0709219858156
+Report for 3-factor w/ p
+Correct:        90.0709219858156
+Warning: Rules loaded: 75,258 rules at engine.sl:41
+Warning: Dictionary loaded: 126459 words at dictionary.sl:67
+Iteration 0 complete
+Iteration 1 complete
+Done? hnetwork.bin
+Done? hnetwork2.bin
+Done? hnetwork3.bin
+Done? hnetwork4.bin
+Warning: Rules loaded: 75,258 rules at engine.sl:41
+Warning: Dictionary loaded: 126459 words at dictionary.sl:67
+Report for Correct   original (Gutenberg)
+Correct:        95.88647253962404
+False Positive: 4.113527460375967
+Report for Wrong     original (Gutenberg)
+Correct:        70.46927036027853
+False Negative: 29.530729639721464
+Report for Composite original (Gutenberg)
+Correct:        81.9315159574468
+False Negative: 16.21343085106383
+False Positive: 1.8550531914893618
+------------------------------
+Report for Correct   original (Wikipedia)
+Correct:        97.3283261802575
+False Positive: 2.671673819742489
+Report for Wrong     original (Wikipedia)
+Correct:        78.46953152518492
+False Negative: 21.530468474815077
+Report for Composite original (Wikipedia)
+Correct:        86.97040046430644
+False Negative: 11.825304701102727
+False Positive: 1.20429483459083
+------------------------------
+Report for Correct   pref/postf/prob/trigram (Gutenberg)
+Correct:        98.64356800589754
+False Positive: 1.3564319941024696
+Report for Wrong     pref/postf/prob/trigram (Gutenberg)
+Correct:        84.34756282167726
+False Negative: 15.652437178322737
+Report for Composite pref/postf/prob/trigram (Gutenberg)
+Correct:        90.79454787234043
+False Negative: 8.59375
+False Positive: 0.6117021276595744
+------------------------------
+Report for Correct   pref/postf/prob/trigram (Wikipedia)
+Correct:        98.72317596566523
+False Positive: 1.2768240343347639
+Report for Wrong     pref/postf/prob/trigram (Wikipedia)
+Correct:        85.31172948221204
+False Negative: 14.688270517787954
+Report for Composite pref/postf/prob/trigram (Wikipedia)
+Correct:        91.35712903849874
+False Negative: 8.067324434126522
+False Positive: 0.575546527374734
+------------------------------
+Report for Correct   postf/prob/trigram (Gutenberg)
+Correct:        98.44452635458902
+False Positive: 1.555473645410984
+Report for Wrong     postf/prob/trigram (Gutenberg)
+Correct:        85.40115046927036
+False Negative: 14.598849530729641
+Report for Composite postf/prob/trigram (Gutenberg)
+Correct:        91.28324468085106
+False Negative: 8.01529255319149
+False Positive: 0.7014627659574468
+------------------------------
+Report for Correct   postf/prob/trigram (Wikipedia)
+Correct:        98.43347639484978
+False Positive: 1.5665236051502145
+Report for Wrong     postf/prob/trigram (Wikipedia)
+Correct:        85.41740049313138
+False Negative: 14.582599506868615
+Report for Composite postf/prob/trigram (Wikipedia)
+Correct:        91.28458115689688
+False Negative: 8.009286128845037
+False Positive: 0.706132714258077
+------------------------------
+Report for Correct   pref/postf/prob/trigram/trigram2 (Gutenberg)
+Correct:        99.24069295982308
+False Positive: 0.7593070401769259
+Report for Wrong     pref/postf/prob/trigram/trigram2 (Gutenberg)
+Correct:        89.42779291553134
+False Negative: 10.572207084468666
+Report for Composite pref/postf/prob/trigram/trigram2 (Gutenberg)
+Correct:        93.8530585106383
+False Negative: 5.804521276595745
+False Positive: 0.34242021276595747
+------------------------------
+Report for Correct   pref/postf/prob/trigram/trigram2 (Wikipedia)
+Correct:        98.93776824034335
+False Positive: 1.0622317596566522
+Report for Wrong     pref/postf/prob/trigram/trigram2 (Wikipedia)
+Correct:        88.66678407890102
+False Negative: 11.333215921098978
+Report for Composite pref/postf/prob/trigram/trigram2 (Wikipedia)
+Correct:        93.2965757399884
+False Negative: 6.22460824143935
+False Positive: 0.4788160185722577
+------------------------------

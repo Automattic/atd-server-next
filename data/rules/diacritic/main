@@ -1,0 +1,494 @@
+#
+# words to insert accented characters into
+#
+
+a contrecaeur::word=à contrecœur::filter=none
+a gogo::word=à gogo::filter=none
+a la::word=à la::filter=none
+a la carte::word=à la carte::filter=none
+a la mode::word=à la mode::filter=none
+a propos::word=à propos::filter=none
+abbe::word=abbé::filter=none
+acai::word=açai::filter=none
+aide-memoire::word=aide-mémoire::filter=none
+akaganeite::word=akaganéite::filter=none
+akce::word=akçe::filter=none
+akermanite::word=åkermanite::filter=none
+ancien regime::word=ancien régime::filter=none
+anekantavada::word=anekāntavāda::filter=none
+anudatta::word=anudātta::filter=none
+apercu::word=aperçu::filter=none
+aperitif::word=apéritif::filter=none
+appellation controlee::word=appellation contrôlée::filter=none
+applique::word=appliqué::filter=none
+apres::word=après::filter=none
+apres-ski::word=après-ski::filter=none
+apres-skiing::word=après-skiing::filter=none
+apropos::word=àpropos::filter=none
+arete::word=arête::filter=none
+arriere-pensee::word=arrière-pensée::filter=none
+attache::word=attaché::filter=none
+attache case::word=attaché case::filter=none
+auto da fe::word=auto da fé::filter=none
+auto de fe::word=auto de fé::filter=none
+auto-da-fe::word=auto-da-fé::filter=none
+barege::word=barège::filter=none
+bayadere::word=bayadère::filter=none
+bearnaise::word=béarnaise::filter=none
+bearnaise sauce::word=béarnaise sauce::filter=none
+beau ideal::word=beau idéal::filter=none
+bechamel::word=béchamel::filter=none
+bechamel sauce::word=béchamel sauce::filter=none
+beche-de-mer::word=bêche-de-mer::filter=none
+beguin::word=béguin::filter=none
+belle epoque::word=belle époque::filter=none
+bergere::word=bergère::filter=none
+bete noire::word=bête noire::filter=none
+betise::word=bêtise::filter=none
+bhumi::word=bhūmi::filter=none
+blase::word=blasé::filter=none
+blodite::word=blödite::filter=none
+bobeche::word=bobèche::filter=none
+bolivar::word=bolívar::filter=none
+bombe::word=bombé::filter=none
+bon appetit::word=bon appétit::filter=none
+bonbonniere::word=bonbonnière::filter=none
+bouchee::word=bouchée::filter=none
+boucle::word=bouclé::filter=none
+bourree::word=bourrèe::filter=none
+brassiere::word=brassière::filter=none
+bric-a-brac::word=bric-à-brac::filter=none
+brotchen::word=brötchen::filter=none
+bukovskyite::word=bukovskýite::filter=none
+cabecou::word=cabécou::filter=none
+cafe::word=café::filter=none
+cafe au lait::word=café au lait::filter=none
+cafe noir::word=café noir::filter=none
+cafe noisette::word=café noisette::filter=none
+cafetiere::word=cafetière::filter=none
+caffe americano::word=caffè americano::filter=none
+caffe latte::word=caffè latte::filter=none
+caic::word=caïc::filter=none
+caique::word=caïque::filter=none
+caiquejee::word=caïquejee::filter=none
+caleche::word=calèche::filter=none
+canape::word=canapé::filter=none
+candiru::word=candirú::filter=none
+catalogue raisonne::word=catalogue raisonné::filter=none
+cause celebre::word=cause célèbre::filter=none
+centzontle::word=centzontlé::filter=none
+cepage::word=cépage::filter=none
+chacun a son gout::word=chacun à son goût::filter=none
+charge d'affaires::word=chargé d'affaires::filter=none
+chasse::word=chassé::filter=none
+chateau::word=château::filter=none
+chateaubriand::word=châteaubriand::filter=none
+chef-d'aeuvre::word=chef-d'œuvre::filter=none
+chevre::word=chèvre::filter=none
+chateaux::word=châteaux::filter=none
+cine film::word=ciné film::filter=none
+cinefilm::word=cinéfilm::filter=none
+cinema verite::word=cinéma vérité::filter=none
+cire::word=ciré::filter=none
+cliche::word=cliché::filter=none
+cliche-ridden::word=cliché-ridden::filter=none
+cliche-verre::word=cliché-verre::filter=none
+cliched::word=clichéd::filter=none
+clicheed::word=clichéed::filter=none
+cloisonne::word=cloisonné::filter=none
+comme ci comme ca::word=comme ci comme ça::filter=none
+commere::word=commère::filter=none
+communique::word=communiqué::filter=none
+compere::word=compère::filter=none
+confrere::word=confrère::filter=none
+consomme::word=consommé::filter=none
+conte::word=conté::filter=none
+contourne::word=contourné::filter=none
+cordoba::word=córdoba::filter=none
+cortege::word=cortège::filter=none
+corvee::word=corvée::filter=none
+coryphee::word=coryphée::filter=none
+coule::word=coulé::filter=none
+coup detat::word=coup d'état::filter=none
+coup de grace::word=coup de grâce::filter=none
+coup de theatre::word=coup de théâtre::filter=none
+coupe::word=coupé::filter=none
+coups d'etat::word=coups d'état::filter=none
+creature::word=creäture::filter=none
+creche::word=crèche::filter=none
+creme::word=crème::filter=none
+creme anglaise::word=crème anglaise::filter=none
+creme brulee::word=crème brûlée::filter=none
+creme caramel::word=crème caramel::filter=none
+creme de cacao::word=crème de cacao::filter=none
+creme de cassis::word=crème de cassis::filter=none
+creme de la creme::word=crème de la crème::filter=none
+creme de menthe::word=crème de menthe::filter=none
+creme fraiche::word=crème fraîche::filter=none
+crepe::word=crêpe::filter=none
+crepe de chine::word=crêpe de chine::filter=none
+crepe paper::word=crêpe paper::filter=none
+creperie::word=crêperie::filter=none
+crepy::word=crêpy::filter=none
+croise::word=croisé::filter=none
+cross pattee::word=cross pattée::filter=none
+crudites::word=crudités::filter=none
+curacao::word=curaçao::filter=none
+cy-pres::word=cy-près::filter=none
+cybercafe::word=cybercafé::filter=none
+coup d'etat::word=coup d'état::filter=none
+coup de grace::word=coup de grâce::filter=none
+coup de theatre::word=coup de théâtre::filter=none
+coupe::word=coupé::filter=none
+coups d'etat::word=coups d'état::filter=none
+creature::word=creäture::filter=none
+creche::word=crèche::filter=none
+creme::word=crème::filter=none
+creme anglaise::word=crème anglaise::filter=none
+creme brulee::word=crème brûlée::filter=none
+creme caramel::word=crème caramel::filter=none
+creme de cacao::word=crème de cacao::filter=none
+creme de cassis::word=crème de cassis::filter=none
+creme de la creme::word=crème de la crème::filter=none
+creme de menthe::word=crème de menthe::filter=none
+creme fraiche::word=crème fraîche::filter=none
+crepe::word=crêpe::filter=none
+crepe de chine::word=crêpe de chine::filter=none
+crepe paper::word=crêpe paper::filter=none
+creperie::word=crêperie::filter=none
+crepy::word=crêpy::filter=none
+croise::word=croisé::filter=none
+cross pattee::word=cross pattée::filter=none
+crudites::word=crudités::filter=none
+curacao::word=curaçao::filter=none
+cy-pres::word=cy-près::filter=none
+cybercafe::word=cybercafé::filter=none
+dais::word=daïs::filter=none
+damasse::word=damassé::filter=none
+debridement::word=débridement::filter=none
+debut::word=début::filter=none
+decolletage::word=décolletage::filter=none
+decollete::word=décolleté::filter=none
+decolletee::word=décolletée::filter=none
+degage::word=dégagé::filter=none
+deja vu::word=déjà vu::filter=none
+demarche::word=démarche::filter=none
+denouement::word=dénouement::filter=none
+depanneur::word=dépanneur::filter=none
+departement::word=département::filter=none
+derriere::word=derrière::filter=none
+detente::word=détente::filter=none
+developpe::word=développé::filter=none
+devore::word=devoré::filter=none
+diamante::word=diamanté::filter=none
+differance::word=différance::filter=none
+distingue::word=distingué::filter=none
+distinguee::word=distinguée::filter=none
+donnee::word=donnée::filter=none
+doppelganger::word=doppelgänger::filter=none
+dos-a-dos::word=dos-à-dos::filter=none
+dragee::word=dragée::filter=none
+drophead coupe::word=drophead coupé::filter=none
+echappe::word=échappé::filter=none
+eclair::word=éclair::filter=none
+eclat::word=éclat::filter=none
+ecorche::word=écorché::filter=none
+ecossaise::word=écossaise::filter=none
+ecoute::word=écoute::filter=none
+ecu::word=écu::filter=none
+elan::word=élan::filter=none
+elan vital::word=élan vital::filter=none
+elite::word=élite::filter=none
+emeute::word=émeute::filter=none
+emigre::word=émigré::filter=none
+eminence grise::word=éminence grise::filter=none
+enarque::word=énarque::filter=none
+less|more engage::word=\0 engagé::filter=none
+engagee::word=engagée::filter=none
+entrecote::word=entrecôte::filter=none
+entree::word=entrée::filter=none
+entrepot::word=entrepôt::filter=none
+epee::word=épée::filter=none
+epeeist::word=épéeist::filter=none
+epopee::word=épopée::filter=none
+etagere::word=étagère::filter=none
+etatisme::word=étatisme::filter=none
+etoile::word=étoile::filter=none
+etouffee::word=étouffée::filter=none
+etrier::word=étrier::filter=none
+etude::word=étude::filter=none
+etui::word=étui::filter=none
+an expose::word=an exposé::filter=none
+facade::word=façade::filter=none
+faconne::word=façonné::filter=none
+faineant::word=fainéant::filter=none
+fainne::word=fáinne::filter=none
+faux-naif::word=faux-naïf::filter=none
+facon de parler::word=façon de parler::filter=none
+feerie::word=féerie::filter=none
+fete::word=fête::filter=none
+fete champetre::word=fête champêtre::filter=none
+fiance::word=fiancé::filter=none
+fiancee::word=fiancée::filter=none
+gumbo file::word=gumbo filé::filter=none
+file powder::word=filé powder::filter=none
+fin de siecle::word=fin de siècle::filter=none
+fixed head coupe::word=fixed head coupé::filter=none
+flambe::word=flambé::filter=none
+flambeed::word=flambéed::filter=none
+flambeing::word=flambéing::filter=none
+flambes::word=flambés::filter=none
+flanerie::word=flânerie::filter=none
+flaneur::word=flâneur::filter=none
+fleche::word=flèche::filter=none
+flechette::word=fléchette::filter=none
+flugelhorn::word=flügelhorn::filter=none
+folie a deux::word=folie à deux::filter=none
+fouette::word=fouetté::filter=none
+frappe::word=frappé::filter=none
+frise::word=frisé::filter=none
+garcon::word=garçon::filter=none
+gateau::word=gâteau::filter=none
+gateaux::word=gâteaux::filter=none
+gemutlich::word=gemütlich::filter=none
+giclee::word=giclée::filter=none
+gite::word=gîte::filter=none
+glace::word=glacé::filter=none
+grunerite::word=grünerite::filter=none
+guarani::word=guaraní::filter=none
+habitue::word=habitué::filter=none
+hacek::word=háček::filter=none
+hao::word=hào::filter=none
+hauyne::word=haüyne::filter=none
+heroon::word=herõon::filter=none
+hubnerite::word=hübnerite::filter=none
+idee::word=idée::filter=none
+idee recue::word=idée reçue::filter=none
+idee fixe::word=idée fixe::filter=none
+ingenue::word=ingénue::filter=none
+jalapeno::word=jalapeño::filter=none
+jardiniere::word=jardinière::filter=none
+jaspe::word=jaspé::filter=none
+jefe politico::word=jefe político::filter=none
+jete::word=jeté::filter=none
+jeunesse doree::word=jeunesse dorée::filter=none
+jo::word=jō::filter=none
+jokulhlaup::word=jökulhlaup::filter=none
+kamancha::word=kamāncha::filter=none
+kamanche::word=kamānche::filter=none
+kavya::word=kāvya::filter=none
+krona::word=króna::filter=none
+kronur::word=krónur::filter=none
+lagerstatte::word=lagerstätte::filter=none
+lapsus linguae::word=lapsūs linguae::filter=none
+lese majeste::word=lèse majesté::filter=none
+limacon::word=limaçon::filter=none
+lollingite::word=löllingite::filter=none
+macedoine::word=macédoine::filter=none
+macrame::word=macramé::filter=none
+madrilene::word=madrilène::filter=none
+madrono::word=madroño::filter=none
+maelstrom::word=maelström::filter=none
+maison de tolerance::word=maison de tolérance::filter=none
+maitre d'::word=maître d'::filter=none
+maitre d'hotel::word=maître d'hôtel::filter=none
+malpais::word=malpaís::filter=none
+manana::word=mañana::filter=none
+mandala::word=maṇḍala::filter=none
+manege::word=manège::filter=none
+manque::word=manqué::filter=none
+moules marinieres::word=moules marinières::filter=none
+marron glace::word=marron glacé::filter=none
+marrons glaces::word=marrons glacés::filter=none
+martele::word=martelé::filter=none
+masse::word=massé::filter=none
+materiel::word=matériel::filter=none
+matinee::word=matinée::filter=none
+matinee idol::word=matinée idol::filter=none
+melange::word=mélange::filter=none
+melee::word=mêlée::filter=none
+menage::word=ménage::filter=none
+menage a trois::word=ménage à trois::filter=none
+meningocele manque::word=meningocele manqué::filter=none
+mesalliance::word=mésalliance::filter=none
+methode champenoise::word=méthode champenoise::filter=none
+metier::word=métier::filter=none
+meuniere::word=meunière::filter=none
+mezair::word=mézair::filter=none
+military attache::word=military attaché::filter=none
+mise en scene::word=mise en scène::filter=none
+misere::word=misère::filter=none
+misere ouvert::word=misère ouvert::filter=none
+moire::word=moiré::filter=none
+moire pattern::word=moiré pattern::filter=none
+mokki::word=mökki::filter=none
+mongo::word=möngö::filter=none
+mouille::word=mouillé::filter=none
+mousme::word=mousmé::filter=none
+mousmee::word=mousmée::filter=none
+mouton enrage::word=mouton enragé::filter=none
+mudra::word=mudrā::filter=none
+mujtahidun::word=mujtahidūn::filter=none
+mumak::word=mûmak::filter=none
+musique concrete::word=musique concrète::filter=none
+naga::word=nāga::filter=none
+naif::word=naïf::filter=none
+naiveness::word=naïveness::filter=none
+naivete::word=naïveté::filter=none
+naivete::word=naiveté::filter=none
+naivete::word=naïvete::filter=none
+naivety::word=naïvety::filter=none
+ne::word=né::filter=none
+nee::word=née::filter=none
+negligee::word=négligée::filter=none
+negligee::word=negligée::filter=none
+neve::word=névé::filter=none
+norteno::word=norteño::filter=none
+noel::word=noël::filter=none
+nuee ardente::word=nuée ardente::filter=none
+numeraire::word=numéraire::filter=none
+objet trouve::word=objet trouvé::filter=none
+ole::word=olé::filter=none
+omerta::word=omertà::filter=none
+opera bouffe::word=opéra bouffe::filter=none
+opera comique::word=opéra comique::filter=none
+orne::word=orné::filter=none
+outre::word=outré::filter=none
+pandit::word=paṇḍit::filter=none
+papier-mache::word=papier-mâché::filter=none
+parc ferme::word=parc fermé::filter=none
+passe::word=passé::filter=none
+pate::word=pâté::filter=none
+pate brisee::word=pâte brisée::filter=none
+pate de foie gras::word=pâté de foie gras::filter=none
+patisserie::word=pâtisserie::filter=none
+pave::word=pavé::filter=none
+pengo::word=pengő::filter=none
+pere::word=père::filter=none
+perestroika::word=perestroĭka::filter=none
+petanque::word=pétanque::filter=none
+petillant::word=pétillant::filter=none
+phosphorrosslerite::word=phosphorrösslerite::filter=none
+piece de resistance::word=pièce de résistance::filter=none
+piece montee::word=pièce montée::filter=none
+pied-a-terre::word=pied-à-terre::filter=none
+pieds-a-terre::word=pieds-à-terre::filter=none
+pieta::word=pietà::filter=none
+pina colada::word=piña colada::filter=none
+pinata::word=piñata::filter=none
+pinon::word=piñon::filter=none
+pique::word=piqué::filter=none
+pise::word=pisé::filter=none
+piu::word=più::filter=none
+plie::word=plié::filter=none
+plisse::word=plissé::filter=none
+plus ca change::word=plus ça change::filter=none
+pointille::word=pointillé::filter=none
+porte cochere::word=porte cochère::filter=none
+portiere::word=portière::filter=none
+pousse-cafe::word=pousse-café::filter=none
+precis::word=précis::filter=none
+premiere::word=première::filter=none
+premiere danseuse::word=première danseuse::filter=none
+proces-verbal::word=procès-verbal::filter=none
+protege::word=protégé::filter=none
+protege::word=protegé::filter=none
+protegee::word=protégée::filter=none
+puree::word=purée::filter=none
+qanat::word=qanāt::filter=none
+qasida::word=qaṣīda::filter=none
+qindarke::word=qindarkë::filter=none
+quinceanera::word=quinceañera::filter=none
+quoi ci quoi ca::word=quoi ci quoi ça::filter=none
+rai::word=raï::filter=none
+raison d'etre::word=raison d'être::filter=none
+rastaquouere::word=rastaquouère::filter=none
+rechauffe::word=réchauffé::filter=none
+recherche::word=recherché::filter=none
+regime::word=régime::filter=none
+regisseur::word=régisseur::filter=none
+remoulade::word=rémoulade::filter=none
+repechage::word=repêchage::filter=none
+repetiteur::word=répétiteur::filter=none
+repousse::word=repoussé::filter=none
+retrousse::word=retroussé::filter=none
+rincon::word=rincón::filter=none
+risque::word=risqué::filter=none
+roman a clef::word=roman à clef::filter=none
+roman a these::word=roman à thèse::filter=none
+romanechite::word=romanèchite::filter=none
+rontgen::word=röntgen::filter=none
+rose wine::word=rosé wine::filter=none
+roue::word=roué::filter=none
+sacre bleu::word=sacré bleu::filter=none
+saignee::word=saignée::filter=none
+sake bomb::word=saké bomb::filter=none
+of|a sake::word=\0 saké::filter=none
+salade nicoise::word=salade niçoise::filter=none
+salchichon::word=salchichón::filter=none
+samsara::word=saṃsāra::filter=none
+sate::word=saté::filter=none
+saute::word=sauté::filter=none
+sauteed::word=sautéed::filter=none
+sauteing::word=sautéing::filter=none
+schrockingerite::word=schröckingerite::filter=none
+seance::word=séance::filter=none
+seme::word=semé::filter=none
+senor::word=señor::filter=none
+senora::word=señora::filter=none
+senorita::word=señorita::filter=none
+sharif::word=sharīf::filter=none
+shonen::word=shōnen::filter=none
+smriti::word=smṛiti::filter=none
+soigne::word=soigné::filter=none
+soignee::word=soignée::filter=none
+soiree::word=soirée::filter=none
+solfege::word=solfège::filter=none
+son et lumiere::word=son et lumière::filter=none
+souffle::word=soufflé::filter=none
+soule::word=soulé::filter=none
+soupcon::word=soupçon::filter=none
+sprachgefuhl::word=sprachgefühl::filter=none
+sutra::word=sūtra::filter=none
+table d'hote::word=table d'hôte::filter=none
+takahe::word=takahē::filter=none
+taqueria::word=taquería::filter=none
+tete-a-tete::word=tête-à-tête::filter=none
+tete-beche::word=tête-bêche::filter=none
+togrog::word=tögrög::filter=none
+tomato puree::word=tomato purée::filter=none
+touche::word=touché::filter=none
+transport cafe::word=transport café::filter=none
+tres chic::word=très chic::filter=none
+trouvere::word=trouvère::filter=none
+ubermensch::word=übermensch::filter=none
+udatta::word=udātta::filter=none
+ulvospinel::word=ulvöspinel::filter=none
+uropoiesis::word=uropoïesis::filter=none
+veloute::word=velouté::filter=none
+vicuna::word=vicuña::filter=none
+vis-a-vis::word=vis-à-vis::filter=none
+vive la difference::word=vive la différence::filter=none
+voila::word=voilà::filter=none
+volva::word=völva::filter=none
+vrddhied::word=vṛddhied::filter=none
+whereas::word=whereäs::filter=none
+wustite::word=wüstite::filter=none
+zaire::word=zaïre::filter=none
+zalesiite::word=zálesíite::filter=none
+zoea::word=zoëa::filter=none
+
+#
+# currencies:
+#
+.*/CD colon::word=\0 colón::filter=none
+.*/CD filler::word=\0 fillér::filter=none
+.*/CD ore::word=\0 öre::filter=none
+
+#
+# words that need some help
+#
+.*/PRP\$ resume::word=\0 résumé::filter=none
+.*/DT resume::word=\0 résumé::filter=none
+My|Their|my|their resume::word=\0 résumé::filter=none
+

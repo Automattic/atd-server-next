@@ -1,0 +1,11 @@
+Who's|who's .*ing::filter=kill
+
+who's .*/NN::word=whose \1::pivots=who's,whose
+whose .*/DT::word=who's \1::pivots=whose,who's
+Who's .*/NN::word=Whose \1::pivots=Who's,Whose
+Whose .*/DT::word=Who's \1::pivots=Whose,Who's
+
+about who's::word=about whose::pivots=who's,whose::options=who's,whose
+who's actual::word=whose actual::pivots=who's,whose::options=who's,whose
+who's name::word=whose name::pivots=who's,whose::options=who's,whose
+who's previous::word=whose previous::pivots=who's,whose::options=who's,whose  

@@ -1,0 +1,56 @@
+#
+# words that should be separated (and in what context)
+#
+
+# everyone of -> every one of
+
+everyone of::word=every one of::pivots=\1,one of::rule=Separate everyone
+
+# flashpoint -> flash point
+
+flashpoint::word=flash point
+
+# a while vs. awhile (split)
+
+after|for|in awhile::word=\0 a while::pivots=awhile,a while
+
+can backup::word=can back up
+can blackout::word=can black out
+can setup::word=can set up
+can workout::word=can work out
+for along time::word=for a long time
+for awhile::word=for a while
+for quite awhile::word=for quite a while
+got setup::word=got set up
+got shutdown::word=got shut down
+got shutout::word=got shut out
+had comeback::word=had come back
+had setup::word=had set up
+has setup::word=has set up
+have setup::word=have set up
+help setup::word=help set up
+in along time::word=in a long time
+in anyway::word=in any way
+in awhile::word=in a while
+in quite awhile::word=in quite a while
+incase of::word=in case of
+is setup::word=is set up
+Portland Trailblazers::word=Portland Trail Blazers
+take awhile::word=take a while
+to backout::word=to back out
+to backup::word=to back up
+to blackout::word=to black out
+to comeback::word=to come back
+to setup::word=to set up
+to shutdown::word=to shut down
+after along time::word=after a long time
+after awhile::word=after a while
+after quite awhile::word=after quite a while
+allot of::word=a lot of
+along time::word=a long time
+downpayment::word=down payment
+smartphone::word=smart phone
+ala mode::word=à la mode::filter=none
+afterall::word=after all
+to bailout::word=\0 bail out::pivots=bailout,bail out
+

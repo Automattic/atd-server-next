@@ -1,0 +1,36 @@
+<scores>
+<?sleep
+    local('$metric $data %metrics $type $name');
+
+    %metrics = 
+    [{
+        local('%value');
+        %value = ohash();
+
+        %value['grammar.errors']         = $1['Auxiliary Verb Agreement'] + $1['Determiner Agreement'] + $1['Double Negative'] + $1['Subject Verb Agreement'] + $1['Wrong article'] + $1['Wrong Auxiliary Verb'];
+        %value['grammar.revise']         = $1['Revise'];
+        %value['grammar.repeated words'] = $1['Repeated Word'];
+        %value['spell.hyphenate']        = $1['Hyphen Required'];
+        %value['spell.misused words']    = $1['Did you mean...'] + $1['Did you mean?'];
+        %value['spell.raw']              = $1['Spelling'];
+        %value['spell.estimate']         = $1['miss'];
+        %value['stats.sentences']        = $1['sentences'];
+        %value['stats.words']            = $1['words'];
+        %value['stats.bias language']    = $1['Bias Language'];
+        %value['style.cliches']          = $1['Cliches'];
+        %value['style.complex phrases']  = $1['Complex Expression'];
+        %value['style.hidden verbs']     = $1['Hidden Verbs'];
+        %value['style.passive voice']    = $1['Passive voice'];
+
+        return %value;
+     }: $1];
+
+    foreach $metric => $data (%metrics)
+    {
+       if ($data > 0.0)
+       {
+          ($type, $name) = split('\.', $metric);
+          display("service/src/view/metric.slp", $type, $name, $data);
+       }
+    }
+?></scores>

@@ -1,0 +1,13 @@
+#
+# these rules pick up when a/an are misused
+#
+
+# killing errors related to an indef article with a number 
+# have to solve the problem with hundreds, teens, etc.
+An|A|a|an [\d+]\w+::filter=kill
+a|an|A|An RPG|RSS|XSS|SEC::filter=kill
+
+a/.* [aeiouyhAEIOUYH18]\w+/.*::filter=indefarticle::word=an \1
+an/.* [^aeiAEIMNRSX8]\w+/.*::filter=indefarticle::word=a \1
+0BEGIN.0 A/.* [aeiouyhAEIOUYH18]\w+/.*::filter=indefarticle::word=An \1
+0BEGIN.0 An/.* [^aeiAEIMNRSX8]\w+/.*::filter=indefarticle::word=A \1

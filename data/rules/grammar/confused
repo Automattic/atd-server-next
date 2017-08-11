@@ -1,0 +1,286 @@
+#
+# rules to catch misuses of commonly confused words
+#
+
+writing|political|science|cultural|grammatical gaffs::word=\0 gaffes::pivots=gaffs,gaffes
+writing|political|science|cultural|grammatical gaff::word=\0 gaffe::pivots=gaff,gaffe
+
+#
+# statistical grammar checking?!? :)
+#
+their::word=their, there, they're::options=their,there,they're::filter=stats
+there::word=their, there::options=their,there::filter=stats
+it's::word=it's, its::options=it's,its::filter=stats
+were::word=were, where::options=were,where::filter=stats
+then::word=then, than::options=then,than::filter=stats
+
+# were vs. where
+
+were .*/MD::word=where \1::pivots=were,where::filter=none::options=were,where
+Were .*/MD::word=Where \1::pivots=Were,Where::filter=none::options=were,where
+
+#
+# other rules
+#
+other then::word=other than::pivots=then,than
+its that::word=it's that::pivots=its,it's
+
+# accept vs. except
+
+please except::word=please accept::pivots=\1,accept::options=accept,except
+
+# advise vs. advise
+
+taken|took his|her advise::word=\0 \1 advice::pivots=advise,advice::options=advice,advise
+
+# affect vs. effect
+
+to no|the affect::word=\0 \1 effect::pivots=\2,effect::options=affect,effect
+an affect on::word=an effect on::filter=none::options=affect,effect
+in affect::word=in effect::pivots=affect,effect::options=affect,effect
+side affect::word=side effect::pivots=affect,effect::options=affect,effect
+might|may|could|would|will|did effect::word=\0 affect::pivots=effect,affect
+
+cause and affect::word=cause and effect::pivots=affect,effect
+an|into|the|no|take|with immediate|initial|event|overall|total affect::word=\0 \1 effect::pivots=affect,effect
+an|into|the|no|take|with immediate|initial|event|overall|total affects::word=\0 \1 effects::pivots=affects,effects
+
+took|take|into affect::word=\0 effect::pivots=affect,effect::options=affect,effect
+
+shouldn't|wouldn't|didn't|won't|can't effect::word=\0 affect::pivots=effect,affect
+
+# aloud vs. allowed
+
+was aloud::word=was allowed::pivots=aloud,allowed::options=aloud,allowed
+were aloud::word=were allowed::pivots=aloud,allowed::options=aloud,allowed
+
+# eluded vs. alluded
+
+eluded to::word=alluded to::pivots=eluded,alluded::options=eluded,alluded
+
+# baited vs. bated
+
+baited breath::word=bated breath::pivots=baited,bated::options=baited,bated
+
+# bare vs. bear
+
+bare in mind::word=bear in mind::pivots=bare,bear::options=bare,bear
+
+# birth vs. berth
+
+playoff birth::word=playoff berth::pivots=birth,berth::options=birth,berth
+
+# break vs. brake
+
+disc break::word=disc brake::pivots=break,brake::options=break,brake
+hit the breaks::word=hit the brakes::pivots=breaks,brakes::options=breaks,brakes
+
+# chord vs. cord
+
+spinal chord::word=spinal cord::pivots=chord,cord::options=chord,cord
+
+# compliment vs. complement
+
+full compliment of::word=full complement of::pivots=compliment,complement::options=compliment,complement
+
+# economic vs. economical
+
+economical growth|development|policy|activity|recovery|reform|policies|crisis|cooperation|co-operation|problems|conditions|system|reforms|performance|history|climate|indicators|relations|power|situation|community|life|planning|affairs|theory|recession|change|review|factors|aid|benefits|circumstances|decline|sanctions|interests|analysis|strategy|difficulties|integration|issues|efficiency|assistance|position|terms|management|base|programme|digest|environment|union|activities|modelling|structure|success|reasons|sense|changes|forces|order|progress|loss|consequences|prosperity|resources|pressures|commission|depression|systems|miracle|regeneration|structures|trends|blockade|adviser|impact|restructuring|developments|measures|prospects|independence|stability|cooperation|status|support|expansion::word=economic \1::filter=none::options=economic,economical
+economic way|repair|means|methods|method|price|proposition|manner|basis|car|cooking|design|heating|motoring|shopper::word=economical \1::filter=none::options=economic,economical
+
+# edition vs. addition
+
+in edition to::word=in addition to::pivots=edition,addition::options=edition,addition
+
+#
+# faired vs. fared
+#
+
+faired as well::word=fared as well::pivots=faired,fared::options=faired,fared
+faired badly::word=fared badly::pivots=faired,fared::options=faired,fared
+faired better::word=fared better::pivots=faired,fared::options=faired,fared
+faired much::word=fared much::pivots=faired,fared::options=faired,fared
+faired poorly::word=fared poorly::pivots=faired,fared::options=faired,fared
+faired quite::word=fared quite::pivots=faired,fared::options=faired,fared
+faired rather::word=fared rather::pivots=faired,fared::options=faired,fared
+faired well::word=fared well::pivots=faired,fared::options=faired,fared
+faired worse::word=fared worse::pivots=faired,fared::options=faired,fared
+
+# forth vs. fourth
+
+and so fourth::word=and so forth::pivots=fourth,forth::options=fourth,forth
+back and fourth::word=back and forth::pivots=fourth,forth::options=fourth,forth
+put fourth the|a|an::word=put forth \2::pivots=fourth,forth::options=fourth,forth
+forth place::word=fourth place::pivots=forth,fourth::options=forth,fourth
+
+# jam vs. jamb
+
+door jam::word=door jamb::pivots=jam,jamb::options=jam,jamb
+
+# less vs. fewer
+
+less dollars|minutes|hours|seconds|calories::word=fewer \1::pivots=less,fewer::options=less,fewer
+fewer &uncountable::word=less \1::pivots=fewer,less::options=less,fewer
+
+# lets vs. let's           Lets means allow, hire    Let's means let us
+
+lets have|go|try|think|do|be|get|make::word=let's \1::pivots=lets,let's::options=lets,let's
+let's me|you|him|her|us|them|it=lets \1::pivots=let's,lets::options=lets,let's
+
+# loath vs. loathe
+
+am loathe to::word=am loath to::pivots=loathe,loath::options=loathe,loath
+are loathe to::word=are loath to::pivots=loathe,loath::options=loathe,loath
+be loathe to::word=be loath to::pivots=loathe,loath::options=loathe,loath
+is loathe to::word=is loath to::pivots=loathe,loath::options=loathe,loath
+was loathe to::word=was loath to::pivots=loathe,loath::options=loathe,loath
+were loathe to::word=were loath to::pivots=loathe,loath::options=loathe,loath
+
+# lose vs. loose
+
+ever|to|will|would loose::word=\0 lose::pivots=loose,lose
+
+# loosing vs. losing
+
+loosing effort|record|season|streak|team|the|to::word=losing \1::pivots=loosing,losing::options=loosing,losing
+
+# mute vs. moot
+
+mute point::word=moot point::pivots=mute,moot::options=mute,moot
+
+# peak vs. peek
+
+peak his interest::word=pique his interest::pivots=peak,pique::options=peak,pique
+sneak peak::word=sneak peek::pivots=peak,peek::options=peak,peek
+
+# poll vs .pole
+totem poll::word=totem pole::pivots=poll,pole::options=pole,poll
+
+# principle vs. principal
+
+in principal .*/NN.*::word=in principle \2::filter=none::options=principal,principle
+principal activity|source|use::word=principle \1::pivots=principal,principle::options=principal,principle
+school principle::word=school principal::pivots=\1,principal::options=principal,principle
+principle engineer|investigator|action|source|town::word=principal \1::pivots=principle,principal::options=principal,principle
+Principle Investigator|Engineer::word=Principal \1::pivots=Principle,Principal::options=principal,principle
+
+# populace vs. populous
+
+most populace::word=most populous::pivots=populace,populous::options=populace,populous
+
+# reigns vs. reins
+
+at the reigns::word=at the reins::pivots=reigns,reins::options=reigns,reins
+hand the reigns::word=hand the reins::pivots=reigns,reins::options=reigns,reins
+held the reigns::word=held the reins::pivots=reigns,reins::options=reigns,reins
+hold the reigns::word=hold the reins::pivots=reigns,reins::options=reigns,reins
+holding the reigns::word=holding the reins::pivots=reigns,reins::options=reigns,reins
+holds the reigns::word=holds the reins::pivots=reigns,reins::options=reigns,reins
+managerial reigns::word=managerial reins::pivots=reigns,reins::options=reigns,reins
+reigns of power::word=reins of power::pivots=reigns,reins::options=reigns,reins
+take the reigns::word=take the reins::pivots=reigns,reins::options=reigns,reins
+
+# reign vs. rein
+
+free reign::word=free rein::pivots=reign,rein::options=reign,rein
+
+# roll vs. role
+
+lead roll::word=lead role::pivots=roll,role::options=roll,role
+leading roll::word=leading role::pivots=roll,role::options=roll,role
+major roll::word=major role::pivots=roll,role::options=roll,role
+minor roll::word=minor role::pivots=roll,role::options=roll,role
+roll player::word=role player::pivots=roll,role::options=roll,role
+starring roll::word=starring role::pivots=roll,role::options=roll,role
+role call::word=roll call::pivots=role,roll::options=role,roll
+
+# say vs. tell
+
+say me|him|her::word=tell \1::pivots=\0,tell::options=say,tell
+said me|him|her::word=tell \1::pivots=\0,tell::options=said,tell
+says me|him|her::word=said \1::pivots=\0,said::options=says,said
+
+# sight vs. site
+
+construction sight::word=construction site::pivots=sight,site::options=sight,site
+
+# sink vs. sync
+
+out of sink::word=out of sync::pivots=sink,sync::options=sink,sync
+
+# tact vs. tack
+
+different tact::word=different tack::pivots=tact,tack::options=tact,tack
+
+# then vs. than
+
+.*/IN .*/PRP then .*/IN .*/PRP::word=\0 \1 than \3 \4::pivots=then,than::options=then,than
+.*/IN .*/PRP then .*/IN 0END.0::word=\0 \1 than \3::pivots=then,than::options=then,than
+.*/IN .*/NN then .*/IN .*/NN::word=\0 \1 than \3 \4::pivots=then,than::options=then,than
+.*/IN .*/NN then .*/IN 0END.0::word=\0 \1 than \3::pivots=then,than::options=then,than
+were|was|are|is .*/er then::word=\0 \1 than::pivots=then,than::options=then,than
+&comparisons then 0END.0::filter=kill
+&comparisons then::word=\0 than::pivots=then,than::options=then,than
+other|rather then::word=\0 than::pivots=then,than::options=then,than
+&comparisons .*/NNS then::word=\0 \1 than::pivots=then,than::options=then,than
+The|the|and|but than::word=\0 then::pivots=than,then::options=then,than
+than you'll::word=then \1::pivots=than,then::options=then,than
+to .* then by::word=\0 \1 than \3::pivots=then,than::options=then,than
+and than by::word=and then by::pivots=than,then::options=then,than
+More|Less|more|less often|regularly|common then::word=\0 \1 than::pivots=then,than::options=then,than
+Less|More|more|less .*/JJ then::word=\0 \1 than::pivots=then,than::options=then,than
+
+# vein vs. vain
+
+in vein::word=in vain::pivots=vein,vain::options=vein,vain
+
+# waived vs. waved
+
+waived off::word=waved off::pivots=waived,waved::options=waived,waved
+
+# wreck vs. wreak
+
+wreck havoc::word=wreak havoc::pivots=wreck,wreak::options=wreck,wreak
+
+# who vs. whom
+
+about who to::word=about whom to::pivots=who,whom::options=who,whom
+of who to::word=of whom to::pivots=who,whom::options=who,whom
+over who to::word=over whom to::pivots=who,whom::options=who,whom
+
+# yoke vs. yolk
+
+egg yoke::word=egg yolk::pivots=yoke,yolk::options=yoke,yolk
+
+#
+they're|there own::word=their \1::pivots=\0,their::options=they're,there,their
+.*/VBG they're::word=\0 their::pivots=they're,their::options=they're,their
+.*/VBG you're::word=\0 your::pivots=you're,your::options=you're,your
+
+
+that's|it's|who's|he's|she's|there's you're::word=\0 your::pivots=your,you're::options=your,you're
+That's|It's|Who's|He's|She's|There's you're::word=\0 your::pivots=you're,your::options=your,you're
+that's|it's|who's|he's|she's|there's they're::word=\0 their::pivots=they're,their::options=their,they're
+That's|It's|Who's|He's|She's|There's they're::word=\0 their::pivots=they're,their::options=their,they're
+that's|it's|who's|he's|she's|there's it's::word=\0 its::pivots=it's,its::options=it's,its
+That's|It's|Who's|He's|She's|There's it's::word=\0 its::pivots=it's,its::options=it's,its
+you're .*/JJS .*/NN::word=your \1 \2::pivots=you're,your::options=your,you're
+they're .*/JJS .*/NN::word=their \1 \2::pivots=they're,their::options=their,they're
+it's .*/JJS .*/NN::word=its \1 \2::pivots=it's,its::options=it's,its
+You're .*/JJS .*/NN::word=Your \1 \2::pivots=You're,Your::options=your,you're
+They're .*/JJS .*/NN::word=Their \1 \2::pivots=They're,Their::options=their,they're
+It's .*/JJS .*/NN::word=Its \1 \2::pivots=It's,Its::options=it's,its
+
+who's .*/NNS|NN::word=whose \1::pivots=who's,whose::options=who's,whose
+who's .*/JJ .*/NNS|NN::word=whose \1 \2::pivots=who's,whose::options=who's,whose
+
+#
+# these examples have 0-hits in my test corpus so people don't make this mistake,
+# however the smart people out there come up with this form to "test" AtD.
+#
+.*/VBZ .*/IN|DT you're .*/NNP|NN|NNS::word=\0 \1 your \3::pivots=you're,your::options=you're,your
+.*/VBZ .*/IN|DT they're .*/NNP|NN|NNS::word=\0 \1 their \3::pivots=they're,their::options=they're,their
+.*/IN .*/VBZ you're .*/NNP|NN|NNS::word=\0 \1 your \3::pivots=you're,your::options=you're,your
+.*/IN .*/VBZ they're .*/NNP|NN|NNS::word=\0 \1 their \3::pivots=they're,their::options=they're,their
+.*/DT .*/VBZ you're .*/NNP|NN|NNS::word=\0 \1 your \3::pivots=you're,your::options=you're,your
+.*/DT .*/VBZ they're .*/NNP|NN|NNS::word=\0 \1 their \3::pivots=they're,their::options=they're,their

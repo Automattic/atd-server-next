@@ -1,0 +1,48 @@
+#
+# comprise means to contain or embrace
+# compose means to put together
+#
+
+
+#
+# comprised vs. (composed, consisting, comprising, consisted)
+#                  
+
+album comprised of::word=album composed of::pivots=comprised,composed::options=comprised,composed
+area comprised of::word=area consisting of::pivots=comprised,consisting::options=comprised,consisting
+army comprised of::word=army composed of::pivots=comprised,composed::options=comprised,composed
+band comprised of::word=band composed of, band comprising::pivots=comprised,composed,comprising::options=comprised,composed,comprising
+comprised primarily of::word=composed primarily of::pivots=comprised,composed::options=comprised,composed
+comprised principally of::word=composed principally of::pivots=comprised,composed::options=comprised,composed
+entirely comprised of::word=entirely composed of::pivots=comprised,composed::options=comprised,composed
+group comprised of::word=group composed of::pivots=comprised,composed::options=comprised,composed
+mainly comprised of::word=mainly composed of::pivots=comprised,composed::options=comprised,composed
+mostly comprised of::word=mostly composed of::pivots=comprised,composed::options=comprised,composed  
+
+comprised chiefly of::word=composed chiefly of, comprised chiefly, consisted chiefly of::options=comprised,composed,consisted                                      
+comprised entirely of::word=composed entirely of, comprised entirely, consisted entirely of::options=comprised,composed,consisted
+comprised generally of::word=composed generally of, comprised generally, consisted generally of::options=comprised,composed,consisted
+comprised largely of::word=composed largely of, comprised largely, consisted largely of::options=comprised,composed,consisted
+comprised mainly of::word=composed mainly of, comprised mainly, consisted mainly of::options=comprised,composed,consisted
+comprised mostly of::word=composed mostly of, comprised mostly, consisted mostly of::options=comprised,composed,consisted
+comprised of::word=composed of, comprised, consisted of::options=comprised,composed,consisted
+comprised only of::word=composed only of, comprised only, consisted only of::options=comprised,composed,consisted
+comprised wholly of::word=composed wholly of, comprised wholly, consisted wholly of::options=comprised,composed,consisted
+
+comprises of::word=comprises, consists of::options=comprises,consists
+comprises mostly of::word=comprises mostly, consists mostly of::options=comprises,consists    
+comprising of::word=comprising, consisting of::options=comprising,consisting
+
+comprise of::word=comprise, consist of::options=comprise,consist
+
+was comprised of::word=comprised, consisted of, was composed of::options=comprised,consisted,composed
+were comprised of::word=comprised, were composed of::options=comprised,composed
+which comprised of::word=which comprised, which consisted of, which was composed of::options=comprised,consisted,composed
+will be comprised of::word=will be composed of, will comprise, will consist of::options=comprised,composed,comprise
+will comprise of::word=will be composed of, will comprise, will consist of::options=comprise,composed,comprise,consist
+would comprise of::word=would comprise, would consist of::options=comprise,consist
+
+government comprised of::word=government composed of, government consisting of::options=comprised,composed,consisting
+
+is comprised mostly of::word=comprises mostly, consists mostly of, is composed mostly of::options=comprised,comprises,consists,composed::pivots=comprised mostly of,comprises mostly,consists mostly of,composed mostly of
+is comprised of::word=comprises, consists of, is composed of::options=comprised,comprises,consists,composed::pivots=comprised of,comprises,consists of,composed of

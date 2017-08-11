@@ -1,0 +1,12 @@
+<results>
+<?sleep
+    local('$error $rule $text $path $context @suggestions $unk $tags $index');
+    foreach $error ($1)
+    {
+       ($rule, $text, $path, $context, @suggestions, $unk, $tags, $index) = $error;
+       if ($rule !is $null)
+       {
+          display("service/src/view/error.slp", $text, $rule, $context, @suggestions, $tags, $index);
+       }
+    }
+?></results>

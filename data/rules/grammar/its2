@@ -1,0 +1,35 @@
+on it's own::name=it's rule::word=on its own::filter=none
+of it's own::name=it's rule::word=of its own::filter=none
+such as it's::name=it's rule::word=such as its::filter=none
+from all it's::name=it's rule::word=from all its::filter=none
+by all it's::name=it's rule::word=by all its::filter=none
+it's approach::name=it's rule::word=its approach::filter=none
+by it's::name=it's rule::word=by its::filter=none
+By it's::name=it's rule::word=By its::filter=none
+with it's::name=it's rule::word=\0 its::pivots=it's,its
+with/.* it's/.* .*/JJ.*|NN.*::name=it's rule::word=\0 its \2::filter=none
+With/.* it's/.* .*/JJ.*|NN.*::name=it's rule::word=\0 its \2::filter=none
+in/.* it's/.* .*/JJ.*|NN.*::name=it's rule::word=\0 its \2::filter=none
+In/.* it's/.* .*/JJ.*|NN.*::name=it's rule::word=\0 its \2::filter=none
+without/.* it's/.* .*/JJ.*|NN.*::name=it's rule::word=\0 its \2::filter=none
+Without/.* it's/.* .*/JJ.*|NN.*::name=it's rule::word=\0 its \2::filter=none
+from/.* it's/.* .*/JJ.*|NN.*::name=it's rule::word=\0 its \2::filter=none
+From/.* it's/.* .*/JJ.*|NN.*::name=it's rule::word=\0 its \2::filter=none
+Under/.* it's/.* .*/JJ.*|NN.*::name=it's rule::word=\0 its \2::filter=none
+under/.* it's/.* .*/JJ.*|NN.*::name=it's rule::word=\0 its \2::filter=none
+over/.* it's/.* .*/JJ.*|NN.*::name=it's rule::word=\0 its \2::filter=none
+Over/.* it's/.* .*/JJ.*|NN.*::name=it's rule::word=\0 its \2::filter=none
+above/.* it's/.* .*/JJ.*|NN.*::name=it's rule::word=\0 its \2::filter=none
+Above/.* it's/.* .*/JJ.*|NN.*::name=it's rule::word=\0 its \2::filter=none
+for it's .*/JJ|NN|NNS::word=for its::pivots=\1,its
+
+it's class|color|current|end|first|former|fourth|goal|highest|history|inital|junction|lack|last|lead|lowest|maximum|minimum|money|name|northern|original|own|peak|previous|primary|second|third|timeslot|toll|way::word=its \1::pivots=it's,its::options=it's,its
+
+at|be|about|above|across|against|along|among|around|at|behind|by|for|from|had|in|near|of|on|over|through|to|towards|under|upon|with|without it's .*/JJ|NN|NNS::word=\0 its \2::pivots=it's,its
+
+it's you::filter=kill
+it's [a-z].*/NNP::word=its \1::pivots=\0,its
+
+to .*/VB it's .*/NN|NNS::word=\0 \1 its \3::pivots=it's,its
+
+it's .*/JJ .*/NNS|NN::word=its \1 \2::pivots=it's,its

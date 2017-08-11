@@ -1,0 +1,6 @@
+#
+# determiner agreement rules for determiners expecting a plural noun
+#
+
+Both|Many|Several|Many|Few|Fewer|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten [a-z].*/NN [a-z].*ed/VBD::word=\0 \1:plural \2::pivots=\1,\1:plural
+both|these|those|us|many|several|few|fewer|two|three|four|five|six|seven|eight|nine|ten [a-z].*/NN [a-z].*ed/VBD::word=\0 \1:plural::pivots=\1,\1:plural

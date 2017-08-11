@@ -1,0 +1,5 @@
+<h3><% invoke($1["recommendation"], @_) %></h3>
+
+<p><% $1["description"] %> <% iff($1["source"] ne "", '<small>(<a href="' . $1["sourceurl"] . '" target="_new">' . $1["source"] . '</a>)</small>') %></p>
+
+<?sleep display(getFileProper("service", "src", $1["view"]), $1, $2); ?>

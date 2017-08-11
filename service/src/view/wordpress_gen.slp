@@ -1,0 +1,49 @@
+<html>
+ <head>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+   <title><% $1["rule"] %></title>
+   <style>
+   body
+   {
+      background: #f1f1f1;
+      font-family:"Lucida Grande",Verdana,Arial,sans-serif;
+      font-size:12px;
+      font-size-adjust:none;
+   }
+
+   h1, h2, h3, h4
+   {
+      padding: 0;
+      margin: 0;
+   }
+
+   #content
+   {
+      background: #ffffff;
+      border: solid 1px #dfdfdf;
+      margin: 0.25em;
+      padding: 1.5em;
+      height: 292px;
+   }
+
+   a
+   {
+      color: #259ac8;
+   }
+
+   </style>
+ </head>
+ <body>
+
+<h1><% $1["rule"] %></h1>
+
+<div id="content">
+  <?sleep display("service/src/view/rule.slp", $1, $2); ?>
+</div>
+ </body>
+</html>
+
+
+
+
+

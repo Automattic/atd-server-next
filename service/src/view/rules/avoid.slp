@@ -1,0 +1,4 @@
+  <p>Translation:</p>
+  <ul>
+   <li><% $1["word"] %></li>
+  </ul>

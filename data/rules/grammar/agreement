@@ -1,0 +1,916 @@
+0BEGIN.0 The [a-z]+/JJ two|three|four|five|six|seven|eight|nine|ten|hundred|thousand|million|billion|trillion is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 My|Your|His|Her|Their pants is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 .*/NNP [a-z]+/NN and [a-z]+/PRP.* [a-z]+/NN is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 .*/NNP [a-z]+/NNS and [a-z]+/PRP.* [a-z]+/NN is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 .*/NNP and [a-z]+/NNP is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 .*/NNP and [a-z]+/PRP.* [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN and [a-z]+/DT [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN or [a-z]+/DT [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN and [a-z]+/NN is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 These [a-z]+/NN and [a-z]+/DT [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 These [a-z]+/NN or [a-z]+/DT [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 These [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 All||all of [a-z]+/DT [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS of|for [a-z]+/NN is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 These [a-z]+/NNS of|for [a-z]+/NN is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS of|for [a-z]+/JJ [a-z]+/NN is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 These [a-z]+/NNS of|for [a-z]+/JJ [a-z]+/NN is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 .*/NNP,POS [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 .*/NNP,POS [a-z]+/NNS in [a-z]+/DT [a-z]+/NN is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 The [a-z]+/JJS [a-z]+/JJ [a-z]+/NNS of|for|from [a-z]+/NN [a-z]+/NN is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 The [a-z]+/JJS [a-z]+/JJ [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 .*/NNS of|for|from [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 .*/NNP,POS [a-z]+/NNS in [a-z]+/DT [a-z]+/NN is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 .*/CD [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 The series of [a-z]+ [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 The series of [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 The/DT [a-z]+/NN [a-z]+/IN [a-z]+/VB [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 My [a-z]+/NN [a-z]+/VB [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 Your [a-z]+/NN [a-z]+/VB [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 His [a-z]+/NN [a-z]+/VB [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 Her [a-z]+/NN [a-z]+/VB [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 My [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 Your [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 Their [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 His [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 Her [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 .*/JJ [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/VB [a-z]+/NNS is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 My [a-z]+/NNS and I is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 My [a-z]+/NN and I is a|the term|field::filter=kill::avoid=live, rest
+0BEGIN.0 The [a-z]+/JJ two|three|four|five|six|seven|eight|nine|ten|hundred|thousand|million|billion|trillion is::word=\0 \1 \2 are::filter=sane::avoid=live, rest
+0BEGIN.0 My|Your|His|Her|Their pants is::word=\0 \1 are::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP [a-z]+/NN and [a-z]+/PRP.* [a-z]+/NN is::word=\0 \1 \2 \3 \4 are, \0 \1 or \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP [a-z]+/NNS and [a-z]+/PRP.* [a-z]+/NN is::word=\0 \1 \2 \3 \4 are, \0 \1 or \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP and [a-z]+/NNP is::word=\0 \1 \2 are, \0 or \2 \3::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP and [a-z]+/PRP.* [a-z]+/NNS is::word=\0 \1 \2 \3 are, \0 or \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN and [a-z]+/DT [a-z]+/NNS is::word=\0 \1 \2 \3 \4 are, \0 \1 or \3 \4:singular  \5::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN or [a-z]+/DT [a-z]+/NNS is::word=\0 \1 \2 \3 \4 are, \0 \1 \2 \3 \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN and [a-z]+/NN is::word=\0 \1 \2 \3 are, The \1 or \3 \4::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS is::word=\0 \1 are, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS is::word=\0 \1 are, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NN and [a-z]+/DT [a-z]+/NNS is::word=\0 \1 \2 \3 \4 are, The \1 or the \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NN or [a-z]+/DT [a-z]+/NNS is::word=\0 \1 \2 \3 \4 are, word=The \1 \2 the \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NNS is::word=\0 \1 are, The \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 All||all of [a-z]+/DT [a-z]+/NNS is::word=\0 \1 \2 \3 are, \2:upper \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS of|for [a-z]+/NN is::word=\0 \1 \2 \3 are, \0 \1:singular \2 \3 \4::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NNS of|for [a-z]+/NN is::word=\0 \1 \2 \3 are, Each \1:singular \2 \3 \4::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS of|for [a-z]+/JJ [a-z]+/NN is::word=\0 \1 \2 \3 \4 are, \0 \1:singular \2 \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NNS of|for [a-z]+/JJ [a-z]+/NN is::word=\0 \1 \2 \3 \4 are, Each \1:singular \2 \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP,POS [a-z]+/NNS is::word=\0 \1 are, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP,POS [a-z]+/NNS in [a-z]+/DT [a-z]+/NN is::word=\0 \1 \2 \3 \4 are, \0 \1:singular \2 \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/JJS [a-z]+/JJ [a-z]+/NNS of|for|from [a-z]+/NN [a-z]+/NN is::word=\0 \1 \2 \3 \4 \5 \6 are, \0 \1 \2 \3:singular \4 \5 \6 \7::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/JJS [a-z]+/JJ [a-z]+/NNS is::word=\0 \1 \2 \3 are, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNS of|for|from [a-z]+/NNS is::word=\0 \1 \2 are, \0:singular \1 \2:singular \3::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP,POS [a-z]+/NNS in [a-z]+/DT [a-z]+/NN is::word=\0 \1 \2 \3 \4 are, \0 \1:singular \2 \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 .*/CD [a-z]+/NNS is::word=\0 \1 are::filter=sane::avoid=live, rest
+0BEGIN.0 The series of [a-z]+ [a-z]+/NNS is::word=\0 \1 \2 \3 \4 are, \0 \1 \2 \3 \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 The series of [a-z]+/NNS is::word=\0 \1 \2 \3 are, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 The/DT [a-z]+/NN [a-z]+/IN [a-z]+/VB [a-z]+/NNS is::word=\0 \1 \2 \3 \4 are, \0 \1 \2 \3 \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NNS is::word=\0 \1 \2 \3 are, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 My [a-z]+/NN [a-z]+/VB [a-z]+/NNS is::word=\0 \1 \2 \3 are, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 Your [a-z]+/NN [a-z]+/VB [a-z]+/NNS is::word=\0 \1 \2 \3 are, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 His [a-z]+/NN [a-z]+/VB [a-z]+/NNS is::word=\0 \1 \2 \3 are, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 Her [a-z]+/NN [a-z]+/VB [a-z]+/NNS is::word=\0 \1 \2 \3 are, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 My [a-z]+/NNS is::word=\0 \1 are, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 Your [a-z]+/NNS is::word=\0 \1 are, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 Their [a-z]+/NNS is::word=\0 \1 are, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 His [a-z]+/NNS is::word=\0 \1 are, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 Her [a-z]+/NNS is::word=\0 \1 are, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 .*/JJ [a-z]+/NNS is::word=\0 \1 are, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/VB [a-z]+/NNS is::word=\0 \1 \2 \3 \4 are::filter=sane::avoid=live, rest
+0BEGIN.0 My [a-z]+/NNS and I is::word=\0 \1 \2 \3 are::filter=sane::avoid=live, rest
+0BEGIN.0 My [a-z]+/NN and I is::word=\0 \1 \2 \3 are::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/JJ two|three|four|five|six|seven|eight|nine|ten|hundred|thousand|million|billion|trillion was::word=\0 \1 \2 were::filter=sane::avoid=live, rest
+0BEGIN.0 My|Your|His|Her|Their pants was::word=\0 \1 were::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP [a-z]+/NN and [a-z]+/PRP.* [a-z]+/NN was::word=\0 \1 \2 \3 \4 were, \0 \1 or \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP [a-z]+/NNS and [a-z]+/PRP.* [a-z]+/NN was::word=\0 \1 \2 \3 \4 were, \0 \1 or \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP and [a-z]+/NNP was::word=\0 \1 \2 were, \0 or \2 \3::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP and [a-z]+/PRP.* [a-z]+/NNS was::word=\0 \1 \2 \3 were, \0 or \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN and [a-z]+/DT [a-z]+/NNS was::word=\0 \1 \2 \3 \4 were, \0 \1 or \3 \4:singular  \5::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN or [a-z]+/DT [a-z]+/NNS was::word=\0 \1 \2 \3 \4 were, \0 \1 \2 \3 \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN and [a-z]+/NN was::word=\0 \1 \2 \3 were, The \1 or \3 \4::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS was::word=\0 \1 were, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS was::word=\0 \1 were, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NN and [a-z]+/DT [a-z]+/NNS was::word=\0 \1 \2 \3 \4 were, The \1 or the \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NN or [a-z]+/DT [a-z]+/NNS was::word=\0 \1 \2 \3 \4 were, word=The \1 \2 the \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NNS was::word=\0 \1 were, The \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 All||all of [a-z]+/DT [a-z]+/NNS was::word=\0 \1 \2 \3 were, \2:upper \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS of|for [a-z]+/NN was::word=\0 \1 \2 \3 were, \0 \1:singular \2 \3 \4::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NNS of|for [a-z]+/NN was::word=\0 \1 \2 \3 were, Each \1:singular \2 \3 \4::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS of|for [a-z]+/JJ [a-z]+/NN was::word=\0 \1 \2 \3 \4 were, \0 \1:singular \2 \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NNS of|for [a-z]+/JJ [a-z]+/NN was::word=\0 \1 \2 \3 \4 were, Each \1:singular \2 \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP,POS [a-z]+/NNS was::word=\0 \1 were, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP,POS [a-z]+/NNS in [a-z]+/DT [a-z]+/NN was::word=\0 \1 \2 \3 \4 were, \0 \1:singular \2 \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/JJS [a-z]+/JJ [a-z]+/NNS of|for|from [a-z]+/NN [a-z]+/NN was::word=\0 \1 \2 \3 \4 \5 \6 were, \0 \1 \2 \3:singular \4 \5 \6 \7::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/JJS [a-z]+/JJ [a-z]+/NNS was::word=\0 \1 \2 \3 were, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNS of|for|from [a-z]+/NNS was::word=\0 \1 \2 were, \0:singular \1 \2:singular \3::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP,POS [a-z]+/NNS in [a-z]+/DT [a-z]+/NN was::word=\0 \1 \2 \3 \4 were, \0 \1:singular \2 \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 .*/CD [a-z]+/NNS was::word=\0 \1 were::filter=sane::avoid=live, rest
+0BEGIN.0 The series of [a-z]+ [a-z]+/NNS was::word=\0 \1 \2 \3 \4 were, \0 \1 \2 \3 \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 The series of [a-z]+/NNS was::word=\0 \1 \2 \3 were, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 The/DT [a-z]+/NN [a-z]+/IN [a-z]+/VB [a-z]+/NNS was::word=\0 \1 \2 \3 \4 were, \0 \1 \2 \3 \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NNS was::word=\0 \1 \2 \3 were, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 My [a-z]+/NN [a-z]+/VB [a-z]+/NNS was::word=\0 \1 \2 \3 were, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 Your [a-z]+/NN [a-z]+/VB [a-z]+/NNS was::word=\0 \1 \2 \3 were, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 His [a-z]+/NN [a-z]+/VB [a-z]+/NNS was::word=\0 \1 \2 \3 were, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 Her [a-z]+/NN [a-z]+/VB [a-z]+/NNS was::word=\0 \1 \2 \3 were, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 My [a-z]+/NNS was::word=\0 \1 were, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 Your [a-z]+/NNS was::word=\0 \1 were, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 Their [a-z]+/NNS was::word=\0 \1 were, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 His [a-z]+/NNS was::word=\0 \1 were, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 Her [a-z]+/NNS was::word=\0 \1 were, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 .*/JJ [a-z]+/NNS was::word=\0 \1 were, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/VB [a-z]+/NNS was::word=\0 \1 \2 \3 \4 were::filter=sane::avoid=live, rest
+0BEGIN.0 My [a-z]+/NNS and I was::word=\0 \1 \2 \3 were::filter=sane::avoid=live, rest
+0BEGIN.0 My [a-z]+/NN and I was::word=\0 \1 \2 \3 were::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/JJ two|three|four|five|six|seven|eight|nine|ten|hundred|thousand|million|billion|trillion doesn't::word=\0 \1 \2 don't::filter=sane::avoid=live, rest
+0BEGIN.0 My|Your|His|Her|Their pants doesn't::word=\0 \1 don't::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP [a-z]+/NN and [a-z]+/PRP.* [a-z]+/NN doesn't::word=\0 \1 \2 \3 \4 don't, \0 \1 or \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP [a-z]+/NNS and [a-z]+/PRP.* [a-z]+/NN doesn't::word=\0 \1 \2 \3 \4 don't, \0 \1 or \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP and [a-z]+/NNP doesn't::word=\0 \1 \2 don't, \0 or \2 \3::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP and [a-z]+/PRP.* [a-z]+/NNS doesn't::word=\0 \1 \2 \3 don't, \0 or \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN and [a-z]+/DT [a-z]+/NNS doesn't::word=\0 \1 \2 \3 \4 don't, \0 \1 or \3 \4:singular  \5::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN or [a-z]+/DT [a-z]+/NNS doesn't::word=\0 \1 \2 \3 \4 don't, \0 \1 \2 \3 \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN and [a-z]+/NN doesn't::word=\0 \1 \2 \3 don't, The \1 or \3 \4::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS doesn't::word=\0 \1 don't, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS doesn't::word=\0 \1 don't, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NN and [a-z]+/DT [a-z]+/NNS doesn't::word=\0 \1 \2 \3 \4 don't, The \1 or the \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NN or [a-z]+/DT [a-z]+/NNS doesn't::word=\0 \1 \2 \3 \4 don't, word=The \1 \2 the \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NNS doesn't::word=\0 \1 don't, The \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 All||all of [a-z]+/DT [a-z]+/NNS doesn't::word=\0 \1 \2 \3 don't, \2:upper \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS of|for [a-z]+/NN doesn't::word=\0 \1 \2 \3 don't, \0 \1:singular \2 \3 \4::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NNS of|for [a-z]+/NN doesn't::word=\0 \1 \2 \3 don't, Each \1:singular \2 \3 \4::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS of|for [a-z]+/JJ [a-z]+/NN doesn't::word=\0 \1 \2 \3 \4 don't, \0 \1:singular \2 \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NNS of|for [a-z]+/JJ [a-z]+/NN doesn't::word=\0 \1 \2 \3 \4 don't, Each \1:singular \2 \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP,POS [a-z]+/NNS doesn't::word=\0 \1 don't, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP,POS [a-z]+/NNS in [a-z]+/DT [a-z]+/NN doesn't::word=\0 \1 \2 \3 \4 don't, \0 \1:singular \2 \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/JJS [a-z]+/JJ [a-z]+/NNS of|for|from [a-z]+/NN [a-z]+/NN doesn't::word=\0 \1 \2 \3 \4 \5 \6 don't, \0 \1 \2 \3:singular \4 \5 \6 \7::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/JJS [a-z]+/JJ [a-z]+/NNS doesn't::word=\0 \1 \2 \3 don't, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNS of|for|from [a-z]+/NNS doesn't::word=\0 \1 \2 don't, \0:singular \1 \2:singular \3::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP,POS [a-z]+/NNS in [a-z]+/DT [a-z]+/NN doesn't::word=\0 \1 \2 \3 \4 don't, \0 \1:singular \2 \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 .*/CD [a-z]+/NNS doesn't::word=\0 \1 don't::filter=sane::avoid=live, rest
+0BEGIN.0 The series of [a-z]+ [a-z]+/NNS doesn't::word=\0 \1 \2 \3 \4 don't, \0 \1 \2 \3 \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 The series of [a-z]+/NNS doesn't::word=\0 \1 \2 \3 don't, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 The/DT [a-z]+/NN [a-z]+/IN [a-z]+/VB [a-z]+/NNS doesn't::word=\0 \1 \2 \3 \4 don't, \0 \1 \2 \3 \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NNS doesn't::word=\0 \1 \2 \3 don't, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 My [a-z]+/NN [a-z]+/VB [a-z]+/NNS doesn't::word=\0 \1 \2 \3 don't, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 Your [a-z]+/NN [a-z]+/VB [a-z]+/NNS doesn't::word=\0 \1 \2 \3 don't, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 His [a-z]+/NN [a-z]+/VB [a-z]+/NNS doesn't::word=\0 \1 \2 \3 don't, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 Her [a-z]+/NN [a-z]+/VB [a-z]+/NNS doesn't::word=\0 \1 \2 \3 don't, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 My [a-z]+/NNS doesn't::word=\0 \1 don't, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 Your [a-z]+/NNS doesn't::word=\0 \1 don't, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 Their [a-z]+/NNS doesn't::word=\0 \1 don't, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 His [a-z]+/NNS doesn't::word=\0 \1 don't, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 Her [a-z]+/NNS doesn't::word=\0 \1 don't, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 .*/JJ [a-z]+/NNS doesn't::word=\0 \1 don't, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/VB [a-z]+/NNS doesn't::word=\0 \1 \2 \3 \4 don't::filter=sane::avoid=live, rest
+0BEGIN.0 My [a-z]+/NNS and I doesn't::word=\0 \1 \2 \3 don't::filter=sane::avoid=live, rest
+0BEGIN.0 My [a-z]+/NN and I doesn't::word=\0 \1 \2 \3 don't::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/JJ two|three|four|five|six|seven|eight|nine|ten|hundred|thousand|million|billion|trillion [a-z]+/VBZ::word=\0 \1 \2 \3:base::filter=sane::avoid=live, rest
+0BEGIN.0 My|Your|His|Her|Their pants [a-z]+/VBZ::word=\0 \1 \2:base::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP [a-z]+/NN and [a-z]+/PRP.* [a-z]+/NN [a-z]+/VBZ::word=\0 \1 \2 \3 \4 \5:base, \0 \1 or \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP [a-z]+/NNS and [a-z]+/PRP.* [a-z]+/NN [a-z]+/VBZ::word=\0 \1 \2 \3 \4 \5:base, \0 \1 or \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP and [a-z]+/NNP [a-z]+/VBZ::word=\0 \1 \2 \3:base, \0 or \2 \3::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP and [a-z]+/PRP.* [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2 \3 \4:base, \0 or \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN and [a-z]+/DT [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2 \3 \4 \5:base, \0 \1 or \3 \4:singular  \5::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN or [a-z]+/DT [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2 \3 \4 \5:base, \0 \1 \2 \3 \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN and [a-z]+/NN [a-z]+/VBZ::word=\0 \1 \2 \3 \4:base, The \1 or \3 \4::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2:base, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2:base, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NN and [a-z]+/DT [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2 \3 \4 \5:base, The \1 or the \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NN or [a-z]+/DT [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2 \3 \4 \5:base, word=The \1 \2 the \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2:base, The \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 All||all of [a-z]+/DT [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2 \3 \4:base, \2:upper \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS of|for [a-z]+/NN [a-z]+/VBZ::word=\0 \1 \2 \3 \4:base, \0 \1:singular \2 \3 \4::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NNS of|for [a-z]+/NN [a-z]+/VBZ::word=\0 \1 \2 \3 \4:base, Each \1:singular \2 \3 \4::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NNS of|for [a-z]+/JJ [a-z]+/NN [a-z]+/VBZ::word=\0 \1 \2 \3 \4 \5:base, \0 \1:singular \2 \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 These [a-z]+/NNS of|for [a-z]+/JJ [a-z]+/NN [a-z]+/VBZ::word=\0 \1 \2 \3 \4 \5:base, Each \1:singular \2 \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP,POS [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2:base, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP,POS [a-z]+/NNS in [a-z]+/DT [a-z]+/NN [a-z]+/VBZ::word=\0 \1 \2 \3 \4 \5:base, \0 \1:singular \2 \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/JJS [a-z]+/JJ [a-z]+/NNS of|for|from [a-z]+/NN [a-z]+/NN [a-z]+/VBZ::word=\0 \1 \2 \3 \4 \5 \6 \7:base, \0 \1 \2 \3:singular \4 \5 \6 \7::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/JJS [a-z]+/JJ [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2 \3 \4:base, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNS of|for|from [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2 \3:base, \0:singular \1 \2:singular \3::filter=sane::avoid=live, rest
+0BEGIN.0 .*/NNP,POS [a-z]+/NNS in [a-z]+/DT [a-z]+/NN [a-z]+/VBZ::word=\0 \1 \2 \3 \4 \5:base, \0 \1:singular \2 \3 \4 \5::filter=sane::avoid=live, rest
+0BEGIN.0 .*/CD [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2:base::filter=sane::avoid=live, rest
+0BEGIN.0 The series of [a-z]+ [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2 \3 \4 \5:base, \0 \1 \2 \3 \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 The series of [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2 \3 \4:base, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 The/DT [a-z]+/NN [a-z]+/IN [a-z]+/VB [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2 \3 \4 \5:base, \0 \1 \2 \3 \4:singular \5::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2 \3 \4:base, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 My [a-z]+/NN [a-z]+/VB [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2 \3 \4:base, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 Your [a-z]+/NN [a-z]+/VB [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2 \3 \4:base, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 His [a-z]+/NN [a-z]+/VB [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2 \3 \4:base, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 Her [a-z]+/NN [a-z]+/VB [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2 \3 \4:base, \0 \1 \2 \3:singular \4::filter=sane::avoid=live, rest
+0BEGIN.0 My [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2:base, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 Your [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2:base, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 Their [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2:base, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 His [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2:base, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 Her [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2:base, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 .*/JJ [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2:base, \0 \1:singular \2::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/VB [a-z]+/NNS [a-z]+/VBZ::word=\0 \1 \2 \3 \4 \5:base::filter=sane::avoid=live, rest
+0BEGIN.0 My [a-z]+/NNS and I [a-z]+/VBZ::word=\0 \1 \2 \3 \4:base::filter=sane::avoid=live, rest
+0BEGIN.0 My [a-z]+/NN and I [a-z]+/VBZ::word=\0 \1 \2 \3 \4:base::filter=sane::avoid=live, rest
+0BEGIN.0 The [a-z]+/JJ two|three|four|five|six|seven|eight|nine|ten|hundred|thousand|million|billion|trillion::filter=kill
+0BEGIN.0 My|Your|His|Her|Their pants::filter=kill
+0BEGIN.0 .*/NNP [a-z]+/NN and [a-z]+/PRP.* [a-z]+/NN::filter=kill
+0BEGIN.0 .*/NNP [a-z]+/NNS and [a-z]+/PRP.* [a-z]+/NN::filter=kill
+0BEGIN.0 .*/NNP and [a-z]+/NNP::filter=kill
+0BEGIN.0 .*/NNP and [a-z]+/PRP.* [a-z]+/NNS::filter=kill
+0BEGIN.0 The [a-z]+/NN and [a-z]+/DT [a-z]+/NNS::filter=kill
+0BEGIN.0 The [a-z]+/NN or [a-z]+/DT [a-z]+/NNS::filter=kill
+0BEGIN.0 The [a-z]+/NN and [a-z]+/NN::filter=kill
+0BEGIN.0 The [a-z]+/NNS::filter=kill
+0BEGIN.0 The [a-z]+/NNS::filter=kill
+0BEGIN.0 These [a-z]+/NN and [a-z]+/DT [a-z]+/NNS::filter=kill
+0BEGIN.0 These [a-z]+/NN or [a-z]+/DT [a-z]+/NNS::filter=kill
+0BEGIN.0 These [a-z]+/NNS::filter=kill
+0BEGIN.0 All||all of [a-z]+/DT [a-z]+/NNS::filter=kill
+0BEGIN.0 The [a-z]+/NNS of|for [a-z]+/NN::filter=kill
+0BEGIN.0 These [a-z]+/NNS of|for [a-z]+/NN::filter=kill
+0BEGIN.0 The [a-z]+/NNS of|for [a-z]+/JJ [a-z]+/NN::filter=kill
+0BEGIN.0 These [a-z]+/NNS of|for [a-z]+/JJ [a-z]+/NN::filter=kill
+0BEGIN.0 .*/NNP,POS [a-z]+/NNS::filter=kill
+0BEGIN.0 .*/NNP,POS [a-z]+/NNS in [a-z]+/DT [a-z]+/NN::filter=kill
+0BEGIN.0 The [a-z]+/JJS [a-z]+/JJ [a-z]+/NNS of|for|from [a-z]+/NN [a-z]+/NN::filter=kill
+0BEGIN.0 The [a-z]+/JJS [a-z]+/JJ [a-z]+/NNS::filter=kill
+0BEGIN.0 .*/NNS of|for|from [a-z]+/NNS::filter=kill
+0BEGIN.0 .*/NNP,POS [a-z]+/NNS in [a-z]+/DT [a-z]+/NN::filter=kill
+0BEGIN.0 .*/CD [a-z]+/NNS::filter=kill
+0BEGIN.0 The series of [a-z]+ [a-z]+/NNS::filter=kill
+0BEGIN.0 The series of [a-z]+/NNS::filter=kill
+0BEGIN.0 The/DT [a-z]+/NN [a-z]+/IN [a-z]+/VB [a-z]+/NNS::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NNS::filter=kill
+0BEGIN.0 My [a-z]+/NN [a-z]+/VB [a-z]+/NNS::filter=kill
+0BEGIN.0 Your [a-z]+/NN [a-z]+/VB [a-z]+/NNS::filter=kill
+0BEGIN.0 His [a-z]+/NN [a-z]+/VB [a-z]+/NNS::filter=kill
+0BEGIN.0 Her [a-z]+/NN [a-z]+/VB [a-z]+/NNS::filter=kill
+0BEGIN.0 My [a-z]+/NNS::filter=kill
+0BEGIN.0 Your [a-z]+/NNS::filter=kill
+0BEGIN.0 Their [a-z]+/NNS::filter=kill
+0BEGIN.0 His [a-z]+/NNS::filter=kill
+0BEGIN.0 Her [a-z]+/NNS::filter=kill
+0BEGIN.0 .*/JJ [a-z]+/NNS::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/VB [a-z]+/NNS::filter=kill
+0BEGIN.0 My [a-z]+/NNS and I::filter=kill
+0BEGIN.0 My [a-z]+/NN and I::filter=kill
+0BEGIN.0 .*/NNP [a-z]+/NN or [a-z]+/PRP.* [a-z]+/NN are::word=\0 \1 \2 \3 \4 is, \0 \1 and \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN are::word=\0 \1 \2 \3 \4 is, \0 \1 and \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 A [a-z]+/NN or [a-z]+/NN are::word=\0 \1 \2 \3 is, \0 \1 and \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 An [a-z]+/NN or [a-z]+/NN are::word=\0 \1 \2 \3 is, \0 \1 and \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP or [a-z]+/NNP are::word=\0 \1 \2 is, \0 and \2 \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Every one of [a-z]+/DT [a-z]+/NNS are::word=\0 \1 \2 \3 \4 is, \3:upper \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 One of [a-z]+/PRP.* [a-z]+/NNS are::word=\0 \1 \2 \3 is, \2:upper \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Each one of [a-z]+/PRP.* [a-z]+/NNS are::word=\0 \1 \2 \3 \4 is, \3:upper \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN are::word=\0 \1 \2 is, \0 \1:plural \2 \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN are::word=\0 \1 is, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN are::word=\0 \1 \2 is, These \1:plural \2 \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/NN are::word=\0 \1 is, These \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 One of [a-z]+/DT [a-z]+/NNS are::word=\0 \1 \2 \3 is, \2:upper \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP,POS [a-z]+/JJ [a-z]+/NN are::word=\0 \1 \2 is, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP,POS [a-z]+/NN are::word=\0 \1 is, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN are::word=\0 \1 \2 \3 \4 is, \0 \1:plural \2 \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN are::word=\0 \1 \2 \3 \4 is, These \1:plural \2 \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/RB one are::word=\0 \1 is::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN are::word=\0 \1 \2 is, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/JJ [a-z]+/NN are::word=\0 \1 \2 is, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Their [a-z]+/NN are::word=\0 \1 is, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN are::word=\0 \1 \2 is, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN [a-z]+/VB are::word=\0 \1 \2 \3 is, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Your [a-z]+/NN are::word=\0 \1 is, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN are::word=\0 \1 \2 is, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN [a-z]+/VB are::word=\0 \1 \2 \3 is, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 His [a-z]+/NN are::word=\0 \1 is, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN are::word=\0 \1 \2 is, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN [a-z]+/VB are::word=\0 \1 \2 \3 is, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Her [a-z]+/NN are::word=\0 \1 is, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN are::word=\0 \1 \2 is, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN [a-z]+/VB are::word=\0 \1 \2 \3 is, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 My [a-z]+/NN are::word=\0 \1 is, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN are::word=\0 \1 \2 is, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN [a-z]+/VB are::word=\0 \1 \2 \3 is, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/VBN [a-z]+/NN are::word=\0 \1 \2 is, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/VBN [a-z]+/NN are::word=\0 \1 \2 is, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/CD dollars|pounds|points|feet|inches|meters are::word=\0 \1 is::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN are::word=\0 \1 \2 \3 is, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN are::word=\0 \1 \2 \3 \4 \5 \6 is::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN are::word=\0 \1 \2 \3 \4 \5 is::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NN are::word=\0 \1 \2 \3 \4 is, \0 \1 \2 \3 \4:plural \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB are::word=\0 \1 \2 is::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NNS are::word=\0 \1 \2 \3 \4 is, \0 \1:plural of \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Either [a-z]+/NN are::word=\0 \1 is::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NN are::word=\0 is, \0:plural \1::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Either [a-z]+/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN are::word=\0 \1 \2 \3 \4 \5 is, \1:upper \2 and \4 \5 \6::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP [a-z]+/NN or [a-z]+/PRP.* [a-z]+/NN were::word=\0 \1 \2 \3 \4 was, \0 \1 and \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN were::word=\0 \1 \2 \3 \4 was, \0 \1 and \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 A [a-z]+/NN or [a-z]+/NN were::word=\0 \1 \2 \3 was, \0 \1 and \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 An [a-z]+/NN or [a-z]+/NN were::word=\0 \1 \2 \3 was, \0 \1 and \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP or [a-z]+/NNP were::word=\0 \1 \2 was, \0 and \2 \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Every one of [a-z]+/DT [a-z]+/NNS were::word=\0 \1 \2 \3 \4 was, \3:upper \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 One of [a-z]+/PRP.* [a-z]+/NNS were::word=\0 \1 \2 \3 was, \2:upper \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Each one of [a-z]+/PRP.* [a-z]+/NNS were::word=\0 \1 \2 \3 \4 was, \3:upper \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN were::word=\0 \1 \2 was, \0 \1:plural \2 \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN were::word=\0 \1 was, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN were::word=\0 \1 \2 was, These \1:plural \2 \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/NN were::word=\0 \1 was, These \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 One of [a-z]+/DT [a-z]+/NNS were::word=\0 \1 \2 \3 was, \2:upper \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP,POS [a-z]+/JJ [a-z]+/NN were::word=\0 \1 \2 was, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP,POS [a-z]+/NN were::word=\0 \1 was, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN were::word=\0 \1 \2 \3 \4 was, \0 \1:plural \2 \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN were::word=\0 \1 \2 \3 \4 was, These \1:plural \2 \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/RB one were::word=\0 \1 was::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN were::word=\0 \1 \2 was, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/JJ [a-z]+/NN were::word=\0 \1 \2 was, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Their [a-z]+/NN were::word=\0 \1 was, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN were::word=\0 \1 \2 was, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN [a-z]+/VB were::word=\0 \1 \2 \3 was, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Your [a-z]+/NN were::word=\0 \1 was, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN were::word=\0 \1 \2 was, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN [a-z]+/VB were::word=\0 \1 \2 \3 was, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 His [a-z]+/NN were::word=\0 \1 was, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN were::word=\0 \1 \2 was, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN [a-z]+/VB were::word=\0 \1 \2 \3 was, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Her [a-z]+/NN were::word=\0 \1 was, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN were::word=\0 \1 \2 was, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN [a-z]+/VB were::word=\0 \1 \2 \3 was, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 My [a-z]+/NN were::word=\0 \1 was, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN were::word=\0 \1 \2 was, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN [a-z]+/VB were::word=\0 \1 \2 \3 was, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/VBN [a-z]+/NN were::word=\0 \1 \2 was, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/VBN [a-z]+/NN were::word=\0 \1 \2 was, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/CD dollars|pounds|points|feet|inches|meters were::word=\0 \1 was::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN were::word=\0 \1 \2 \3 was, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN were::word=\0 \1 \2 \3 \4 \5 \6 was::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN were::word=\0 \1 \2 \3 \4 \5 was::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NN were::word=\0 \1 \2 \3 \4 was, \0 \1 \2 \3 \4:plural \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB were::word=\0 \1 \2 was::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NNS were::word=\0 \1 \2 \3 \4 was, \0 \1:plural of \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Either [a-z]+/NN were::word=\0 \1 was::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NN were::word=\0 was, \0:plural \1::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Either [a-z]+/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN were::word=\0 \1 \2 \3 \4 \5 was, \1:upper \2 and \4 \5 \6::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP [a-z]+/NN or [a-z]+/PRP.* [a-z]+/NN don't::word=\0 \1 \2 \3 \4 doesn't, \0 \1 and \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN don't::word=\0 \1 \2 \3 \4 doesn't, \0 \1 and \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 A [a-z]+/NN or [a-z]+/NN don't::word=\0 \1 \2 \3 doesn't, \0 \1 and \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 An [a-z]+/NN or [a-z]+/NN don't::word=\0 \1 \2 \3 doesn't, \0 \1 and \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP or [a-z]+/NNP don't::word=\0 \1 \2 doesn't, \0 and \2 \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Every one of [a-z]+/DT [a-z]+/NNS don't::word=\0 \1 \2 \3 \4 doesn't, \3:upper \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 One of [a-z]+/PRP.* [a-z]+/NNS don't::word=\0 \1 \2 \3 doesn't, \2:upper \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Each one of [a-z]+/PRP.* [a-z]+/NNS don't::word=\0 \1 \2 \3 \4 doesn't, \3:upper \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN don't::word=\0 \1 \2 doesn't, \0 \1:plural \2 \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN don't::word=\0 \1 doesn't, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN don't::word=\0 \1 \2 doesn't, These \1:plural \2 \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/NN don't::word=\0 \1 doesn't, These \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 One of [a-z]+/DT [a-z]+/NNS don't::word=\0 \1 \2 \3 doesn't, \2:upper \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP,POS [a-z]+/JJ [a-z]+/NN don't::word=\0 \1 \2 doesn't, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP,POS [a-z]+/NN don't::word=\0 \1 doesn't, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN don't::word=\0 \1 \2 \3 \4 doesn't, \0 \1:plural \2 \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN don't::word=\0 \1 \2 \3 \4 doesn't, These \1:plural \2 \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/RB one don't::word=\0 \1 doesn't::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN don't::word=\0 \1 \2 doesn't, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/JJ [a-z]+/NN don't::word=\0 \1 \2 doesn't, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Their [a-z]+/NN don't::word=\0 \1 doesn't, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN don't::word=\0 \1 \2 doesn't, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN [a-z]+/VB don't::word=\0 \1 \2 \3 doesn't, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Your [a-z]+/NN don't::word=\0 \1 doesn't, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN don't::word=\0 \1 \2 doesn't, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN [a-z]+/VB don't::word=\0 \1 \2 \3 doesn't, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 His [a-z]+/NN don't::word=\0 \1 doesn't, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN don't::word=\0 \1 \2 doesn't, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN [a-z]+/VB don't::word=\0 \1 \2 \3 doesn't, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Her [a-z]+/NN don't::word=\0 \1 doesn't, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN don't::word=\0 \1 \2 doesn't, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN [a-z]+/VB don't::word=\0 \1 \2 \3 doesn't, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 My [a-z]+/NN don't::word=\0 \1 doesn't, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN don't::word=\0 \1 \2 doesn't, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN [a-z]+/VB don't::word=\0 \1 \2 \3 doesn't, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/VBN [a-z]+/NN don't::word=\0 \1 \2 doesn't, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/VBN [a-z]+/NN don't::word=\0 \1 \2 doesn't, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/CD dollars|pounds|points|feet|inches|meters don't::word=\0 \1 doesn't::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN don't::word=\0 \1 \2 \3 doesn't, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN don't::word=\0 \1 \2 \3 \4 \5 \6 doesn't::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN don't::word=\0 \1 \2 \3 \4 \5 doesn't::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NN don't::word=\0 \1 \2 \3 \4 doesn't, \0 \1 \2 \3 \4:plural \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB don't::word=\0 \1 \2 doesn't::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NNS don't::word=\0 \1 \2 \3 \4 doesn't, \0 \1:plural of \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Either [a-z]+/NN don't::word=\0 \1 doesn't::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NN don't::word=\0 doesn't, \0:plural \1::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Either [a-z]+/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN don't::word=\0 \1 \2 \3 \4 \5 doesn't, \1:upper \2 and \4 \5 \6::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP [a-z]+/NN or [a-z]+/PRP.* [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3 \4 \5:plural, \0 \1 and \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 .*/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3 \4 \5:plural, \0 \1 and \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 A [a-z]+/NN or [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3 \4:plural, \0 \1 and \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 An [a-z]+/NN or [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3 \4:plural, \0 \1 and \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 .*/NNP or [a-z]+/NNP [a-z]+/VBP::word=\0 \1 \2 \3:plural, \0 and \2 \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 Every one of [a-z]+/DT [a-z]+/NNS [a-z]+/VBP::word=\0 \1 \2 \3 \4 \5:plural, \3:upper \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 One of [a-z]+/PRP.* [a-z]+/NNS [a-z]+/VBP::word=\0 \1 \2 \3 \4:plural, \2:upper \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 Each one of [a-z]+/PRP.* [a-z]+/NNS [a-z]+/VBP::word=\0 \1 \2 \3 \4 \5:plural, \3:upper \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/VBP::word=\0 \1 \2 \3:plural, \0 \1:plural \2 \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2:plural, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN [a-z]+/VBP::word=\0 \1 \2 \3:plural, These \1:plural \2 \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 This [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2:plural, These \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 One of [a-z]+/DT [a-z]+/NNS [a-z]+/VBP::word=\0 \1 \2 \3 \4:plural, \2:upper \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 .*/NNP,POS [a-z]+/JJ [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 .*/NNP,POS [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2:plural, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3 \4 \5:plural, \0 \1:plural \2 \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3 \4 \5:plural, These \1:plural \2 \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 .*/RB one [a-z]+/VBP::word=\0 \1 \2:plural::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 This [a-z]+/JJ [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 Their [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2:plural, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VBP::word=\0 \1 \2 \3 \4:plural, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 Your [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2:plural, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VBP::word=\0 \1 \2 \3 \4:plural, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 His [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2:plural, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VBP::word=\0 \1 \2 \3 \4:plural, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 Her [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2:plural, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VBP::word=\0 \1 \2 \3 \4:plural, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 My [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2:plural, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VBP::word=\0 \1 \2 \3 \4:plural, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 The [a-z]+/VBN [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 This [a-z]+/VBN [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 .*/CD dollars|pounds|points|feet|inches|meters [a-z]+/VBP::word=\0 \1 \2:plural::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3 \4:plural, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3 \4 \5 \6 \7:plural::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3 \4 \5 \6:plural::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3 \4 \5:plural, \0 \1 \2 \3 \4:plural \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/VBP::word=\0 \1 \2 \3:plural::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NNS [a-z]+/VBP::word=\0 \1 \2 \3 \4 \5:plural, \0 \1:plural of \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 Either [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2:plural::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 .*/NN [a-z]+/VBP::word=\0 \1:plural, \0:plural \1::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 Either [a-z]+/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN [a-z]+/VBP::word=\0 \1 \2 \3 \4 \5 \6:plural, \1:upper \2 and \4 \5 \6::avoid=police, sheep, will, cannot, i, read, majority, half, might, let::filter=sane
+0BEGIN.0 .*/NNP [a-z]+/NN or [a-z]+/PRP.* [a-z]+/NN be::filter=kill
+0BEGIN.0 .*/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN be::filter=kill
+0BEGIN.0 A [a-z]+/NN or [a-z]+/NN be::filter=kill
+0BEGIN.0 An [a-z]+/NN or [a-z]+/NN be::filter=kill
+0BEGIN.0 .*/NNP or [a-z]+/NNP be::filter=kill
+0BEGIN.0 Every one of [a-z]+/DT [a-z]+/NNS be::filter=kill
+0BEGIN.0 One of [a-z]+/PRP.* [a-z]+/NNS be::filter=kill
+0BEGIN.0 Each one of [a-z]+/PRP.* [a-z]+/NNS be::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN be::filter=kill
+0BEGIN.0 The [a-z]+/NN be::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN be::filter=kill
+0BEGIN.0 This [a-z]+/NN be::filter=kill
+0BEGIN.0 One of [a-z]+/DT [a-z]+/NNS be::filter=kill
+0BEGIN.0 .*/NNP,POS [a-z]+/JJ [a-z]+/NN be::filter=kill
+0BEGIN.0 .*/NNP,POS [a-z]+/NN be::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN be::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN be::filter=kill
+0BEGIN.0 .*/RB one be::filter=kill
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN be::filter=kill
+0BEGIN.0 This [a-z]+/JJ [a-z]+/NN be::filter=kill
+0BEGIN.0 Their [a-z]+/NN be::filter=kill
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN be::filter=kill
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN [a-z]+/VB be::filter=kill
+0BEGIN.0 Your [a-z]+/NN be::filter=kill
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN be::filter=kill
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN [a-z]+/VB be::filter=kill
+0BEGIN.0 His [a-z]+/NN be::filter=kill
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN be::filter=kill
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN [a-z]+/VB be::filter=kill
+0BEGIN.0 Her [a-z]+/NN be::filter=kill
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN be::filter=kill
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN [a-z]+/VB be::filter=kill
+0BEGIN.0 My [a-z]+/NN be::filter=kill
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN be::filter=kill
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN [a-z]+/VB be::filter=kill
+0BEGIN.0 The [a-z]+/VBN [a-z]+/NN be::filter=kill
+0BEGIN.0 This [a-z]+/VBN [a-z]+/NN be::filter=kill
+0BEGIN.0 .*/CD dollars|pounds|points|feet|inches|meters be::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN be::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN be::filter=kill
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN be::filter=kill
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NN be::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB be::filter=kill
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NNS be::filter=kill
+0BEGIN.0 Either [a-z]+/NN be::filter=kill
+0BEGIN.0 .*/NN be::filter=kill
+0BEGIN.0 Either [a-z]+/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN be::filter=kill
+0BEGIN.0 .*/NNP [a-z]+/NN or [a-z]+/PRP.* [a-z]+/NN by::filter=kill
+0BEGIN.0 .*/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN by::filter=kill
+0BEGIN.0 A [a-z]+/NN or [a-z]+/NN by::filter=kill
+0BEGIN.0 An [a-z]+/NN or [a-z]+/NN by::filter=kill
+0BEGIN.0 .*/NNP or [a-z]+/NNP by::filter=kill
+0BEGIN.0 Every one of [a-z]+/DT [a-z]+/NNS by::filter=kill
+0BEGIN.0 One of [a-z]+/PRP.* [a-z]+/NNS by::filter=kill
+0BEGIN.0 Each one of [a-z]+/PRP.* [a-z]+/NNS by::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN by::filter=kill
+0BEGIN.0 The [a-z]+/NN by::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN by::filter=kill
+0BEGIN.0 This [a-z]+/NN by::filter=kill
+0BEGIN.0 One of [a-z]+/DT [a-z]+/NNS by::filter=kill
+0BEGIN.0 .*/NNP,POS [a-z]+/JJ [a-z]+/NN by::filter=kill
+0BEGIN.0 .*/NNP,POS [a-z]+/NN by::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN by::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN by::filter=kill
+0BEGIN.0 .*/RB one by::filter=kill
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN by::filter=kill
+0BEGIN.0 This [a-z]+/JJ [a-z]+/NN by::filter=kill
+0BEGIN.0 Their [a-z]+/NN by::filter=kill
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN by::filter=kill
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN [a-z]+/VB by::filter=kill
+0BEGIN.0 Your [a-z]+/NN by::filter=kill
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN by::filter=kill
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN [a-z]+/VB by::filter=kill
+0BEGIN.0 His [a-z]+/NN by::filter=kill
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN by::filter=kill
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN [a-z]+/VB by::filter=kill
+0BEGIN.0 Her [a-z]+/NN by::filter=kill
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN by::filter=kill
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN [a-z]+/VB by::filter=kill
+0BEGIN.0 My [a-z]+/NN by::filter=kill
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN by::filter=kill
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN [a-z]+/VB by::filter=kill
+0BEGIN.0 The [a-z]+/VBN [a-z]+/NN by::filter=kill
+0BEGIN.0 This [a-z]+/VBN [a-z]+/NN by::filter=kill
+0BEGIN.0 .*/CD dollars|pounds|points|feet|inches|meters by::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN by::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN by::filter=kill
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN by::filter=kill
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NN by::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB by::filter=kill
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NNS by::filter=kill
+0BEGIN.0 Either [a-z]+/NN by::filter=kill
+0BEGIN.0 .*/NN by::filter=kill
+0BEGIN.0 Either [a-z]+/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN by::filter=kill
+0BEGIN.0 .*/NNP [a-z]+/NN or [a-z]+/PRP.* [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 .*/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 A [a-z]+/NN or [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 An [a-z]+/NN or [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 .*/NNP or [a-z]+/NNP [a-z]+/VB is::filter=kill
+0BEGIN.0 Every one of [a-z]+/DT [a-z]+/NNS [a-z]+/VB is::filter=kill
+0BEGIN.0 One of [a-z]+/PRP.* [a-z]+/NNS [a-z]+/VB is::filter=kill
+0BEGIN.0 Each one of [a-z]+/PRP.* [a-z]+/NNS [a-z]+/VB is::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/VB is::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN [a-z]+/VB is::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 One of [a-z]+/DT [a-z]+/NNS [a-z]+/VB is::filter=kill
+0BEGIN.0 .*/NNP,POS [a-z]+/JJ [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 .*/NNP,POS [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 .*/RB one [a-z]+/VB is::filter=kill
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 This [a-z]+/JJ [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 Their [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB is::filter=kill
+0BEGIN.0 Your [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB is::filter=kill
+0BEGIN.0 His [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB is::filter=kill
+0BEGIN.0 Her [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB is::filter=kill
+0BEGIN.0 My [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB is::filter=kill
+0BEGIN.0 The [a-z]+/VBN [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 This [a-z]+/VBN [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 .*/CD dollars|pounds|points|feet|inches|meters [a-z]+/VB is::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/VB is::filter=kill
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NNS [a-z]+/VB is::filter=kill
+0BEGIN.0 Either [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 .*/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 Either [a-z]+/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN [a-z]+/VB is::filter=kill
+0BEGIN.0 .*/NNP [a-z]+/NN or [a-z]+/PRP.* [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 .*/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 A [a-z]+/NN or [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 An [a-z]+/NN or [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 .*/NNP or [a-z]+/NNP [a-z]+/VB of|for::filter=kill
+0BEGIN.0 Every one of [a-z]+/DT [a-z]+/NNS [a-z]+/VB of|for::filter=kill
+0BEGIN.0 One of [a-z]+/PRP.* [a-z]+/NNS [a-z]+/VB of|for::filter=kill
+0BEGIN.0 Each one of [a-z]+/PRP.* [a-z]+/NNS [a-z]+/VB of|for::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 One of [a-z]+/DT [a-z]+/NNS [a-z]+/VB of|for::filter=kill
+0BEGIN.0 .*/NNP,POS [a-z]+/JJ [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 .*/NNP,POS [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 .*/RB one [a-z]+/VB of|for::filter=kill
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 This [a-z]+/JJ [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 Their [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB of|for::filter=kill
+0BEGIN.0 Your [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB of|for::filter=kill
+0BEGIN.0 His [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB of|for::filter=kill
+0BEGIN.0 Her [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB of|for::filter=kill
+0BEGIN.0 My [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB of|for::filter=kill
+0BEGIN.0 The [a-z]+/VBN [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 This [a-z]+/VBN [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 .*/CD dollars|pounds|points|feet|inches|meters [a-z]+/VB of|for::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/VB of|for::filter=kill
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NNS [a-z]+/VB of|for::filter=kill
+0BEGIN.0 Either [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 .*/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 Either [a-z]+/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN [a-z]+/VB of|for::filter=kill
+0BEGIN.0 .*/NNP [a-z]+/NN or [a-z]+/PRP.* [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 .*/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 A [a-z]+/NN or [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 An [a-z]+/NN or [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 .*/NNP or [a-z]+/NNP [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 Every one of [a-z]+/DT [a-z]+/NNS [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 One of [a-z]+/PRP.* [a-z]+/NNS [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 Each one of [a-z]+/PRP.* [a-z]+/NNS [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 One of [a-z]+/DT [a-z]+/NNS [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 .*/NNP,POS [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 .*/NNP,POS [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 .*/RB one [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 This [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 Their [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 Your [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 His [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 Her [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 My [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 The [a-z]+/VBN [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 This [a-z]+/VBN [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 .*/CD dollars|pounds|points|feet|inches|meters [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NNS [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 Either [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 .*/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 Either [a-z]+/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN [a-z]+/VB [a-z]+/VBD|VBZ::filter=kill
+0BEGIN.0 .*/NNP [a-z]+/NN or [a-z]+/PRP.* [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3 \4 \5:plural, \0 \1 and \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3 \4 \5:plural, \0 \1 and \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 A [a-z]+/NN or [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3 \4:plural, \0 \1 and \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 An [a-z]+/NN or [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3 \4:plural, \0 \1 and \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP or [a-z]+/NNP [a-z]+/VB::word=\0 \1 \2 \3:plural, \0 and \2 \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Every one of [a-z]+/DT [a-z]+/NNS [a-z]+/VB::word=\0 \1 \2 \3 \4 \5:plural, \3:upper \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 One of [a-z]+/PRP.* [a-z]+/NNS [a-z]+/VB::word=\0 \1 \2 \3 \4:plural, \2:upper \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Each one of [a-z]+/PRP.* [a-z]+/NNS [a-z]+/VB::word=\0 \1 \2 \3 \4 \5:plural, \3:upper \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/VB::word=\0 \1 \2 \3:plural, \0 \1:plural \2 \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB::word=\0 \1 \2:plural, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN [a-z]+/VB::word=\0 \1 \2 \3:plural, These \1:plural \2 \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/NN [a-z]+/VB::word=\0 \1 \2:plural, These \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 One of [a-z]+/DT [a-z]+/NNS [a-z]+/VB::word=\0 \1 \2 \3 \4:plural, \2:upper \3 \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP,POS [a-z]+/JJ [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP,POS [a-z]+/NN [a-z]+/VB::word=\0 \1 \2:plural, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3 \4 \5:plural, \0 \1:plural \2 \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3 \4 \5:plural, These \1:plural \2 \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/RB one [a-z]+/VB::word=\0 \1 \2:plural::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/JJ [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Their [a-z]+/NN [a-z]+/VB::word=\0 \1 \2:plural, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB::word=\0 \1 \2 \3 \4:plural, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Your [a-z]+/NN [a-z]+/VB::word=\0 \1 \2:plural, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB::word=\0 \1 \2 \3 \4:plural, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 His [a-z]+/NN [a-z]+/VB::word=\0 \1 \2:plural, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB::word=\0 \1 \2 \3 \4:plural, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Her [a-z]+/NN [a-z]+/VB::word=\0 \1 \2:plural, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB::word=\0 \1 \2 \3 \4:plural, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 My [a-z]+/NN [a-z]+/VB::word=\0 \1 \2:plural, \0 \1:plural \2::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/VB::word=\0 \1 \2 \3 \4:plural, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/VBN [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 This [a-z]+/VBN [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3:plural, \0 \1 \2:plural \3::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/CD dollars|pounds|points|feet|inches|meters [a-z]+/VB::word=\0 \1 \2:plural::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3 \4:plural, \0 \1 \2 \3:plural \4::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3 \4 \5 \6 \7:plural::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3 \4 \5 \6:plural::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3 \4 \5:plural, \0 \1 \2 \3 \4:plural \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/VB::word=\0 \1 \2 \3:plural::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NNS [a-z]+/VB::word=\0 \1 \2 \3 \4 \5:plural, \0 \1:plural of \3 \4 \5::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Either [a-z]+/NN [a-z]+/VB::word=\0 \1 \2:plural::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NN [a-z]+/VB::word=\0 \1:plural, \0:plural \1::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 Either [a-z]+/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN [a-z]+/VB::word=\0 \1 \2 \3 \4 \5 \6:plural, \1:upper \2 and \4 \5 \6::avoid=police, sheep, will, cannot, i, read, majority, half, might, let, let's::filter=sane
+0BEGIN.0 .*/NNP [a-z]+/NN or [a-z]+/PRP.* [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 .*/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 A [a-z]+/NN or [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 An [a-z]+/NN or [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 .*/NNP or [a-z]+/NNP are [a-z]+/VBN::filter=kill
+0BEGIN.0 Every one of [a-z]+/DT [a-z]+/NNS are [a-z]+/VBN::filter=kill
+0BEGIN.0 One of [a-z]+/PRP.* [a-z]+/NNS are [a-z]+/VBN::filter=kill
+0BEGIN.0 Each one of [a-z]+/PRP.* [a-z]+/NNS are [a-z]+/VBN::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN are [a-z]+/VBN::filter=kill
+0BEGIN.0 The [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN are [a-z]+/VBN::filter=kill
+0BEGIN.0 This [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 One of [a-z]+/DT [a-z]+/NNS are [a-z]+/VBN::filter=kill
+0BEGIN.0 .*/NNP,POS [a-z]+/JJ [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 .*/NNP,POS [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 .*/RB one are [a-z]+/VBN::filter=kill
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 This [a-z]+/JJ [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 Their [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN [a-z]+/VB are [a-z]+/VBN::filter=kill
+0BEGIN.0 Your [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN [a-z]+/VB are [a-z]+/VBN::filter=kill
+0BEGIN.0 His [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN [a-z]+/VB are [a-z]+/VBN::filter=kill
+0BEGIN.0 Her [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN [a-z]+/VB are [a-z]+/VBN::filter=kill
+0BEGIN.0 My [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN [a-z]+/VB are [a-z]+/VBN::filter=kill
+0BEGIN.0 The [a-z]+/VBN [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 This [a-z]+/VBN [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 .*/CD dollars|pounds|points|feet|inches|meters are [a-z]+/VBN::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB are [a-z]+/VBN::filter=kill
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NNS are [a-z]+/VBN::filter=kill
+0BEGIN.0 Either [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 .*/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 Either [a-z]+/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN are [a-z]+/VBN::filter=kill
+0BEGIN.0 .*/NNP [a-z]+/NN or [a-z]+/PRP.* [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 .*/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 A [a-z]+/NN or [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 An [a-z]+/NN or [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 .*/NNP or [a-z]+/NNP [a-z]+/MD::filter=kill
+0BEGIN.0 Every one of [a-z]+/DT [a-z]+/NNS [a-z]+/MD::filter=kill
+0BEGIN.0 One of [a-z]+/PRP.* [a-z]+/NNS [a-z]+/MD::filter=kill
+0BEGIN.0 Each one of [a-z]+/PRP.* [a-z]+/NNS [a-z]+/MD::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/MD::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN [a-z]+/MD::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 One of [a-z]+/DT [a-z]+/NNS [a-z]+/MD::filter=kill
+0BEGIN.0 .*/NNP,POS [a-z]+/JJ [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 .*/NNP,POS [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 .*/RB one [a-z]+/MD::filter=kill
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 This [a-z]+/JJ [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 Their [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/MD::filter=kill
+0BEGIN.0 Your [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/MD::filter=kill
+0BEGIN.0 His [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/MD::filter=kill
+0BEGIN.0 Her [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/MD::filter=kill
+0BEGIN.0 My [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN [a-z]+/VB [a-z]+/MD::filter=kill
+0BEGIN.0 The [a-z]+/VBN [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 This [a-z]+/VBN [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 .*/CD dollars|pounds|points|feet|inches|meters [a-z]+/MD::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/MD::filter=kill
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NNS [a-z]+/MD::filter=kill
+0BEGIN.0 Either [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 .*/NN [a-z]+/MD::filter=kill
+0BEGIN.0 Either [a-z]+/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN [a-z]+/MD::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Thirty|Fourty|Fifty|Sixty|Seventy|Eighty|Ninenty dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 .*/NNP [a-z]+/NN or [a-z]+/PRP.* [a-z]+/NN::filter=kill
+0BEGIN.0 .*/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN::filter=kill
+0BEGIN.0 A [a-z]+/NN or [a-z]+/NN::filter=kill
+0BEGIN.0 An [a-z]+/NN or [a-z]+/NN::filter=kill
+0BEGIN.0 .*/NNP or [a-z]+/NNP::filter=kill
+0BEGIN.0 Every one of [a-z]+/DT [a-z]+/NNS::filter=kill
+0BEGIN.0 One of [a-z]+/PRP.* [a-z]+/NNS::filter=kill
+0BEGIN.0 Each one of [a-z]+/PRP.* [a-z]+/NNS::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN::filter=kill
+0BEGIN.0 The [a-z]+/NN::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN::filter=kill
+0BEGIN.0 This [a-z]+/NN::filter=kill
+0BEGIN.0 One of [a-z]+/DT [a-z]+/NNS::filter=kill
+0BEGIN.0 .*/NNP,POS [a-z]+/JJ [a-z]+/NN::filter=kill
+0BEGIN.0 .*/NNP,POS [a-z]+/NN::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN::filter=kill
+0BEGIN.0 This [a-z]+/NN [a-z]+/IN [a-z]+/DT [a-z]+/NN::filter=kill
+0BEGIN.0 .*/RB one::filter=kill
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN::filter=kill
+0BEGIN.0 This [a-z]+/JJ [a-z]+/NN::filter=kill
+0BEGIN.0 Their [a-z]+/NN::filter=kill
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN::filter=kill
+0BEGIN.0 Their [a-z]+/JJ [a-z]+/NN [a-z]+/VB::filter=kill
+0BEGIN.0 Your [a-z]+/NN::filter=kill
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN::filter=kill
+0BEGIN.0 Your [a-z]+/JJ [a-z]+/NN [a-z]+/VB::filter=kill
+0BEGIN.0 His [a-z]+/NN::filter=kill
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN::filter=kill
+0BEGIN.0 His [a-z]+/JJ [a-z]+/NN [a-z]+/VB::filter=kill
+0BEGIN.0 Her [a-z]+/NN::filter=kill
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN::filter=kill
+0BEGIN.0 Her [a-z]+/JJ [a-z]+/NN [a-z]+/VB::filter=kill
+0BEGIN.0 My [a-z]+/NN::filter=kill
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN::filter=kill
+0BEGIN.0 My [a-z]+/JJ [a-z]+/NN [a-z]+/VB::filter=kill
+0BEGIN.0 The [a-z]+/VBN [a-z]+/NN::filter=kill
+0BEGIN.0 This [a-z]+/VBN [a-z]+/NN::filter=kill
+0BEGIN.0 .*/CD dollars|pounds|points|feet|inches|meters::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN::filter=kill
+0BEGIN.0 The [a-z]+/JJ [a-z]+/NN [a-z]+/VBP [a-z]+/JJ [a-z]+/NN::filter=kill
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NN::filter=kill
+0BEGIN.0 The [a-z]+/NN [a-z]+/VB::filter=kill
+0BEGIN.0 The [a-z]+/NN of [a-z]+/VB [a-z]+/NNS::filter=kill
+0BEGIN.0 Either [a-z]+/NN::filter=kill
+0BEGIN.0 .*/NN::filter=kill
+0BEGIN.0 Either [a-z]+/NNP [a-z]+/NNS or [a-z]+/PRP.* [a-z]+/NN::filter=kill

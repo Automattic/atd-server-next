@@ -1,0 +1,18 @@
+<div class="<% $2["style"] %>box" name="<% $1 %>">
+   <h4><% $2["rule"] %></h4>
+
+   <p><% $2["description"] %> <% iff($2["source"] ne "", '<small>(<a href="'.$2["sourceurl"].'">'.$2["source"].'</a>)</small>') %></p>
+
+   <ul name="list.<% $1 %>">
+   <?sleep
+      local('$ex');
+
+      foreach $ex (filter(let({ return iff($1["category"] eq $cat, $1); }, $cat => $1), @exclude))
+      {
+         println('<li name="'. $ex["id"] .'">');
+         println('   <a href="javascript:unignore(\''. $ex["id"] .'\',\''.$1.'\')" onclick="this.blur();">'.$ex["text"].'</a>');
+         println('</li>');
+      }
+   ?>
+   </ul>
+</div>

@@ -1,0 +1,551 @@
+12 noon	12
+12 o'clock noon	12 o'clock
+ABS brakes	brakes
+ABS braking system	braking system
+ACT test	test
+Bo Staff	Staff
+CD Disc	Disc
+CD disc	disc
+GOP party	party
+GRE exam	exam
+HIV virus	virus
+Hallah bread	bread
+I myself	myself
+I personally	personally
+ISBN number	number
+It is what it is	what it is
+LCD display	display
+Milky Way galaxy	galaxy
+Mount Fujiyama	Mount
+PC computer	computer
+PIN number	number
+Please RSVP	Please
+RAM memory	memory
+Rio Grande River	River
+Rio Grande river	river
+SAT test	test
+State of New Mexico	State of
+State of New York	State of
+State of North Carolina	State of
+State of North Dakota	State of
+State of South Carolona	State of
+State of South Dakota	State of
+UPC code	code
+a pair of twins	a pair of
+a.m. in the morning	in the morning
+absolute guarantee	absolute
+absolutely essential	absolutely
+absolutely necessary	absolutely
+absolutely sure	absolutely
+actual experience	actual
+actual facts	actual
+add a further	a further
+add an additional	an additional
+add up	up
+added bonus	added
+advance forward	forward
+advance planning	advance
+advance preview	advance
+advance reservations	advance
+advance warning	advance
+affirmative yes	affirmative
+aid and abet	aid and
+all inclusive	all
+all of	of
+all-time record	all-time
+alongside	side
+alongside of	of
+alternative choice	choice
+always and forever	and forever
+amaretto almond	almond
+and etc.	and
+annual anniversary	annual
+anonymous stranger	anonymous
+armed gunman	armed
+armed gunmen	armed
+artificial prosthesis	artificial
+as for example	as
+as per	as
+as to whether	as to
+ascend up	up
+ask the question	the question
+assemble together	together
+at a later date	at a, date
+at the present time	the, time
+at this point in time	in time
+attach together	together
+autumn season	season
+awful bad	awful
+bald-headed	-headed
+balsa wood	wood
+bare naked	bare
+basic fundamentals	basic
+basic necessities	basic
+bento box	box
+best ever	ever
+blend together	together
+boat marina	boat
+bouquet of flowers	of flowers
+brief cameo	brief
+brief in duration	in duration
+brief moment	brief
+brief summary	brief
+bruin bear	bear
+burning embers	burning
+burning hot	hot
+but however	however
+but nevertheless	nevertheless
+cacophony of sound	of sound
+cameo appearance	appearance
+cancel out	out
+careful scrutiny	careful
+cash money	money
+cease and desist	and desist
+chai tea	tea
+circle around	around
+circulate around	around
+classify into groups	into groups
+climb up	up
+close proximity	close
+close scrutiny	close
+closed fist	closed
+collaborate together	together
+combine together	together
+common bond	common
+commute back and forth	back-and-forth
+compete with each other	with each other
+complete monopoly	complete
+completely annihilate	completely
+completely destroyed	completely
+completely eliminate	completely
+completely engulfed	completely
+completely filled	completely
+completely surround	completely
+component parts	component
+comprises of	of
+confer together	together
+confused state	state
+connect together	together
+connect up	up
+consensus of opinion	of opinion
+constantly maintained	constantly
+consult with	with
+continue to remain	continue to
+cool down	down
+cooperate together	together
+cost the sum of	the sum of
+could possibly	possibly
+crisis situation	situation
+crouch down	down
+curative process	process
+current trend	current
+dates back	back
+definite decision	definite
+depreciate in value	in value
+descend down	down
+desirable benefits	desirable
+different kinds	different
+difficult dilemma	difficult
+direct confrontation	direct
+disappear from sight	from sight
+dive down	down
+downward	ward
+drop down	down
+duplicate copy	duplicate
+during the course of	the course of
+dwindle down	down
+dwindled down	down
+dynamic range	dynamic
+each and every	and every
+earlier in time	in time
+eliminate altogether	altogether
+emergency situation	situation
+empty hole	empty
+empty out	out
+empty space	empty
+enclosed herein	herein
+end result	end
+enter in	in
+enter into	into
+entirely eliminate	entirely
+equal to one another	to one another
+equally as	equally
+eradicate completely	completely
+established fact	established
+estimated at about	about
+estimated at approximately	approximately
+estimated at around	around
+every now and then	every
+evolve over time	over time
+exact opposites	exact
+exact replica	exact
+exact same	exact
+exited from	from
+exposed opening	exposed
+extra bonus	extra
+extradite back	back
+face mask	face
+face up to	up to
+facilitate easier	easier
+fall down	down
+fall season	season
+false pretenses	false
+favorable approval 	favorable
+feel inside	inside
+fellow classmates	fellow
+fellow colleague	fellow
+few in number	in number
+filled to capacity	to capacity
+final conclusion	final
+final end	final
+final outcome	final
+final ultimatum	final
+financial accounting	financial
+first and foremost	first and
+first began	first
+first conceived	first
+first of all	of all
+first started	first
+first time ever	ever
+fit enough	enough
+fly through the air	through the air
+focus in	in
+follow after	after
+for free	for
+foreign imports	foreign
+forever and ever	and ever
+former graduate	former
+former veteran	former
+forward planning	forward
+free gift	free
+free gifts	free
+free pass	free
+from whence	from
+frozen ice	frozen
+frozen tundra	frozen
+full satisfaction	full
+full to capacity	to capacity
+fuse together	together
+future plans	future
+future recurrence	future
+gather together	together
+gather up	up
+general public	general
+general consensus	general
+get up on his feet	on his feet
+get up on your feet	on your feet
+glowing ember	glowing
+grow in size	in size
+had done previously	previously
+hard facts	hard
+harmful injuries	harmful
+have got	got
+has got		got
+he himself	himself
+head honcho	head
+heat up	up
+high noon	high
+high time	high
+highly relevant	highly
+hoist up	up
+hollow tube	hollow
+honest truth	honest
+hot water heater	hot
+hurry up	up
+illustrated drawing	illustrated
+in actual fact	actual
+in order to	in order
+in which we live in	in
+incredible to believe	to believe
+indicted on a charge	on a charge
+indicted on a charge of	on a charge
+inner core	inner
+inner feelings	inner
+innovative new	new
+input into	into
+integral part of	integral
+integrate together	together
+integrate with each other	with each other
+interconnected	inter
+interdependent on each other	on each other
+introduced a new	new
+introduced for the first time	for the first time
+inward	ward
+inward into	inward
+irregardless	ir
+join together	together
+joint collaboration	joint
+just recently	just
+kneel down	down
+knowledgeable experts	knowledgeable
+knots per hour	per hour
+lag behind	behind
+last of all	of all
+later time	time
+left behind	behind
+leftward	ward
+lift up	up
+linger on	on
+little baby	little
+live studio audience	live
+live witness	live
+local residents	local
+look ahead to the future	ahead
+lose out on	out on
+made out of	out
+main focus	main
+major breakthrough	major
+major feat	major
+manually by hand	by hand
+many different	different
+mass media	mass
+may possibly	possibly
+meet together	together
+meet up	up
+meet with each other	with each other
+mental telepathy	mental
+merge together	together
+merged together	together
+meshed together	together
+midway between	between
+might possibly	possibly
+migraine headache	headache
+minestrone soup	soup
+miss out on	out on
+mix together	together
+moment in time	in time
+money-saving coupon	money-saving
+mutual cooperation	mutual
+mutual respect for each other	for each other
+mutually dependent on each other	on each other
+mutually interdependent	mutually
+nape of her neck	of her neck
+native habitat	native
+natural instinct	natural
+naturally instinct	naturally
+necessary requirements	necessary
+never at any time	at any time
+never before	before
+new beginning	new
+new bride	new
+new construction	new
+new innovation	new
+new innovative	new
+new invention	new
+new record	new
+new recruit	new
+none at all	at all
+nostalgia for the past	for the past
+now currently	now
+now pending	now
+null and void	null and
+number of different	different
+off in the distance	off
+old adage	old
+old cliche	old
+old custom	old
+old pioneer	old
+old proverb	old
+one and the same	one and
+onto	to, on
+onward	ward
+open trench	open
+open up	up
+or alternatively	alternatively
+oral conversation	oral
+orbits around	around
+originally created	originally
+originally discovered	originally
+output out of	out of
+outside in the yard	outside
+outside of	of
+outward	ward
+over and done with	over and, with
+over and over again	again
+over exaggerate	over
+over top	top
+over top of	top of
+over with	with
+overused cliche	overused
+pair of twins	pair of
+palm of the hand	of the hand
+passing fad	passing
+past experience	past
+past history	past
+past memories	past
+past records	past
+peace and quiet	peace and
+penetrate into	into
+penetrate through	through
+per usual	per
+perfect ideal	perfect
+period of time	 of time
+personal belongings	personal
+personal charm	personal
+personal friend	personal
+personal friendship	personal
+personal opinion	personal
+pick and choose	and choose
+pitch black	pitch
+pizza pie	pie
+plan ahead	ahead
+plan in advance	in advance
+please RSVP	please
+plunge down	down
+point in time	in time
+polar opposites	polar
+positive identification	positive
+postpone until later	until later
+pouring down rain	down
+precise same	precise
+present incumbent	present
+present time	time
+previously listed above	above
+private industry	private
+probed into	into
+proceed ahead	ahead
+proposed plan	proposed
+protest against	against
+protrude out	out
+pursue after	after
+put off until later	until later
+raise up	up
+random chance	random
+rate of speed	rate of
+re-elect for another term	for another term
+really unique	really
+reason is because	because
+reason why	why
+recur again	again
+refer back	back
+reflect back	back
+regular routine	regular
+repeat again	again
+reply back	back
+retreat back	back
+revert back	back
+right now	right
+right over	right
+rightward	ward
+rise up	up
+rough rule of thumb	rough
+round circle	round
+round in shape	in shape
+rustic country	country
+safe haven	safe
+safe sanctuary	safe
+same exact	exact
+same identical	same
+sand dune	sand
+scrutinize in detail	in detail
+secret that cannot be told	 that cannot be told
+seek out	out
+seek to find	to find
+separated apart from each other	apart from each other
+serious danger	serious
+share together	together
+sharp point	sharp
+shiny in appearance	in appearance
+short summary	short
+shut down	down
+single unit	single
+sink down	down
+situated in	situated
+skipped over	over
+slow speed	speed
+small size	size
+small speck	small
+so as to	so as
+so therefore	therefore
+soaked to the skin	to the skin
+soda pop	pop
+soft in texture	in texture
+soft to the touch	to the touch
+sole of the foot	of the foot
+some time to come	to come
+somewhat unique	somewhat
+specific details	specific
+spell out in detail	in detail
+spiked upward		upward
+spiked upwards		upwards
+spliced together	together
+spring season	season
+stacked together	together
+start off	off
+start out	out
+start out	out
+still lingers	still
+still persists	still
+still remains	still
+subject matter	matter
+sudden impulse	sudden
+sufficient enough	enough
+sum total	sum
+summer season	the, season
+surrounded on all sides	on all sides
+swoop down	down
+talking out loud	out loud
+tall in height	in height
+tall in stature	in stature
+tear apart	apart
+temper tantrum	temper
+temporary reprieve	temporary
+ten in number	in number
+teriyaki barbecue	barbecue
+therapeutic treatment	therapeutic
+these ones	ones
+they themselves	themselves
+thorough investigation	thorough
+those ones	ones
+three a.m. in the morning	in the morning
+three-way love triangle	three-way
+time clock	time
+time period	time
+tiny bit	tiny
+to ask a question	a question
+to ask for assistance	for assistance
+to ask for help	for help
+together at the same time	at the same time
+total destruction	total
+totally destroy	totally
+totally unique	totally
+true facts	true
+truly sincere	truly
+tuna fish	fish
+twelve midnight	twelve
+twelve noon	twelve
+two equal halves	two equal
+ultimate goal	ultimate
+unconfirmed rumor	unconfirmed
+undeniable truth	truth
+undergraduate student	student
+underground subway	underground
+unexpected emergency	unexpected
+unexpected surprise	unexpected
+unintentional mistake	mistake
+universal panacea	universal
+unnamed anonymous	unnamed
+unsolved mystery	unsolved
+up on top	up, top
+up on top of	up, top of
+upward	ward
+usual custom	usual
+vacillate back and forth	back and forth
+veiled ambush	veiled
+very pregnant	very
+very unique	very
+visible to the eye	to the eye
+wall mural	wall
+warm up	up
+warn in advance	in advance
+we ourselves	ourselves
+weather conditions	conditions
+weather situation	situation
+whether or not	or not
+white snow	white
+why come	come
+winter season	season
+write down	down
+written down	down
+yakitori chicken	chicken
+yerba mate tea	tea

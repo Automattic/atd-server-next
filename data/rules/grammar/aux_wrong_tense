@@ -1,0 +1,126 @@
+# auxiliary verb tenses and pronouns (I think these are pronouns... goes to show what I know)
+
+# shall, was, were, will, would, has, do, does, did, can, could, may, might, must, ought
+
+# past tense misused -> participle :: have
+# have you saw => have you seen
+have we|I|you|they &irregular_verb_past::word=\0 \1 \2:participle::pivots=\2,\2:participle
+Have we|I|you|they &irregular_verb_past::word=\0 \1 \2:participle::pivots=\2,\2:participle
+
+# past tense misused -> base :: are, can, did, should, will
+# could you knew => could you know
+do|might|may|must|could|should|can|will we|I|you|they &irregular_verb_past::word=\0 \1 \2:base::pivots=\2,\2:base
+Do|Might|May|Must|Could|Should|Can|Will we|I|you|they &irregular_verb_past::word=\0 \1 \2:base::pivots=\2,\2:base
+
+# are we know, are we knew => are we known
+Are|are we|they|you &irregular_verb_past::word=\0 \1 \2:base::pivots=\2,\2:base
+
+# present tense misused -> past, particple :: had
+# had I know => had I known, had I knew
+Had|had we|I|you|they &irregular_verb_base::word=\0 \1 \2:participle, \0 \1 \2:past::pivots=\2,\2:participle,\2:past
+
+have .*/RB &irregular_verb_base .*/DT::word=\0 \1 \2:past \3::pivots=\2,\2:past
+have &irregular_verb_base .*/DT::word=\0 \1:past \2::pivots=\1,\1:past
+
+#
+# wrong tense (past) used with not form... expects base form
+#
+shouldn't|couldn't|wouldn't|didn't put|come|become|run|set::filter=kill
+should|could|would|did not put|come|become|run|set::filter=kill
+
+shouldn't|couldn't|wouldn't|didn't .*/VBN::word=\0 \1:base::pivots=\1,\1:base
+should|could|would|did not .*/VBN::word=\0 \1 \2:base::pivots=\2,\2:base
+
+need|must|should found::filter=kill
+must|should .*/VBN::word=\0 \1:base, \0 be \1::pivots=\1,\1:base,be \1
+
+# 
+# wrong tense with an infinitive (I have to gone vs. I have to be gone or I have to go)
+#
+have to put|come|become|run|set::filter=kill
+have to .*/VBN::word=\0 \1 \2:base, \0 \1 be \2::pivots=\2,\2:base,be \2
+
+used|going|ought to put|come|become|run|set::filter=kill
+
+    # you're not used to embedded systems are you?
+used|going|ought to .*/VBN .*/NN::filter=kill
+used|going|ought to .*/VBN::word=\0 \1 \2:base, \0 \1 be \2::pivots=\2,\2:base,be \2
+
+# mislead/misled
+
+are|is being lead::word=\0 being led::pivots=lead,led::options=lead,led
+are|is being mislead::word=\0 being misled::pivots=mislead,misled::options=mislead,misled
+
+is|are mislead to|by::word=\0 misled \2::pivots=mislead,misled::options=mislead,misled
+was|were mislead by|to::word=\0 misled \2::pivots=mislead,misled::options=mislead,misled
+
+of|the|The .*/NNS|NNP mislead by::word=\0 \1 misled by::pivots=mislead,misled::options=mislead,misled
+
+#
+# wrong tense lead/led
+#
+are lead by::word=are led by::pivots=lead,led::options=lead,led
+is lead by::word=is led by::pivots=lead,led::options=lead,led
+it lead to::word=it led to::pivots=lead,led::options=lead,led
+of|the|The .*/NNS|NNP lead by::word=\0 \1 led by::pivots=lead,led::options=lead,led
+
+this lead to .*/NNS|NNP::word=this led to::pivots=lead,led::options=lead,led
+was lead by::word=was led by::pivots=lead,led::options=lead,led
+were lead by::word=were led by::pivots=lead,led::options=lead,led
+
+#
+# wrong tense ran/run
+#
+are ran by::word=are run by::pivots=ran,run::options=ran,run
+are being ran by::word=are run by::pivots=ran,run::options=ran,run
+got ran::word=got run::pivots=ran,run::options=ran,run
+had ran::word=had run::pivots=ran,run::options=ran,run
+has ran::word=has run::pivots=ran,run::options=ran,run
+have ran::word=have run::pivots=ran,run::options=ran,run
+is ran by::word=is run by::pivots=ran,run::options=ran,run
+
+# wrong verb is/has,have
+is been::word=has been, have been::pivots=is,has,have
+
+# contractions are not always my friend, eh
+I'd|She'd|You'd|We'd|He'd|she'd|you'd|we'd|he'd &irregular_verb_past::word=\0 \1:participle::pivots=\1,\1:participle
+
+# if this rules goes away, add back to chose::word=to choose as this is a common mistake
+to crew|span|was|came|shore|saw|beat|lay|bore::filter=kill
+to &irregular_verb_past::word=to \1:base::pivots=\1,\1:base
+
+# some more modal verb agreement errors
+
+can't|couldn't|shouldn't|wouldn't was|bore|span::filter=kill
+can't|couldn't|shouldn't|wouldn't &irregular_verb_past::word=\0 \1:base::pivots=\1,\1:base
+.*/MD was|bore|span::filter=kill
+.*/MD not was|bore|span::filter=kill
+.*/MD &irregular_verb_past::word=\0 \1:base::pivots=\1,\1:base
+.*/MD not &irregular_verb_past::word=\0 not \2:base::pivots=\2,\2:base
+
+#
+# I can has rules
+#
+&modal_verbs is::filter=kill
+&modal_verbs needs::filter=kill
+&modal_verbs [a-z].*/VBZ::word=\0 \1:base::filter=none
+0BEGIN.0 .*/MD [a-z].*/VBZ::word=\0 \1:base::filter=none
+.*/DT can|will [a-z].*/VBZ::filter=die
+.*/DT .*/NN|JJ can|will [a-z].*/VBZ::filter=die
+free|of|human|good|animal|natural|last will [a-z].*/VBZ::filter=die
+Their|Your|His|Her|My will [a-z].*/VBZ::filter=die
+
+#
+# more tense rules: 
+# see - http://www.brighthub.com/education/languages/articles/37641.aspx
+#
+&modal_verbs be .*/VBZ::word=\0 \1 \2:past, \0 \1 \2:present::pivots=\2,\2:past,\2:present
+&modal_verbs be built|showed|erect|means|has|drank|hid::filter=die
+&modal_verbs be &irregular_verb_past::word=\0 \1 \2:past, \0 \1 \2:present::pivots=\2,\2:past,\2:present
+&modal_verbs been .*/VBZ::word=\0 \1 \2:past, \0 \1 \2:present::pivots=\2,\2:past,\2:present
+&modal_verbs been .*/VBN::word=\0 \1 \2:past, \0 \1 \2:present::pivots=\2,\2:past,\2:present
+&modal_verbs been .*/VB::word=\0 \1 \2:past, \0 \1 \2:present::pivots=\2,\2:past,\2:present
+
+# be doesn't need the modal verb attachment.
+be secure|cause::filter=kill
+be .*/VB::word=\0 \1:past, \0 \1:participle, \0 \1:present::pivots=\1,\1:past,\1:participle,\1:present

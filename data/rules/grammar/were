@@ -1,0 +1,8 @@
+were are|is|did|will::word=where \1::pivots=were,where
+is also were::word=is also where::pivots=were,where
+were .*/EX .*/VBZ::word=where \1 \2::pivots=were,where
+is were::word=is where::pivots=were,where
+where .*/VBN::word=were \1::pivot=where,were
+were .*/VB|VBP::word=where \1::pivot=were,where
+we|they|I|he|she where .*/NNP|VBN::word=\0 were \2::pivots=where,were
+who where::word=who were::pivots=where,were::options=where,were 

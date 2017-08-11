@@ -1,0 +1,4 @@
+    <suggestions>
+<?sleep 
+        map({ println((' ' x 8) . "<option> $+ $1 $+ </option>"); }, $1); 
+?>    </suggestions>

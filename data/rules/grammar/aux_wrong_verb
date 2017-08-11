@@ -1,0 +1,55 @@
+#
+# determiner agreement rules for determiners expecting a singular noun
+#
+
+
+# determiner agreement rules for this/the/these
+
+This [a-z].*/NNS was::word=These \1 were, \0 \1:singular \2::pivots=\1,\1,\1:singular
+This [a-z].*/NNS is::word=These \1 are, \0 \1:singular \2::pivots=\1,\1,\1:singular
+This [a-z].*/NNS has::word=These \1 have, \0 \1:singular \2::pivots=\1,\1,\1:singular
+The [a-z].*/NNS is::word=\0 \1 are, \0 \1:singular \2::pivots=\1,\1,\1:singular
+The [a-z].*/NNS was::word=\0 \1 were, \0 \1:singular \2::pivots=\1,\1,\1:singular
+The [a-z].*/NNS has::word=\0 \1 have, \0 \1:singular \2::pivots=\1,\1,\1:singular
+This [a-z].*/NNS [a-z].*/NNS is::word=These \1 \2 are, These \1:singular \2 are, \0 \1 \2:singular \3::pivots=\2,\2,\2,\2:singular
+This [a-z].*/NNS [a-z].*/NNS was::word=These \1 \2 were, These \1:singular \2 were, \0 \1 \2:singular \3::pivots=\2,\2,\2,\2:singular
+This [a-z].*/NNS [a-z].*/NNS has::word=These \1 \2 have, These \1:singular \2 has, \0 \1 \2:singular \3::pivots=\2,\2,\2,\2:singular
+The [a-z].*/NNS [a-z].*/NNS is::word=\0 \1 \2 are, \0 \1:singular \2 are, \0 \1 \2:singular \3::pivots=\2,\2,\2,\2:singular
+The [a-z].*/NNS [a-z].*/NNS was::word=\0 \1 \2 were, \0 \1:singular \2 were, \0 \1 \2:singular \3::pivots=\2,\2,\2,\2:singular
+The [a-z].*/NNS [a-z].*/NNS has::word=\0 \1 \2 have, \0 \1:singular \2 has, \0 \1 \2:singular \3::pivots=\2,\2,\2,\2:singular
+The|These [a-z].*/NNS [a-z].*/NNS are|were|have::word=\0 \1:singular \2 \3::pivots=\1,\1:singular
+The [a-z].*/NNS of [a-z].*/NN is::word=\0 \1 \2 \3 are, \0 \1:singular \2 \3 \4::pivots=\1 \2 \3,\1 \2 \3,\1:singular \2 \3
+The [a-z].*/NNS of [a-z].*/NN was::word=\0 \1 \2 \3 were, \0 \1:singular \2 \3 \4::pivots=\1 \2 \3,\1 \2 \3,\1:singular \2 \3
+The [a-z].*/NNS of [a-z].*/NN has::word=\0 \1 \2 \3 have, \0 \1:singular \2 \3 \4::pivots=\1 \2 \3,\1 \2 \3,\1:singular \2 \3
+This [a-z].*/NNS of [a-z].*/NN is::word=These \1 \2 \3 are, \0 \1:singular \2 \3 \4::pivots=\1 \2 \3,\1 \2 \3,\1:singular \2 \3
+This [a-z].*/NNS of [a-z].*/NN was::word=These \1 \2 \3 were, \0 \1:singular \2 \3 \4::pivots=\1 \2 \3,\1 \2 \3,\1:singular \2 \3
+This [a-z].*/NNS of [a-z].*/NN has::word=These \1 \2 \3 have, \0 \1:singular \2 \3 \4::pivots=\1 \2 \3,\1 \2 \3,\1:singular \2 \3
+
+# determiner agreement rules for a/an
+an eagerness to::filter=kill
+
+a .*/NNS has::word=\1 have, \0 \1:singular has::filter=none
+an .*/NNS has::word=\1 have, \0 \1:singular has::filter=none
+a .*/NNS is::word=\1 are, \0 \1:singular is::filter=none
+an .*/NNS is::word=\1 are, \0 \1:singular is::filter=none
+A .*/NNS has::word=\1 have, \0 \1:singular has::filter=none
+An .*/NNS has::word=\1 have, \0 \1:singular has::filter=none
+A .*/NNS is::word=\1 are, \0 \1:singular is::filter=none
+An .*/NNS is::word=\1 are, \0 \1:singular is::filter=none
+a .*/NNS would|will|to|can|should|at|is|as|has|have|are::word=\1 \2, \0 \1:singular \2::filter=none
+an .*/NNS would|will|to|can|should|at|is|as|has|have|are::word=\1 \2, \0 \1:singular \2::filter=none
+A .*/NNS would|will|to|can|should|at|is|as|has|have|are::word=\1 \2, \0 \1:singular \2::filter=none
+An .*/NNS would|will|to|can|should|at|is|as|has|have|are::word=\1 \2, \0 \1:singular \2::filter=none
+
+An|an alumni of::word=\0 alumnus of::filter=none
+
+# determiner agreement rules for each/every
+
+each .*/NNS is::word=all \1 are, \0 \1:singular \2::filter=none
+Each .*/NNS is::word=All \1 are, \0 \1:singular \2::filter=none
+every .*/NNS is::word=all \1 are, \0 \1:singular \2::filter=none
+Every .*/NNS is::word=All \1 are, \0 \1:singular \2::filter=none
+each .*/NNS has::word=all \1 have, \0 \1:singular \2::filter=none
+Each .*/NNS has::word=All \1 have, \0 \1:singular \2::filter=none
+every .*/NNS has::word=all \1 have, \0 \1:singular \2::filter=none
+Every .*/NNS has::word=All \1 have, \0 \1:singular \2::filter=none

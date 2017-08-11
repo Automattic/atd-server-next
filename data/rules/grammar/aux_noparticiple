@@ -1,0 +1,26 @@
+has &irregular_verb::word=\0 \1:participle::pivots=\1,\1:participle
+hasn't &irregular_verb::word=\0 \1:participle::pivots=\1,\1:participle
+has not &irregular_verb::word=\0 \1 \2:participle::pivots=\2,\2:participle
+
+have &irregular_verb::word=\0 \1:participle::pivots=\1,\1:participle
+haven't &irregular_verb::word=\0 \1:participle::pivots=\1,\1:participle
+have not &irregular_verb::word=\0 \1 \2:participle::pivots=\2,\2:participle
+
+had &irregular_verb::word=\0 \1:participle::pivots=\1,\1:participle
+hadn't &irregular_verb::word=\0 \1:participle::pivots=\1,\1:participle
+had not &irregular_verb::word=\0 \1 \2:participle::pivots=\2,\2:participle
+
+were &irregular_verb::word=\0 \1:participle::pivots=\1,\1:participle
+weren't &irregular_verb::word=\0 \1:participle::pivots=\1,\1:participle
+were not &irregular_verb::word=\0 \1 \2:participle::pivots=\2,\2:participle
+
+could've &irregular_verb::word=\0 \1:participle::pivots=\1,\1:participle
+would've &irregular_verb::word=\0 \1:participle::pivots=\1,\1:participle
+should've &irregular_verb::word=\0 \1:participle::pivots=\1,\1:participle
+you've &irregular_verb::word=\0 \1:participle::pivots=\1,\1:participle
+You've &irregular_verb::word=\0 \1:participle::pivots=\1,\1:participle
+I've &irregular_verb::word=\0 \1:participle::pivots=\1,\1:participle
+we've &irregular_verb::word=\0 \1:participle::pivots=\1,\1:participle
+We've &irregular_verb::word=\0 \1:participle::pivots=\1,\1:participle
+they've &irregular_verb::word=\0 \1:participle::pivots=\1,\1:participle
+They've &irregular_verb::word=\0 \1:participle::pivots=\1,\1:participle

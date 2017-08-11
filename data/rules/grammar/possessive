@@ -1,0 +1,11 @@
+#
+# errors related to possession vs. plural 
+#
+
+Your|your|My|my|Their|their|Her|her|His|his|That|The|the|that [a-z].*/NNS .*/NN::word=\0 \1:possessive \2::pivots=\1,\1:possessive::filter=nextonly
+with|a|an|With|A|an [a-z].*/NNS .*/NN::word=\0 \1:possessive \2::pivots=\1,\1:possessive::filter=nextonly
+
+before|after|in|before|during|at [a-z].*s/NNS [a-z].*/NN::word=\0 \1:possessive \2::pivots=\1,\1:possessive::filter=nextonly
+Before|After|In|Before|During|At [a-z].*s/NNS [a-z].*/NN::word=\0 \1:possessive \2::pivots=\1,\1:possessive::filter=nextonly
+about|in|for|on|with [a-z].*s/NNS [a-z].*/NN::word=\0 \1:possessive \2::pivots=\1,\1:possessive::filter=nextonly
+

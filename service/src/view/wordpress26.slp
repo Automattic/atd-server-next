@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Rich Editor Help</title>
+<script type="text/javascript" src="http://killall.dashnine.org/wp-content/plugins/tinymce-advanced/tiny_mce_popup.js"></script>
+<link rel='stylesheet' href='http://killall.dashnine.org/wp-admin/css/global.css' type='text/css' media='all' />
+<link rel='stylesheet' href='http://killall.dashnine.org/wp-admin/wp-admin.css' type='text/css' media='all' />
+<style type="text/css">
+	#wphead {
+		font-size: 80%;
+		border-top: 0;
+		color:#555;
+		background-color: #e4f2fd;
+	}
+	#wphead h1 {
+		font-size: 32px;
+		color: #555;
+		margin: 0;
+		padding: 10px;
+	}
+	#adminmenu {
+		padding-top: 2px;
+		padding-left: 15px;
+		background-color: #e4f2fd;
+		border-color: #C6D9E9;
+	}
+	#adminmenu a.current {
+		background-color: #fff;
+		border-color: #c6d9e9;
+		border-bottom-color: #fff;
+		color: #d54e21;
+	}
+	#adminmenu a {
+		color: #2583AD;
+		padding: 6px;
+		border-width: 1px;
+		border-style: solid solid none;
+		border-color: #E4F2FD;
+	}
+	#adminmenu a:hover {
+		color: #d54e21;
+	}
+	.wrap h2 {
+		border-bottom-color:#DADADA;
+		color:#666666;
+		margin: 12px 0;
+		padding: 0;
+	}
+	#user_info {
+		right: 5%;
+		top: 5px;
+	}
+	h3 {
+		font-size: 1.1em;
+		margin-top: 20px;
+		margin-bottom: 0px;
+	}
+	#flipper {
+		margin: 0;
+		padding: 5px 20px 10px;
+		background-color: #fff;
+		border-left: 1px solid #c6d9e9;
+		border-bottom: 1px solid #c6d9e9;
+	}
+	* html {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+	#flipper div p {
+		margin-top: 0.4em;
+		margin-bottom: 0.8em;
+		text-align: justify;
+	}
+	th {
+		text-align: center;
+	}
+	.top th {
+		text-decoration: underline;
+	}
+	.top .key {
+		text-align: center;
+		width: 36px;
+	}
+	.top .action {
+		text-align: left;
+	}
+	.align {
+		border-left: 3px double #333;
+		border-right: 3px double #333;
+	}
+	.keys {
+		margin-bottom: 15px;
+	}
+	.keys p {
+		display: inline-block;
+		margin: 0px;
+		padding: 0px;
+	}
+	.keys .left { text-align: left; }
+	.keys .center { text-align: center; }
+	.keys .right { text-align: right; }
+	td b {
+		font-family: "Times New Roman" Times serif;
+	}
+	#buttoncontainer {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	#buttoncontainer a, #buttoncontainer a:hover {
+		border-bottom: 0px;
+	}
+</style>
+<script type="text/javascript">
+	function d(id) { return document.getElementById(id); }
+
+	function flipTab(n) {
+		for (i=1;i<=4;i++) {
+			c = d('content'+i.toString());
+			t = d('tab'+i.toString());
+			if ( n == i ) {
+				c.className = '';
+				t.className = 'current';
+			} else {
+				c.className = 'hidden';
+				t.className = '';
+			}
+		}
+	}
+
+    function init() {
+        document.getElementById('version').innerHTML = tinymce.majorVersion + "." + tinymce.minorVersion;
+        document.getElementById('date').innerHTML = tinymce.releaseDate;
+    }
+    tinyMCEPopup.onInit.add(init);
+</script>
+</head>
+<body>
+
+<div class="zerosize"></div>
+
+<div id="wphead"><h1>After the Deadline</h1></div>
+
+<ul id="adminmenu">
+   <li><a id="tab1" href="javascript:flipTab(1)" title="<% $1["rule"] %>" accesskey="1" tabindex="1" class="current"><% $1["rule"] %></a></li>
+<!--   <li><a id="tab2" href="javascript:flipTab(2)" title="About After the Deadline" accesskey="2" tabindex="2">About</a></li> -->
+</ul>
+
+<div id="flipper" class="wrap">
+  <div id="content1">
+     <?sleep display("service/src/view/rule.slp", $1, $2); ?>
+  </div>
+<!--  <div id="content2" style="display: none">
+     <h1>About</h1>
+     <p>Some cool about text will go here later on...</p>
+  </div> -->
+</div>
+
+<!-- <div class="mceActionPanel">
+	<div style="margin: 8px auto; text-align: center;padding-bottom: 10px;">
+		<input type="button" id="cancel" name="cancel" value="Close" title="Close" onclick="tinyMCEPopup.close();" />
+	</div>
+</div> -->
+
+
+</body>
+</html>

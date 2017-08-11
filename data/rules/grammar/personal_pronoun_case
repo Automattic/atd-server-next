@@ -1,0 +1,9 @@
+#
+# personal pronoun I is always uppercase.
+#
+
+i::word=I
+i'll::word=I'll
+i'm::word=I'm
+i've::word=I've
+i'd::word=I'd

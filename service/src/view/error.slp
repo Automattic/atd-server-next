@@ -1,0 +1,42 @@
+  <error>
+    <string><% $1 %></string>
+    <description><% $2["rule"] %></description>
+    <precontext><% iff($3 ne "0BEGIN.0" && $3 !isin ',()-[];:/--', $3) %></precontext>
+<?sleep 
+       if (size($4) > 0)
+       {
+          display("service/src/view/suggestions.slp", $4);
+       }
+?>
+    <type><?sleep
+       if ($2["style"] eq "green")
+       {
+          print("grammar");
+       } 
+       else if ($2["style"] eq "red")
+       {
+          print("spelling");
+       }
+       else
+       {
+          print("suggestion");
+       }
+    ?></type>
+    <?sleep 
+       if ($2["rule"] ne "Spelling" && $2["info"] ne "none")
+       {
+          local('@tokens @tags');
+          @tokens = split(' ', $1);
+
+          if ($5 !is $null)
+          {
+             @tags   = sublist($5, 0, size(@tokens));
+          }
+
+	  
+    #      println('<url>http://service.afterthedeadline.com/info.slp?text='.[java.net.URLEncoder encode: $1].'</url>'); 
+          println('<url>' . $INFOURL . '/info.slp?text='.[java.net.URLEncoder encode: $1].'&amp;tags='.[java.net.URLEncoder encode: join('/', map({ return $1[1]; }, @tags))].'&amp;engine='.$6.'</url>'); 
+       }
+   ?>
+  </error>
+

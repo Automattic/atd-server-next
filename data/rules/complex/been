@@ -1,0 +1,11 @@
+has been .*ing and .*ing::word=\0 \2:participle and \4:participle
+have been .*ing::word=\0 \2:participle
+has been .*ing::word=\0 \2:participle
+had been .*ing::word=\0 \2:participle
+They've|they've been .*ing::word=\0 \2:participle
+You've|you've been .*ing::word=\0 \2:participle
+I've been .*ing::word=\0 \2:participle
+We've|we've been .*ing::word=\0 \2:participle
+should've been .*ing::word=\0 \2:participle
+could've been .*ing::word=\0 \2:participle
+would've been .*ing::word=\0 \2:participle

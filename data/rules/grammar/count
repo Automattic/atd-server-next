@@ -1,0 +1,28 @@
+# lowercase
+fewer &uncountable::word=less \1::filter=indefarticle
+&uncountable or fewer::word=\0 or less::filter=none
+few &uncountable::word=little \1::filter=indefarticle
+
+the less::filter=die
+less &uncountable::filter=kill
+less .*/NNS::word=fewer \1::filter=indefarticle
+
+little people::filter=kill
+little &uncountable::word=few \1::filter=indefarticle
+
+# uppercase
+Fewer &uncountable::word=Less \1::filter=indefarticle
+Few &uncountable::word=Little \1::filter=indefarticle
+
+The less::filter=die
+Less &uncountable::filter=kill
+Less .*/NNS::word=Fewer \1::filter=indefarticle
+
+Little people::filter=kill
+Little &uncountable::word=Few \1::filter=indefarticle
+
+# hide situations where the uncountable noun is used as an adjective
+# (e.g., water snails)
+few|fewer|Few|Fewer &uncountable .*/NNS::filter=kill
+little|Little &uncountable .*/NNS::filter=kill
+

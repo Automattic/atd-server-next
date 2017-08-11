@@ -1,0 +1,3 @@
+a|an &uncountable .*/RP|VBZ|IN::word=\1 \2::filter=none
+a|an &uncountable 0END.0::word=\1::filter=none 
+

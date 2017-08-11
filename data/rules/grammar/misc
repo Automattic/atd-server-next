@@ -1,0 +1,156 @@
+# messed up been forms
+are been::word=are being, have been
+is been::word=has been, is being
+of been::word=have been, of being
+were been::word=have been, were, were being
+was been::word=was, has been::filter=none
+was not been::word=was not, has not been::filter=none
+wasn't been::word=wasn't, hasn't been::filter=none
+
+let's don't::word=let's not::filter=none
+
+these ones::word=these::filter=none
+those ones::word=these::filter=none
+These ones::word=These::filter=none
+Those ones::word=Those::filter=none
+
+most|some of \p{Lower}{4,}/NNS::word=\0 \2, \0 \1 the \2, \0 \1 my \2::pivots=\1 \2,\2,the \2,my \2
+as many &uncountable as::word=\0 much \2 \3::pivots=\1,much
+as few &uncountable as::word=\0 few \2 \3::pivots=\1,few
+
+# superlatives and compatives
+more|most .*/JJR|RBR .*/NN.*|IN::word=\1 \2::description=You shouldn't use <b>more</b> or <b>most</b> before superlatives.::info=1
+more|most .*/JJR|RBR .*/NN.*|IN::word=\1 \2::filter=none::description=You shouldn't use <b>more</b> or <b>most</b> before comparlatives.::info=1
+
+a|an .*/JJS|RBS .*/NNS::word=\1 \2::filter=none::description=You shouldn't use an indefinite article (a, an) before superlatives.::info=1
+a|an .*/JJS|RBS .*/NNS .*/NN::filter=kill
+
+# classification junk
+kind|sort|type of an|a::word=\0 \1::filter=none::description=You shouldn't use an indefinite article (a, an) after a classification term.::info=1
+
+# have to have is generally not correct
+I|you|they have to have::word=\0 must have::filter=none
+
+# units of measure
+
+centimeters|millimeters|kilometers|inch|inches|foot|feet|yards|miles squared::word=square \0
+centimeters|millimeters|kilometers|inch|inches|foot|feet|yards|miles cubed::word=cubic \0
+
+# should write an explanation for this one (maybe later)
+
+someone|man|woman|girl|boy|people that|which::word=\0 who::pivots=\1,who
+
+# unique vs. unusual
+
+almost|astonishingly|completely|exceedingly|extremely|highly|incredibly|most|nearly|partly|partially|really|quite|somewhat|totally|unbelievably|very unique::word=\0 different, \0 unusual::pivots=\1,different,unusual::description=Unique means one-of-a-kind. Something is unique or it isn't.::info=1
+
+# comparing absolutes
+
+almost|astonishingly|completely|exceedingly|extremely|highly|incredibly|most|nearly|partly|partially|quite|somewhat|totally|unbelievably|very &absolutes::word=\1::filter=none::description=You shouldn't use a comparison with an absolute word.  An absolute is or isn't.::info=1
+a little bit &absolutes::word=\3::filter=none::description=You shouldn't use a comparison with an absolute word.  An absolute is or isn't.::info=1
+more than &absolutes::word=\2::filter=none::description=You shouldn't use a comparison with an absolute word.  An absolute is or isn't.::info=1
+
+# those silly of rules
+
+could|would|should|might|may|must|will of .*/VBN::word=\0 have \2, \0've \2::pivots=\1,have,\0've
+contains of::word=contains, consists of
+
+# different than is apparently not correct most of the time
+
+different than::word=different from::pivots=than,from
+
+# wrong verb tense
+
+He|She &irregular_verb_base::word=\0 \1:past::pivots=\1,\1:past::description=You have used the wrong verb tense with the subject of this sentence.  Revise your sentence with a past form for it to make sense.::info=1::rule=Wrong Verb Tense
+he|she|He|She .*/VBP with|for::word=\0 \1:past \2::pivots=\1,\1:past::description=You have used the wrong verb tense with the subject of this sentence.  Revise your sentence with a past form for it to make sense.::info=1::rule=Wrong Verb Tense
+
+# more misc rules...
+
+because of I|he|she|we|they::word=because \2::filter=none
+
+both as well as::word=and
+
+according to me::word=in my opinion::filter=none
+
+equally as::word=equally
+
+can't|cannot help but .*/VBG::word=can't help but \3:base::pivots=\3,\3:base
+
+if or not::word=whether or not
+
+afraid of .*/NN .*/NNS::filter=kill
+afraid of .*/JJ .*/NN .*/NNS::filter=kill
+
+afraid of .*/NN::word=afraid of \2:plural::pivots=\2,\2:plural
+afraid of .*/JJ .*/NN::word=afraid of \2 \3:plural::pivots=\3,\3:plural
+afraid of dark|wind|rain::word=afraid of the \3::filter=none
+
+was|is suppose to::word=\0 supposed to::filter=none
+was|is based off::word=\0 based on::filter=none
+alma matter::word=alma mater::pivots=matter,mater
+
+#
+# some common typos
+#
+
+when into::word=went into::pivots=when,went::options=when,went
+when on to::word=went on to::pivots=when,went::options=when,went
+
+arms-length::word=arm's-length::filter=none
+
+#
+# dominate is a verb, dominant is an adjective
+#
+
+dominate player::word=dominant player::pivots=dominate,dominant
+less dominate::word=less dominant::pivots=dominate,dominant
+more dominate::word=more dominant::pivots=dominate,dominant
+most dominate::word=most dominant::pivots=dominate,dominant
+
+#
+# would of, could of, should of, 
+# http://www.wsu.edu/~brians/errors/couldof.html
+#
+# Although some people do write: I would of course go to the movies.
+#
+must|should|could|would of::word=\0 have::pivots=of,have
+shouldn't|couldn't|wouldn't of::word=\0 have::pivots=of,have
+
+#
+# http://www.wsu.edu/~brians/errors/try.html
+#
+try and::word=try to::pivots=and,to
+
+# Another funny one: http://grammarsource.com/2007/07/19/notwords-now-days/
+now days::word=nowadays
+Now days::word=Nowadays
+
+stock and trade::word=stock in trade::filter=none
+
+# common typo
+your have|are::word=you \1::pivots=your,you
+
+#
+homo sapiens::word=Homo sapiens::filter=none
+
+# the lose of, a lose of...
+.*/DT lose of|for::word=\0 loss::pivots=lose,loss
+
+# I went to collage...
+.*/DT bachelors degree::word=\0 bachelor's degree::filter=none
+.*/DT masters degree::word=\0 master's degree::filter=none
+.*/DT associates|associate's degree::word=\0 associate degree::filter=none
+
+.*/DT Bachelors [dD]egree::word=\0 Bachelor's \2::filter=none
+.*/DT Masters [dD]egree::word=\0 Master's \2::filter=none
+.*/DT Associates|Associate's [dD]egree::word=\0 Associate \2::filter=none
+
+nerve-wracking::word=nerve-racking
+
+Being that::word=Because
+
+expresses that::word=says that::pivots=expresses,says
+hadn't have::word=hadn't::filter=none
+had ought::word=ought::filter=none
+
+somebody's else::word=somebody else's::filter=none

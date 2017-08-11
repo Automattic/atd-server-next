@@ -1,0 +1,18 @@
+# I rules with correctons
+
+0BEGIN.0 I is|be|are::word=I am::pivots=\1,am
+
+# You rules with corrections
+
+We|They|You is|am::word=\0 are::pivots=\1,are
+We|They|You was::word=\0 were::pivots=\1,were
+0BEGIN.0 I has::word=\0 have::pivots=\1,have
+We|They|You has::word=\0 have::pivots=\1,have
+
+# He/She rules with corrections
+
+0BEGIN.0 I were::word=\0 was::pivots=\1,was
+He|She were::word=\0 was::pivots=\1,was
+He|She have::word=\0 has::pivots=\1,has
+He|She be|am|are::word=\0 is::pivots=\1,is
+

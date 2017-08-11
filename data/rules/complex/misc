@@ -1,0 +1,108 @@
+corporation organized and existing under the laws of the|The state|State of New|North|South .*::word=\11 \12 corporation
+corporation organized and existing under the laws of the|The state|State of .*::word=\11 corporation
+data cited::word=facts \1, results \1, observations \1
+data to::word=facts \1, results \1, observations \1
+to|doesn't|didn't|won't function::word=\0 act, \0 work
+its function::word=\0 role
+utilized::word=used
+
+# objective
+are|less|more|be|is|was objective::word=\0 balanced, \0 fair::pivots=objective,balanced,fair
+objective view|opinion|experiment|results|data::word=balanced \1, fair \1::pivots=objective,balanced,fair
+
+# rules for immediately (some neat stuff happening here)
+immediately .*/VBN to|by::word=\1 \2
+immediately to|by::word=\1
+immediately .*(able|ible)::word=ready to \1:nosuffix::filter=none
+
+#individual::word=person, personal
+
+substantial::word=real
+your|his|her|their feedback::word=\0 opinion, \0 reaction
+a wide range|variety of::word=a \2 of, a lot of::filter=none
+
+currently::word=(omit), now
+
+whereas::word=because, since, where
+
+attains the age of .*::word=becomes \4 years old::filter=none
+individual .*/NNS::word=\1, each \1:singular
+
+# rules for submit
+submit::word=give, send
+submit to::filter=kill
+
+# who are|was|were
+of .* who are|was|were .*::word=\0 \1 \4::pivots=\1 \2 \3,\1
+
+# in which rules
+in which::word=where
+in which to::word=to, (omit)
+
+therefore::word=(omit)
+is therefore::word=so
+that is|are .*/VBN::word=\2
+
+# for example
+just for example::word=such as, (omit)
+for example::word=such as, (omit)
+
+# rather than
+rather than::word=and not, not, than::pivots=\0 \1,and not,not,than
+
+# some kind of
+some kind of [aeiouAEIOU].*::word=an \3
+some kind of [^aeiouAEIOU].*::word=a \3
+some kind of a|an::word=\3
+
+# get rid of the gerund
+#0BEGIN.0 I am .*/VBG::word=I \2:base, I \2:past::pivots=\1 \2,\2:base,\2:past
+#0BEGIN.0 I'm .*/VBG::word=I \1:base, I \1:past::pivots=\0 \1,I \1:base,I \1:past
+
+# review
+review/VB::word=check
+
+#
+# complex expression
+#
+due to the fact::word=because
+due to the fact that::word=because
+more optimal::word=better
+
+reticent to::word=reluctant to::pivots=reticent,reluctant
+reticence to::word=reluctance to::pivots=reticence,reluctance::options=reticence,reluctance
+
+first and foremost::word=first, foremost
+flow of current::word=current, flow of charge
+
+most optimal::word=best, optimal
+very minimal::word=very little, very small
+very optimal::word=optimal, very good
+
+#
+a broad swath of::word=many
+swath::word=group, part, segment
+a wide swath of::word=a wide
+
+advocates to::word=works \1::pivots=\0,works
+advocated to::word=worked \1::pivots=\0,works
+
+
+provide .*/PRP with::word=give \1, offer \1::pivots=provide,give,offer
+
+nowadays::word=today
+Nowadays::word=Today
+
+.*/MD reference::word=\0 refer to::pivots=reference,refer to
+.*/JJ reference::word=\0 note::pivots=reference,note
+.*/VB reference::word=\0 cite, \0 consider, \0 endorse::pivots=\1,cite,consider,endorse
+
+# some more fun words...
+actionable::word=doable, feasible::filter=none
+in actual fact::word=actually::filter=none
+administrate::administer::filter=none
+second of all::word=second::filter=none
+
+.*/MD access::word=\0 use, \0 reach, \0 get access to::pivots=\1,use,reach,get access to
+to access::word=\0 use, \0 reach, \0 get access to::pivots=\1,use,reach,get access to
+

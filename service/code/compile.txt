@@ -1,0 +1,9 @@
+To compile this code:
+
+1. Create a symbolic link to 
+   ln -s ../../lib lib
+
+2. Use Apache Ant to build everything
+   ant clean
+   ant
+   cp spellutils.jar to lib

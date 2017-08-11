@@ -1,0 +1,35 @@
+too niche::filter=kill
+too .*/NN|VB .*/VB.*::word=too \1 \2::                  # ruling out a false positive
+too .*/NN|VB::word=to \1::pivots=too,to
+too do::word=to \1::pivots=too,to
+too the::word=to \1::pivots=too,to
+to much|few of::filter=kill
+to much|few::word=too \1::pivots=to,too
+two many::words=to many,too many::pivots=two,to,too
+is to|two late|easy::word=\0 too \2::pivots=\1,too
+was to|two late|easy::word=\0 too \2::pivots=\1,too
+be to|two late|easy::word=\0 too \2::pivots=\1,too
+were to|two late|easy::word=\0 too \2::pivots=\1,too
+are to|two late|easy::word=\0 too \2::pivots=\1,too
+been to|two late|easy::word=\0 too \2::pivots=\1,too
+comes to|two soon::word=\0 too \2::pivots=\1,too
+came to|two soon::word=\0 too \2::pivots=\1,too
+much to|two soon|late|early|easy::word=\0 too \2::pivots=\1,too
+is to|two soon::word=\0 too \2::pivots=\1,too
+was to|two soon::word=\0 too \2::pivots=\1,too
+were to|two soon::word=\0 too \2::pivots=\1,too
+are to|two soon::word=\0 too \2::pivots=\1,too
+been to|two soon::word=\0 too \2::pivots=\1,too
+is to .*/JJ.* 0END.0::word=\0 too \2::filter=none                
+was to .*/JJ.* 0END.0::word=\0 too \2::filter=none               
+be to .*/JJ.* 0END.0::word=\0 too \2::filter=none                 
+were to .*/JJ.* 0END.0::word=\0 too \2::filter=none               
+are to .*/JJ.* 0END.0::word=\0 too \2::filter=none                
+been to .*/JJ.* 0END.0::word=\0 too \2::filter=none
+not to .*/JJ 0END.0::word=too \1::filter=none
+is to .*/JJ.* to .*/VB::word=\0 too \2 \3 \4::filter=none
+was to .*/JJ.* to .*/VB::word=\0 too \2 \3 \4::filter=none
+be to .*/JJ.* to .*/VB::word=\0 too \2 \3 \4::filter=none
+were to .*/JJ.* to .*/VB::word=\0 too \2 \3 \4::filter=none
+are to .*/JJ.* to .*/VB::word=\0 too \2 \3 \4::filter=none
+been to .*/JJ.* to .*/VB::word=\0 too \2 \3 \4::filter=none

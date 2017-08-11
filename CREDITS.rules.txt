@@ -1,0 +1,25 @@
+The AtD rule set was inspired from many resources and projects around the web.  
+The following resources were particularly helpful:
+
+LanguageTool Open Source Language Checker
+http://www.languagetool.org
+
+PlainLanguage.gov
+http://www.plainlanguage.gov
+
+GNU Style and Diction
+http://www.gnu.org/software/diction/diction.html
+
+Wikipedia
+http://en.wikipedia.org/wiki/Category:Wikipedia_style_guidelines
+http://en.wikipedia.org/wiki/Wikipedia:Lists_of_common_misspellings
+  (and many other lists...)
+
+Graviax Grammar Checker
+http://graviax.sourceforge.net/
+
+Cliches: Avoid Them Like the Plague
+http://suspense.net/whitefish/cliche.htm
+
+WordNet - Lexical Database for English
+http://wordnet.princeton.edu/
