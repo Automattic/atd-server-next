@@ -15,4 +15,4 @@ svn export https://openatd.svn.wordpress.org/atd-server/models/network3p.bin
 svn export https://openatd.svn.wordpress.org/atd-server/models/not_misspelled.txt
 svn export https://openatd.svn.wordpress.org/atd-server/models/stringpool.bin
 svn export https://openatd.svn.wordpress.org/atd-server/models/trigrams.bin
-bin/buildrules.sh
+./bin/buildrules.sh
